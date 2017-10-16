@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Research in the Everhart Lab</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HOME</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Welcome</a>
+</li>
+<li>
+  <a href="people.html">People</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="resources.html">Lab Resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Research in the Everhart Lab</h1>
+
+</div>
+
+
+<p>In the Everhart lab, our goal is to understand how and why disease outbreaks occur. Using genotyping and quantitative data analysis approaches, our goal is to determine factors that may be predictive of disease outbreaks. Such factors may involve aspects of the host (cultivar or species affected), management technique (crop rotation, tilling, or pesticide applications), environment (local temperatures, rainfall/irrigation, soil type), pathogen phenotype (aggressiveness, fungicide sensitivity, growth rate), or biology of the pathogen (mechanisms of spread, sexual recombination).</p>
+<p>Current research in the Everhart lab is focused on two important fungal plant pathogens, Sclerotinia sclerotiorum and Rhizoctonia solani, which affect several economically important crops in Nebraska. Results of our work are important for management recommendations.</p>
+<hr />
+<div id="current-research-areas" class="section level2">
+<h2>Current Research Areas</h2>
+<div id="fungicide-resistance-emergence" class="section level3">
+<h3>Fungicide resistance emergence</h3>
+<p>Fungicide resistance is costly for manufactures, growers, and the environment; nevertheless mechanisms driving the emergence of resistance remain unknown. Interestingly, stress has been shown to increase mutation rates in E. coli, leading to emergence of antibiotic resistance. Although this is a recognized risk for fungicides, little is known about fungal evolution in the context of various stressors. Thus, the goal of our research is to unravel the mechanisms of fungicide resistance emergence by first examining and characterizing factors that affect mutation rates in fungi. Presently, we work with Sclerotinia sclerotiorum as a model system to characterize the effects of stressors on genomic mutation rates and determine if these lead to heritable fungicide resistance. S. sclerotiorum is an economically important fungal pathogen that causes disease on over 400 plant species and up to $252M in losses per year in the U.S. on sunflower, soybeans, dry edible beans, canola, and pulse crops. It was selected as a model system for this study because of its noted long-term stability in genetic variation and also due to the availability of a fully annotated and optically mapped, published genome.</p>
+</div>
+<div id="rhizoctonia-solani-in-nebraska" class="section level3">
+<h3>Rhizoctonia solani in Nebraska</h3>
+<p>Long-term sustainability of soybean production in Nebraska requires minimizing disease losses and maintaining effective chemical control strategies. For farmers, high soybean yields are critical to profit margins, where yields are reduced each year due to diseases. Among all types of diseases in Nebraska, yield loss due to seedling diseases ranked third in 2011, causing an estimated loss of 1.35 million bushels (Bradley &amp; Koenning, 2012). Rhizoctonia solani is one of three pathogens most commonly associated with seedling disease, where fungicidal seed treatments are the recommended line of defense. However, fungicide resistance in R. solani is a new threat to soybean production. In 2012, fungicide resistance in R. solani to Azoxystrobin was reported in Louisiana, where a survey of 23 fields near the outbreak showed resistance had already spread to &gt;65% (Olaya et al. 2012). A major problem is that by the time that fungicide resistance is detected by growers, it may be too late to prevent spread of fungicide resistance. This problem is compounded by a lack of knowledge of the structure of pathogen populations within fields, which directly limits our ability to design targeted and effective disease management strategies. Beginning in 2015, our research (in collaboration with Anthony Adesemoye at the UNL WCREC) will use robust and comprehensive sampling of R. solani from soybean fields in Nebraska to determine sensitivity of isolates to commercial fungicides with different modes of action and to characterize the structure of pathogen populations within and between fields.</p>
+<hr />
+</div>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<div id="peer-reviewed-publications" class="section level3">
+<h3>Peer-Reviewed Publications:</h3>
+<pre><code>\*Co-first author; **Corresponding author</code></pre>
+<div id="section" class="section level4">
+<h4>2017</h4>
+<ol style="list-style-type: decimal">
+<li>Grunwald, N.J., S.E. Everhart, B.J. Knaus, and Z.N. Kamvar. 2017. Best practices for population genetic analyses. Phytopathology. 107:1000-1010. doi: 10.1094/PHYTO-12-16-0425-RVW</li>
+<li>Dowling, M., G. Schnabel, H. Boatwright, and S.E. Everhart**. 2017. Novel gene-sequence markers for isolate tracking within Monilinia fructicola lesions. Pest Management Science. doi: 10.1002/ps.4544</li>
+<li>Mirorini, T.J.J., C.G. Raetano, and S.E. Everhart**. 2017. Control of white mold of dry bean and residual activity of fungicides applied by chemigation. Crop Protection 94:192-202.</li>
+</ol>
+</div>
+<div id="section-1" class="section level4">
+<h4>2016</h4>
+<ol start="4" style="list-style-type: decimal">
+<li>Amaradasa, B.S., and S.E. Everhart**. 2016. Effects of sublethal fungicides on mutation rates and genomic variation in fungal plant pathogen, Sclerotinia sclerotiorum. PLoS One. 11 (12): e0168079. doi: 10.1371/journal.pone.0168079.</li>
+<li>Dugan, F.M., and S.E. Everhart. 2016. Cryptic species: A leitmotif of contemporary mycology has challenges and benefits for plant pathologists. Plant Health Progress. <a href="DOI:10.1094/PHP-RV-16-0046" class="uri">DOI:10.1094/PHP-RV-16-0046</a></li>
+<li>de Bem, B.P., A. Bogo, S.E. Everhart, R.T. Casa, M.J. Goncalves, J.L. Marcon, L.R. Rufato, F.N. Silva, R. Allebrandt, I.C. da Cunha. 2016. Effect of four training systems on the temporal dynamics of downy mildew in two grapevine cultivars in southern Brazil. Topical Plant Pathology. DOI 10.1007/s40858-016-0110-8.</li>
+<li>Tabima J.F., S.E. Everhart, M.M. Larsen, A.J. Weisberg, Z.N. Kamvar, M.A. Tancos, C.D. Smart, J.H. Chang, and N.J. Grünwald. 2016. Microbe-ID: An open source toolbox for microbial genotyping and species identification. PeerJ 4:e2279 DOI 10.7717/peerj.2279</li>
+<li>Dowling, M., P.K. Bryson, H. Boatwright, J.R. Wilson, Z. Fan, G. Schnabel, S.E. Everhart, and P. Brannen. 2016. Effect of fungicide application on Monilinia fructicola population diversity and transposon movement. Phytopathology 103:1504-1512. <a href="DOI:10.1094/PHYTO-03-16-0127-R" class="uri">DOI:10.1094/PHYTO-03-16-0127-R</a></li>
+</ol>
+</div>
+<div id="section-2" class="section level4">
+<h4>2015</h4>
+<ol start="9" style="list-style-type: decimal">
+<li>Chen, F., S.E. Everhart*, P.K. Bryson, C.L., X. Song, X.L., G. Schnabel. 2015. Fungicide induced transposon movement in Monilinia fructicola. Fungal Genetics and Biology 85:38-44.</li>
+<li>Everhart, S.E., and H. Scherm. 2015. Clonal disease foci of Monilinia fructicola during brown rot epidemics within peach tree canopies. Phytopathology 105:542-549.</li>
+<li>de Bem, B.P., Bogo, A., S. Everhart, R.T. Casa, M.J. Goncalves, J.L.M. Filho, and I.C. da Cunha. 2015. Effect of Y-trellis and vertical shoot positioning training systems on downy mildew and botrytis bunch rot of grape in highlands of southern Brazil. Scientia Horticulturae 185:162-166.</li>
+</ol>
+</div>
+<div id="section-3" class="section level4">
+<h4>2014</h4>
+<ol start="12" style="list-style-type: decimal">
+<li>Schnabel, G., F. Chen, S.E. Everhart, W.C. Bridges and X.L. Liu. 2014. Studies on sensitivity reduction in solo and mixture treatments and fungicide-induced mutagenesis in Monilinia fructicola. In: H.W. Dehne, H.B. Deising, U. Gisi, B. Fraaije, U. Gisi, D. Hermann, A. Mehl, E.C. Oerke, P.E. Russel, G. Stammler, K.H. Kuck, H. Lyr (Eds). “Modern Fungicides and Antifungal Compounds”, Vol. VII, pp 263-268. 2014 Deutsche Phytomedizinische Gesellschaft, Braunschweig, ISBN: 978-3-941261-13-6.</li>
+</ol>
+</div>
+<div id="section-4" class="section level4">
+<h4>2013</h4>
+<ol start="13" style="list-style-type: decimal">
+<li>Everhart, S.E., A. Askew, L. Seymour, and H. Scherm. 2013. Spatio-temporal patterns of pre-harvest brown rot epidemics within individual peach tree canopies. European Journal of Plant Pathology 135: 499–509.</li>
+</ol>
+</div>
+<div id="section-5" class="section level4">
+<h4>2012</h4>
+<ol start="14" style="list-style-type: decimal">
+<li>Everhart, S.E., A. Askew, L. Seymour, T.C. Glenn, and H. Scherm. 2012. Spatial patterns of brown rot epidemics and development of microsatellite markers for analyzing fine-scale genetic structure of Monilinia fructicola populations within peach tree canopies. Online. Plant Health Progress <a href="doi:10.1094/PHP-2012-0723-04-RS" class="uri">doi:10.1094/PHP-2012-0723-04-RS</a>.</li>
+</ol>
+</div>
+<div id="section-6" class="section level4">
+<h4>2011</h4>
+<ol start="15" style="list-style-type: decimal">
+<li>Everhart, S.E., A. Askew, L. Seymour, I.J. Holb, and H. Scherm. 2011. Characterization of three-dimensional spatial aggregation and association patterns of brown rot symptoms within intensively mapped sour cherry trees. Annals of Botany 108: 1195–1202.</li>
+</ol>
+</div>
+<div id="section-7" class="section level4">
+<h4>2010</h4>
+<ol start="16" style="list-style-type: decimal">
+<li>Everhart, S.E.** 2010. Collection and identification of grapevines (Vitis) from the tree canopy of select forests in the southeastern United States. Castanea 75: 141–149.</li>
+<li>Keller, H.W., and S.E. Everhart 2010. Importance of Myxomycetes in biological research and teaching. Fungi 3(1): 13–27.</li>
+</ol>
+</div>
+<div id="section-8" class="section level4">
+<h4>2009</h4>
+<ol start="18" style="list-style-type: decimal">
+<li>Everhart, S.E., J.S. Ely, and H.W. Keller. 2009. Evaluation of tree canopy epiphytes and bark characteristics associated with corticolous myxomycetes. Botany 87: 509–517.</li>
+<li>Keller, H.W., S.E. Everhart, M. Skrabal, and C.M. Kilgore. 2009. Tree canopy biodiversity in temperate forests: Exploring islands in the sky. Southeastern Biology 56: 52–74.</li>
+</ol>
+</div>
+<div id="section-9" class="section level4">
+<h4>2008</h4>
+<ol start="20" style="list-style-type: decimal">
+<li>Everhart, S.E., and H.W. Keller. 2008. Influence of bark pH on the occurrence and distribution of tree canopy myxomycete species. Mycologia 100: 191–204.</li>
+<li>Everhart, S.E., and H.W. Keller. 2008. Life history strategies of corticolous myxomycetes: The life cycle, fruiting bodies, plasmodial types, and taxonomic orders. Fungal Diversity 29: 1–16.</li>
+<li>Keller, H.W., C.M. Kilgore, S.E. Everhart, G. Carmack, C. Crabtree, and A. Scarborough. 2008. Myxomycete plasmodia and fruiting bodies: Unusual occurrences and user friendly study techniques. Fungi 1: 24–37.</li>
+<li>Keller, H.W., and S.E. Everhart 2008. Myxomycete species concepts, monotypic genera, the fossil record, and additional examples for good taxonomic practice. Revista Mexicana de Micologia 27: 9–19.</li>
+<li>Kilgore, C.M., H.W. Keller, S.E. Everhart, A. Scarborough, K. Snell, M. Skrabal, C. Pottorff, and J.S. Ely. 2008. Tree canopy research and student experiences using the double rope climbing method. Journal of Botanical Research Institute of Texas 2: 1309–1336.</li>
+</ol>
+</div>
+</div>
+<div id="books-chapters-and-r-packages" class="section level3">
+<h3>Books, Chapters, and R packages:</h3>
+<ol start="25" style="list-style-type: decimal">
+<li>Keller, H.W., S.E. Everhart, and C.M. Kilgore. 2017. The Myxomycetes: Biology, life cycle, genetics and reproduction. In: Stephenson, S. and C. Lado (eds) “Myxomycetes: Biology, Systematics, Biogeography and Ecology”, Elsevier, Atlanta, GA. In press.</li>
+<li>Kamvar, Z.N., Tabima, J.F., Everhart, S.E., Brooks, J.C., Krueger-Hadfield, S.A., Sotka, E. and Grunwald, N.J., 2016. Package ‘poppr’. <a href="https://cran.r-project.org/web/packages/poppr/index.html" class="uri">https://cran.r-project.org/web/packages/poppr/index.html</a></li>
+<li>Grunwald, N.J., Z.N. Kamvar, and S.E. Everhart. 2015. Population Genetics in R. Online book: <a href="http://grunwaldlab.github.io/Population_Genetics_in_R/" class="uri">http://grunwaldlab.github.io/Population_Genetics_in_R/</a></li>
+<li>Everhart, S.E., T.F. Tabima, and N.J. Grünwald. 2014. Phytophthora ramorum. In: Dean, R.A., A. Lichens-Park, and C. Kole (eds) “Genomics of Plant Associated Fungi and Oomycetes”, Springer, New York, NY. Pp. 159-174.</li>
+</ol>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

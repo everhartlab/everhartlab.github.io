@@ -1,0 +1,41 @@
+---
+title: "People in the Everhart Lab"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### PI and Lab manager
+- Sydney Everhart, Ph.D.
+
+### Postdoctoral Scholars
+- Zhian Kamvar, Ph.D.
+- Margarita Marroquin-Guzman, Ph.D.
+
+### Graduate Research Assistants
+- Nikita Gambhir, Ph.D. student, fall 2015 to present
+- Edgar H. Nieto-Lopez, Ph.D. student, fall 2016 to present
+
+### Research Assistants
+- Alex N. Johnson
+
+### Past Lab Members:
+- Anthony Pannullo, Graduate of Biological Sciences -- Anthony is now a graduate student in the microbiology program at the University of Iowa.
+- Thomas Miorini, Ph.D. - Thomas is now a postdoctoral associate in the Giesler Lab at the University of Nebraska.
+- Morgan Thompsen, Sophomore in Biological Sciences
+- Josh Hanson, Junior in Biological Systems Engineering
+- B. Sajeewa Amaradasa, Ph.D. Virginia Tech - Sajeewa is now a postdoctoral associate at the University of Florida.
+- Sarah Campbell, Graduate of Biological Sciences -- Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+- Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
+
+### Collaborators
+- Guido Schnable, Clemson University
+- Jim Steadman, University of Nebraska
+- Anthony Adesemoye, University of Nebraska WCREC
+- Amauri Bogo, Universidade do Estado de Santa Catarina, Brazil
+  
+
+ 
+
+
