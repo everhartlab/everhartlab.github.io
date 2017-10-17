@@ -1,0 +1,34 @@
+---
+title: "Workshops"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br>
+
+### Intro to R for Plant Pathologists
+This workshop was developed in the summer of 2017 as a way to introduce scientists to R, using specific examples from plant pathology. Participants learn how to: read in data, manipulate data, summarize and visualize data, perform comparisons, find and load packages, and troubleshoot common problems. This workshop uses base packages and newer tools, such as dplyr and ggplot2.
+
+<br>
+
+#### This workshop has been or will be offered:
+- May 24th, 2017 at the University of Nebraska, Lincoln, NE (50+ participants)
+ https://everhartlab.github.io/IntroR/
+- June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)
+- October 16th, 2017 at Ohio State University, Columbus, OH
+https://everhartlab.github.io/IntroR-at-OSU/
+
+<br>
+
+### Population Genetics in R
+Analyzing population genetic data can be challenging because it often requires the use of different softwares to perform all your analyses.  However, R is a great way to analyze your data all in one place.  A milestone in population genetic analyses in R was the development of the R package poppr by Kamvar et al. (2014).  The poppr package places these analyses all under one roof in an easy-to-use format.  I was fortunate to work with Zhian on poppr while in the Grunwald Lab at Oregon State University.  To make analyzing your population genetic data using poppr even easier, we wrote the following step-by-step tutorial: Population Genetic Analysis in R
+
+<br>
+
+#### I was a co-instructor at the following workshops:
+- 2014 at Oregon State University, Corvallis, OR (~40 participants)
+- 2014 at the APS National Meeting in Austin, TX (~75 participants)
+
+----

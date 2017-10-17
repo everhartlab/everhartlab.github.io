@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -23,7 +23,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -100,34 +100,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 </style>
 
@@ -269,21 +269,63 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">HOME</a>
+      <a class="navbar-brand" href="index.html">NEWS</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
   <a href="people.html">People</a>
 </li>
-<li>
-  <a href="research.html">Research</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Current Projects</a>
+    </li>
+    <li>
+      <a href="publications.html">Publications</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courses.html">Courses</a>
+    </li>
+    <li>
+      <a href="workshops.html">Workshops</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lab Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="training.html">Safety Training</a>
+    </li>
+    <li>
+      <a href="resources.html">Lab Calendar</a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="teaching.html">Teaching</a>
+  <a href="sydney-everhart.html">About Me</a>
 </li>
 <li>
-  <a href="resources.html">Lab Resources</a>
+  <a href="join.html">Join Our Lab</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -302,22 +344,24 @@ div.tocify {
 </div>
 
 
+<p><br></p>
 <div id="courses-at-unl" class="section level2">
 <h2>Courses at UNL</h2>
-<div id="ecology-management-of-plant-pathogens-plpt-802" class="section level3">
-<h3>Ecology &amp; Management of Plant Pathogens (PLPT 802)</h3>
+<div id="ecology-management-of-plant-pathogens" class="section level3">
+<h3>Ecology &amp; Management of Plant Pathogens</h3>
 <p>This is a graduate level course on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health. Course format is a mixture of lectures, discussions, and student presentations. Below are pictures from a class exercise, where students turned epidemiology manuscripts into infographics!</p>
-</div>
-<div id="introduction-to-population-genetics-and-epidemiology-in-r" class="section level3">
-<h3>Introduction to Population Genetics and Epidemiology in R</h3>
-<p>This course was designed to introduce students to the R programming language, with applications in population genetics and epidemiology. The course format was workshop-based, where students brought their own laptops and participated interactively. Students were taught basic skills in R syntax, data types (logical, character, numeric, etc.), data structures, sub-scripting, plotting, and packages. The goal of this course was to give students, faculty, staff, and postdocs, enough skills in R that they can access packages and resources of interest to each of them for their own research. In the future, this may be developed into a formal course and include advanced R topics, such as plotting with ggplot, using apply functions to avoid loops, and R Markdown for producing presentations, reports, and websites in R.</p>
-<div id="a-semester-long-version-will-be-offered-in-fall-2018" class="section level4">
-<h4>A semester-long version will be offered in Fall 2018</h4>
-</div>
+<p><br></p>
 </div>
 <div id="disease-dynamics-evolution" class="section level3">
 <h3>Disease Dynamics &amp; Evolution</h3>
-<p>This course was designed to cover core concepts of disease ecology and pathogen emergence/evolution. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The course format was lecture-based and inquiry driven, using primary literature as case studies. The goal of this course was to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med. A pre-requisite for undergraduates was BIOS 312 or permission of instructor. It is expected the course will be offered in the spring semester of even-numbered years. In the future, this course will be developed as a capstone course for the undergraduate major in Microbiology.</p>
+<p>This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med.</p>
+<p><br></p>
+</div>
+<div id="intro.-to-population-genetics-and-epidemiology-in-r" class="section level3">
+<h3>Intro. to Population Genetics and Epidemiology in R</h3>
+<p>This course introduces students to the R programming language, with applications in population genetics and epidemiology. This course was offered in the summer of 2016 as a . Students were taught basic skills in R syntax, data types (logical, character, numeric, etc.), data structures, sub-scripting, plotting, and packages. The goal of this course was to give students, faculty, staff, and postdocs, enough skills in R that they can access packages and resources of interest to each of them for their own research. In the future, this may be developed into a formal course and include advanced R topics, such as plotting with ggplot, using apply functions to avoid loops, and R Markdown for producing presentations, reports, and websites in R. #### A semester-long version will be offered in Fall 2018</p>
+<hr />
+<p><br></p>
 </div>
 </div>
 <div id="workshops" class="section level2">
@@ -325,6 +369,7 @@ div.tocify {
 <div id="intro-to-r-for-plant-pathologists" class="section level3">
 <h3>Intro to R for Plant Pathologists</h3>
 <p>This workshop was developed in the summer of 2017 as a way to introduce scientists to R, using specific examples from plant pathology. Participants learn how to: read in data, manipulate data, summarize and visualize data, perform comparisons, find and load packages, and troubleshoot common problems. This workshop uses base packages and newer tools, such as dplyr and ggplot2.</p>
+<p><br></p>
 <div id="this-workshop-has-been-or-will-be-offered" class="section level4">
 <h4>This workshop has been or will be offered:</h4>
 <ul>
@@ -332,6 +377,7 @@ div.tocify {
 <li>June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)</li>
 <li>October 16th, 2017 at Ohio State University, Columbus, OH <a href="https://everhartlab.github.io/IntroR-at-OSU/" class="uri">https://everhartlab.github.io/IntroR-at-OSU/</a></li>
 </ul>
+<p><br></p>
 </div>
 </div>
 <div id="population-genetics-in-r" class="section level3">

@@ -1,0 +1,62 @@
+---
+title: "Everhart Lab Safety Training"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+## Overview
+
+Welcome to the lab!  Your health and safety is a priority, as is the health and safety of the other lab members that you work with.  Since you are new to the lab, there are aspects of working in a lab that we want you to be especially aware of.  Below are the required activities that should be completed as soon as you’ve joined the lab.
+
+<br>
+
+#### **Below are the 4 Steps to Lab Safety Training**
+
+<br>
+
+### **Step 1** 
+Read the Everhart Lab Biosafety Manual, as it has the most important information
+
+<br>
+
+### **Step 2**
+Review categories below and take the required online training here: http://ehs.unl.edu/web-based-training
+
+#### Required for everyone:
+
+    - Core - Injury and Illness Prevention Plan
+    - Core - Emergency Preparedness
+    - EHS Chemical Safety
+    - NIH Guidelines Module
+    - EHS Biosafety in the BSL-2 Laboratory
+
+#### Additional required training for temporary workers:
+
+    - EHS Biosafety Basics Training
+
+#### Additional required training for permanent workers (graduate students, postdocs, technicians):
+
+    - Personal Protective Equipment Training
+
+#### Recommended additional training for permanent workers:
+
+    - EHS Fire Extinguisher Training
+    - EHS DOT/IATA Training for shipping biological
+
+<br>
+
+### **Step 3**
+Review the online virtual lab manual: https://scsapps.unl.edu/VirtualManual/AccessYourProfile.aspx
+
+Note: Use my e-mail address to locate the lab manual everhart@unl.edu
+
+<br>
+
+### **Step 4**
+When in doubt, ask a lab manager what you should do.
+
+For your reference, our Institutional Biosafety Committee Protocol is linked here.
+
+PowerPoint presentation from the annual Lab Safety Training Refresher is linked here (PDF download).
+

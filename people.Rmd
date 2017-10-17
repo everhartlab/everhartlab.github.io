@@ -6,19 +6,29 @@ output:
     toc_float: true
 ---
 
+<br>
+
 ### PI and Lab manager
 - Sydney Everhart, Ph.D.
+
+<br>
 
 ### Postdoctoral Scholars
 - Zhian Kamvar, Ph.D.
 - Margarita Marroquin-Guzman, Ph.D.
 
+<br>
+
 ### Graduate Research Assistants
 - Nikita Gambhir, Ph.D. student, fall 2015 to present
 - Edgar H. Nieto-Lopez, Ph.D. student, fall 2016 to present
 
+<br>
+
 ### Research Assistants
 - Alex N. Johnson
+
+<br>
 
 ### Past Lab Members:
 - Anthony Pannullo, Graduate of Biological Sciences -- Anthony is now a graduate student in the microbiology program at the University of Iowa.
@@ -29,13 +39,10 @@ output:
 - Sarah Campbell, Graduate of Biological Sciences -- Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
 - Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
 
+<br>
+
 ### Collaborators
 - Guido Schnable, Clemson University
 - Jim Steadman, University of Nebraska
 - Anthony Adesemoye, University of Nebraska WCREC
 - Amauri Bogo, Universidade do Estado de Santa Catarina, Brazil
-  
-
- 
-
-

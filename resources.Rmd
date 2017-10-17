@@ -1,0 +1,26 @@
+---
+title: "Everhart Lab Resources"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+## 
+
+Important Resources
+Where to start?
+
+Read this letter that I have written to graduate students.  It is equally valuable for undergraduates and postdocs in the lab.
+Writing Resources
+
+UNL Fundamentals of Research Writing website for graduate students and postdocs
+
+UNL Annual Writing Retreat with website containing great links and resources
+Statistics Resources
+
+See the Points of Significance short articles from Nature Methods for descriptions of best practices for statistics common to biological research
+
+One-on-one consultation from the UNL Statistics Help Desk -- it's free!
+Career Development Resources
+
+Mentoring and career advice from the APS Professional Development Center

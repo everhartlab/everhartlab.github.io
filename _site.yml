@@ -1,19 +1,36 @@
 name: "Everhart Lab Website"
 navbar:
-  title: "HOME"
+  title: "NEWS"
   left:
     - text: "People"
       href: people.html
     - text: "Research"
+      menu:
+        - text: "Current Projects"
+          href: research.html
+        - text: "Publications"
+          href: publications.html
       href: research.html
     - text: "Teaching"
-      href: teaching.html
+      menu:
+        - text: "Courses"
+          href: courses.html
+        - text: "Workshops"
+          href: workshops.html
     - text: "Lab Resources"
-      href: resources.html
+      menu:
+        - text: "Safety Training"
+          href: training.html
+        - text: "Lab Calendar"
+          href: resources.html
+    - text: "About Me"
+      href: sydney-everhart.html
+    - text: "Join Our Lab"
+      href: join.html
 output_dir: "."
 output:
-  html_document:
-    theme: flatly
-    highlight: textmate
+prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 #    include:
 #      after_body: _footer.html
