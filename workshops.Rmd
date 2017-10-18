@@ -13,12 +13,15 @@ This workshop was developed in the summer of 2017 as a way to introduce scientis
 
 <br>
 
+<img style="float: right;" src="images/IntroRWorkshop2017.png" width="240px">
+
 #### This workshop has been or will be offered:
+- October 16th, 2017 at Ohio State University, Wooster, OH (~20 participants)
+https://everhartlab.github.io/IntroR-at-OSU/
+- June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)
 - May 24th, 2017 at the University of Nebraska, Lincoln, NE (50+ participants)
  https://everhartlab.github.io/IntroR/
-- June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)
-- October 16th, 2017 at Ohio State University, Columbus, OH
-https://everhartlab.github.io/IntroR-at-OSU/
+
 
 <br>
 

@@ -5,6 +5,9 @@ output:
     toc: true
     toc_float: true
 ---
+
+<img style="float: right;" src="images/SydneyEverhart_2016.jpg" width="130px">
+
 ## Assistant Professor and Quantitative Ecologist
 #### 80% Research / 20% Teaching
 
@@ -28,3 +31,7 @@ Aside from research and teaching, I am passionate about being an advocate for wo
 ### Personal
 When not doing science, I can either be found gardening or mountain biking the paths and trails of Lincoln.
 
+<br>
+<center>
+<img src="images/SydneyCompostPile.jpg" width="160px">
+</center>

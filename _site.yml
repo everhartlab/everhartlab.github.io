@@ -21,16 +21,18 @@ navbar:
       menu:
         - text: "Safety Training"
           href: training.html
-        - text: "Lab Calendar"
-          href: resources.html
+#       - text: "Resources"
+#          href: resources.html
     - text: "About Me"
       href: sydney-everhart.html
     - text: "Join Our Lab"
       href: join.html
 output_dir: "."
 output:
-prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+  html_document:
+#prettydoc::html_pretty:
+    theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
+                            ## united, yeti, spacelab, sandstone
+    highlight: default
 #    include:
 #      after_body: _footer.html

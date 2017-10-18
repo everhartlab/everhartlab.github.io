@@ -24,4 +24,4 @@ This course introduces students to the R programming language, with applications
 <br> 
 
 ### Population Genetis and Epidemiology
-This course is being developed and will be offered in the Fall of 2018.
+This course is being developed and will be offered in the Fall of 2018. More information coming soon!
