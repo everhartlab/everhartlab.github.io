@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Welcome Letter</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">NEWS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="people.html">People</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Current Projects</a>
+    </li>
+    <li>
+      <a href="publications.html">Publications</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courses.html">Courses</a>
+    </li>
+    <li>
+      <a href="workshops.html">Workshops</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lab Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="welcome.html">Welcome Letter</a>
+    </li>
+    <li>
+      <a href="training.html">Safety Training</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="join.html">Join Our Lab</a>
+</li>
+<li>
+  <a href="sydney-everhart.html">About Me</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Welcome Letter</h1>
+
+</div>
+
+
+<center>
+<code>The following is a letter for new colleagues joining the lab, written with graduate students in mind.</code>
+</center>
+<p><br> <br> October 18, 2017 <br> <br></p>
+<p>Dear New Colleague,</p>
+<p><br></p>
+<p><strong>Congratulations on joining the Everhart Lab!</strong> I am pleased that you will be joining our team and welcome you to the Department of Plant Pathology. This will be an exciting chapter in your career. It should also be an enjoyable and memorable time of your life. It is my goal is to help you achieve your highest potential. Keep in mind that unlike undergraduate education, you are responsible for guiding and seeking out opportunities to expand your skills and knowledge.</p>
+<div>
+The purpose of my letter is to help you understand how the lab is run, give you some informal advice, and clarify what you should reasonably expect of me as your advisor and, in turn, what I expect from you. In this way, I hope to answer some of the questions you may have as a new graduate student and also open the lines of communication between us. I also encourage you to seek advice from others, either in person or in books, articles, seminars, and videos.
+</div>
+<p><br></p>
+<div id="rewards-of-graduate-school" class="section level3">
+<h3>Rewards of graduate school</h3>
+<p>As you begin your career as a scientist, I encourage you to become involved with the trajectory of your career early on. This is a rewarding but also a challenging and competitive field of research. You will grow professionally and personally. It is important for you to focus on topics important for your research project and also gain experience relevant to where you want to go after graduate school. Although you are probably aware of many of the challenges of graduate school, such as strategic planning and stress management, graduate school will challenge you in ways you probably won’t expect. But don’t let this intimidate you! We all went through this and survived. Here are some more specific suggestions:</p>
+<div>
+
+<ul>
+<li><strong>Be efficient!</strong> –- Each of us has our own style for how to manage time. With ever- increasing demands on your time, the challenge will be in finding the style that works best for you. It’s not just about working hard, it’s about working smart!</li>
+<li><strong>Focus on research</strong> –- Good performance in coursework is expected, but that is not the main reason you’re here – research is! Graduate school is about taking knowledge learned and applying it in your own research project. Read widely so that you understand where your research fits within the broader literature and refine your own research interests.</li>
+<li><strong>Select courses wisely</strong> -– Courses can be a wonderful way to learn about a particular sub-field from a master. But taking courses is time demanding and a large portion of what you’ll need to know for your research may not be taught in a classroom setting. Be selective and take only those courses most worthy of your time.</li>
+<li><strong>Teaching</strong> -– You will likely have the opportunity to serve as a Teaching Assistant. I highly encourage you to seek out this experience early on, as this will help you develop key skills that will serve you well in your career. But also realize that this will take time and energy, and can be stressful. We take teaching seriously at UNL and I’m sure you will too. Be efficient with your time to ensure that this aspect of your training does not interfere with your research progress.</li>
+<li><strong>Stay in touch</strong> –- Keep me informed of your progress, successes, and any difficulties you may encounter in coursework and research. If you would like to go beyond our regular lab meeting times to meet with me one-on-one or on a regular basis, let me know. When I get submerged and you feel neglected, say something or ask for attention.</li>
+<li><strong>Seeking help and support from others</strong> -– You can also ask questions of and seek support from the other graduate students, staff in the lab, and folks in our department. Many of these people are very helpful by nature and may have experience in dealing with a similar issue. Be proactive.</li>
+<li><strong>Have fun but be professional</strong> –- In your lifetime, a significant portion of time will be spent with the people you work with. So although our priority in the lab is to be safe and professional, we should strive to be happy and have fun doing our work.
+</div></li>
+</ul>
+<p><br></p>
+</div>
+<div id="initiative-and-approaches" class="section level3">
+<h3>Initiative and approaches</h3>
+<p>Getting to this point in your educational training means you have already demonstrated that you have considerable ability and a track record of being able to apply yourself. Now you need to remain active and productive in your science and to give it high priority. I expect you to show initiative in developing your research project. I encourage you in this and am always happy to suggest ideas or act as a sounding board. You will have opportunities via your courses and our regular lab meetings to express your research ideas. I also encourage you to read widely and keep an “ideas” notebook to develop your research ideas and take notes from seminars and conversations/presentations at professional meetings.</p>
+<div>
+<p>Keeping up with the scientific literature is an important aspect of your research that should not be neglected. Try to scan journal contents and read abstracts of papers that you find interesting or relevant for at least a few hours per week. Read key papers thoroughly and critically asking: How did they approach this question? What methods did they use? Were they appropriate? What conclusions did they reach? Are they justified? What further questions does this work raise? Review papers and edited volumes can be particularly useful to introduce new areas, but don’t rely on these alone. Remember that science is an incremental process where we often add one piece at a time. Your job is to figure out which piece needs to be added next and how to do that.</p>
+</div>
+<p><br></p>
+</div>
+<div id="cooperation-and-lab-etiquette" class="section level3">
+<h3>Cooperation and lab etiquette</h3>
+<p><strong>Despite the popularized image of a lone scientist, the reality is that science is actually quite social.</strong></p>
+<div>
+<p>Your peers and other scientists will represent a key source of ideas, references, feedback, and skills. By joining our lab group, you have become a member of the team. We have a regularly scheduled lab meeting most weeks to encourage interaction, as well as to present ideas to each other and plan our schedules and equipment needs. You’re expected to attend and participate actively in these or let me know when you can’t. The culture of our field of work is unique in that it is very professional and goal driven but can also be a collaborative and fun team environment. Our lab is a great place to work hard among highly motivated people, in friendly and accepting environment.</p>
+</div>
+<div>
+<p>But don’t limit yourself to just people in our lab group! As a new graduate student, you have license to pester senior grad students, postdocs, and faculty – use it! By traveling to meetings or other labs, you’ll have the opportunity to meet and talk with scientists from elsewhere, gaining the benefit of distinct perspectives, a chance to try out your ideas on a fresh audience, and perhaps pave the way for a collaborative research opportunity or future job.</p>
+</div>
+<div>
+<p>Within our lab, we share equipment and supplies, and often assist each other when faced with time-sensitive or labor-intensive tasks. Please help out when you can (and ask when you need help). Also, share in routine lab neatness and cleaning. Be considerate of others. From time to time, I will also ask you to assist with other tasks (ie. reviewing a paper). As you gain confidence and experience, expect to share your time and ideas with junior graduate students and undergraduates who will need your help or supervision. Recall that most of us are receptive to reciprocity and are more inclined to help, share ideas with, and trust those that we see as generous with their own time and ideas.</p>
+</div>
+<p><br></p>
+</div>
+<div id="research" class="section level3">
+<h3>Research</h3>
+<p>My role as your advisor is to encourage you, coach you, provide constructive feedback on your ideas, analyses, and writing, and to collaborate on research. This is the main reason we are both here. Below are ways that I will try to assist you as I can in helping you develop your ideas, choose a research project, and refine your approach. Specifically, I will:</p>
+<div>
+<ul>
+<li>help you formulate a research question and approach</li>
+<li>assist you in locating relevant reference material for your project</li>
+<li>help you design your experiments and/or field work</li>
+<li>consult regularly with you, and possibly visit and assist you in the lab, to ensure that your research work goes well and that you achieve your objectives</li>
+<li>ask you to report regularly on your research, in both our regularly scheduled lab meetings and in private consultations, or written reports, each semester</li>
+<li>collaborate with you in analyzing and interpreting results</li>
+<li>collaborate with you in writing up papers and research results in a timely and professional manner</li>
+<li>direct you to regional/national awards and support your applications</li>
+<li>provide feedback on areas of your work that may need improvement</li>
+<li>assist you in making professional connections at UNL and at professional meetings</li>
+</ul>
+</div>
+<div>
+<p>In exchange, I expect you to:</p>
+<ul>
+<li>apply yourself seriously and effectively to your research</li>
+<li>be careful, accurate and honest in measuring and recording data</li>
+<li>be honest and candid in reporting your results</li>
+<li>make steady progress</li>
+<li>cooperate helpfully and openly with others</li>
+<li>complete and write up your work in a timely way</li>
+<li>communicate regularly about what you’re up to (ie. lab meeting presentation)</li>
+<li>conduct yourself in a professional, ethical, and pleasant manor</li>
+<li>find aspects of your work that you truly enjoy and have fun doing it</li>
+</ul>
+</div>
+<div>
+<p>If time and energy permit, you might also consider doing a “side” project. These sometimes become as (or more) important than main projects you’re working on. Please keep me informed of these as well.</p>
+</div>
+<p><br></p>
+</div>
+<div id="progress-meetings" class="section level3">
+<h3>Progress &amp; meetings</h3>
+<p>I am pleased to advise you on your academic program. Expect your Ph.D. to take about 5-6 years from the BA/BS, and MS to take no more than 2.5 years. You should try to assemble your graduate committee as soon as possible and regularly update them on your progress and plans. It will be your job (and not always easy) to schedule committee meetings, distribute background materials, pre-lim proposals or theses, and to assemble the relevant materials at these meetings. Remember, these are the folks who will be giving you your pre-lim exam and eventually writing letters of recommendation for you so that you have a better chance of getting the job you’re hoping for.</p>
+<p><br></p>
+</div>
+<div id="publications" class="section level3">
+<h3>Publications</h3>
+<p>Scientists are judged via the currency of published research results. A high quality record of first-author publications can be a ticket to a good job. This gives publication its pre-eminent importance in the scientific enterprise. In addition, it helps explain why some of us are touchy on the subject of originality and priority.</p>
+<div>
+<p>From the start, think about your own research in terms of the publications that will result from it. Research that goes unpublished might as well never have been done from the point of view of the rest of the scientific community. Try to see your experiments and results in terms of what papers they will lead to, and write the protocols with a view toward the Methods sections that they will become.</p>
+</div>
+<p><br></p>
+</div>
+<div id="writing" class="section level3">
+<h3>Writing</h3>
+<p>Clear and effective writing is important in science. I take it seriously and I expect you to, too. There are books about writing scientific papers, but imitating what you are reading in terms of excellent papers is perhaps even more useful. Be familiar with the topics and styles of different journals and attempt to match your writing, in length, style, and format, to the particular journal you are aiming for. This isn’t always easy. Exactly what is written form your work will also depend on the context, so ask me and your peers if you are uncertain.</p>
+<div>
+<p>In addition, I suggest that you ask for editorial comments from me early, so I can give constructive suggestions and guide you to areas of your writing that may need more attention. I will always try to give you detailed suggestions on your writing, particularly on jointly authored proposals and papers. Please go through these carefully and try to learn from them. If I’ve taken more than 2 weeks with something, bug me about it.</p>
+</div>
+<p><br></p>
+</div>
+<div id="authorship" class="section level3">
+<h3>Authorship</h3>
+<p>As I implied above, academia generally runs on the currency of publications, sometimes making this a tricky area. Above all, I urge you to be open and up-front in discussing these issues early and often in any collaboration you are involved in. We all have expectations so be sure you state yours and know those of your colleagues and collaborators.</p>
+<div>
+<p>As a general rule, I assume that you will be first author on papers where you designed the study, collected the data, did most of the analyses and took the lead on writing the paper. Depending on who else you worked with and how, you may have 1 to several co-authors as well. Please see the guidelines that many journals publish regarding what is, and what is not, considered an adequate basis and justification for co-authorship. Generally, it is not a zero- sum game, meaning that adding another author to a paper to reward their substantial involvement can bring rewards in terms of more expertise, additional work effort, and the reciprocal altruism that may ensue when you are asked to be a co-author on one of their papers.</p>
+</div>
+<div>
+<p>In general, I expect to be a co-author on papers derived from research projects that I designed or helped to conceive and that were conducted in my lab, particularly if I have overseen the work, obtained the funding, supervised the student, and/or assisted substantially in the writing and paper submission. These activities represent a substantial fraction of my effort and a substantial investment in our shared work. I will usually ask to be last author, as this has become a convention for PI’s in our field.</p>
+</div>
+<div>
+<p>On some occasions, students have walked away from their MS or even PhD work without completing the steps necessary to get their research published. This represents a missed opportunity. It can also be a serious blow to your career and potentially cripple my ability to demonstrate research productivity and score new grants. Thus, it is important to persevere. I will work with you to ensure that that our papers reach a level of quality to make them acceptable and to find a suitable outlet. If I must assume responsibility for revisions and submission of our jointly published work (that is, if you do not produce a publishable manuscript from your work or fail to revise it appropriately for submission), I may ask you to forfeit your right to first authorship on that paper.</p>
+</div>
+<p><br></p>
+</div>
+<div id="finding-a-job" class="section level3">
+<h3>Finding a job</h3>
+<p>While you are focused initially on the immediate demands of graduate school, let me know early where you want to be headed – academia? small or large school? industry or extension? This will help us both make strategic decisions that might affect job or career prospects later. I also pledge to assist you in finding a suitable position following graduation - telling you of suitable positions, providing letters of reference, etc. If I feel that I cannot write you a positive letter, I will say so.</p>
+<p><br></p>
+</div>
+<div id="communication" class="section level3">
+<h3>Communication</h3>
+<p>Please share with me your reactions to these expectations. In addition, please come to me first if you are dissatisfied with my interactions with you, or anyone in the lab. I will do what I can to resolve these issues, or suggest a course of action. I would also appreciate hearing whether you found this letter useful. Communication is crucial, so stay in touch on a regular basis. I look forward to working with you.</p>
+<p><br> <br></p>
+<p>Sincerely, <br></p>
+<div id="sydney-everhart" class="section level5">
+<h5>Sydney Everhart</h5>
+<p>Advisor &amp; Mentor</p>
+</div>
+</div>
+
+<footer role="contentinfo" id="site-footer" align="center">
+
+<!-- /.bottom-menu -->
+
+<br>
+<br>
+<br>
+
+	This website was created and <class="copyright">&#169; 2017 by Sydney Everhart.
+	<br>
+		Powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com"> RMarkdown</a> + <a href="http://github.com">Github</a>.
+
+</footer>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -19,10 +19,10 @@ navbar:
           href: workshops.html
     - text: "Lab Resources"
       menu:
+        - text: "Welcome Letter"
+          href: welcome.html
         - text: "Safety Training"
           href: training.html
-#       - text: "Resources"
-#          href: resources.html
     - text: "Join Our Lab"
       href: join.html
     - text: "About Me"
@@ -34,6 +34,6 @@ output:
 #prettydoc::html_pretty:
     theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
                             ## united, yeti, spacelab, sandstone
-    highlight: default
+    highlight: espresso
     include:
       after_body: _footer.html

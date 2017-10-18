@@ -1,0 +1,185 @@
+---
+title: "Welcome Letter"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+<center>`The following is a letter for new colleagues joining the lab, written with graduate students in mind.`</center>
+
+<br>
+<br>
+ October 18, 2017
+<br>
+<br>
+
+Dear New Colleague,
+
+<br>
+
+**Congratulations on joining the Everhart Lab!** I am pleased that you will be joining our team and welcome you to the Department of Plant Pathology. This will be an exciting chapter in your career. It should also be an enjoyable and memorable time of your life. It is my goal is to help you achieve your highest potential. Keep in mind that unlike undergraduate education, you are responsible for guiding and seeking out opportunities to expand your skills and knowledge.
+
+<div>
+
+The purpose of my letter is to help you understand how the lab is run, give you some informal advice, and clarify what you should reasonably expect of me as your advisor and, in turn, what I expect from you. In this way, I hope to answer some of the questions you may have as a new graduate student and also open the lines of communication between us. I also encourage you to seek advice from others, either in person or in books, articles, seminars, and videos.</div>
+
+<br>
+
+### Rewards of graduate school
+
+
+As you begin your career as a scientist, I encourage you to become involved with the trajectory of your career early on. This is a rewarding but also a challenging and competitive field of research. You will grow professionally and personally. It is important for you to focus on topics important for your research project and also gain experience relevant to where you want to go after graduate school. Although you are probably aware of many of the challenges of graduate school, such as strategic planning and stress management, graduate school will challenge you in ways you probably won’t expect. But don’t let this intimidate you! We all went through this and survived. Here are some more specific suggestions:
+
+<div>
+
+ - **Be efficient!** –- Each of us has our own style for how to manage time. With ever- increasing demands on your time, the challenge will be in finding the style that works best for you. It’s not just about working hard, it’s about working smart!
+ - **Focus on research** –- Good performance in coursework is expected, but that is not the main reason you’re here – research is! Graduate school is about taking knowledge learned and applying it in your own research project. Read widely so that you understand where your research fits within the broader literature and refine your own research interests.
+ - **Select courses wisely** -– Courses can be a wonderful way to learn about a particular sub-field from a master. But taking courses is time demanding and a large portion of what you’ll need to know for your research may not be taught in a classroom setting. Be selective and take only those courses most worthy of your time.
+ - **Teaching** -– You will likely have the opportunity to serve as a Teaching Assistant. I highly encourage you to seek out this experience early on, as this will help you develop key skills that will serve you well in your career. But also realize that this will take time and energy, and can be stressful. We take teaching seriously at UNL and I’m sure you will too. Be efficient with your time to ensure that this aspect of your training does not interfere with your research progress.
+ - **Stay in touch** –- Keep me informed of your progress, successes, and any difficulties you may encounter in coursework and research. If you would like to go beyond our regular lab meeting times to meet with me one-on-one or on a regular basis, let me know. When I get submerged and you feel neglected, say something or ask for attention.
+- **Seeking help and support from others** -– You can also ask questions of and seek support from the other graduate students, staff in the lab, and folks in our department. Many of these people are very helpful by nature and may have experience in dealing with a similar issue. Be proactive.
+ - **Have fun but be professional** –- In your lifetime, a significant portion of time will be spent with the people you work with. So although our priority in the lab is to be safe and professional, we should strive to be happy and have fun doing our work.</div>
+
+<br>
+
+### Initiative and approaches
+
+
+
+Getting to this point in your educational training means you have already demonstrated that you have considerable ability and a track record of being able to apply yourself. Now you need to remain active and productive in your science and to give it high priority. I expect you to show initiative in developing your research project. I encourage you in this and am always happy to suggest ideas or act as a sounding board. You will have opportunities via your courses and our regular lab meetings to express your research ideas. I also encourage you to read widely and keep an “ideas” notebook to develop your research ideas and take notes from seminars and conversations/presentations at professional meetings.
+
+<div>
+
+Keeping up with the scientific literature is an important aspect of your research that should not be neglected. Try to scan journal contents and read abstracts of papers that you find interesting or relevant for at least a few hours per week. Read key papers thoroughly and critically asking: How did they approach this question? What methods did they use? Were they appropriate? What conclusions did they reach? Are they justified? What further questions does this work raise? Review papers and edited volumes can be particularly useful to introduce new areas, but don’t rely on these alone. Remember that science is an incremental process where we often add one piece at a time. Your job is to figure out which piece needs to be added next and how to do that.
+
+</div>
+
+<br>
+
+### Cooperation and lab etiquette
+
+
+
+**Despite the popularized image of a lone scientist, the reality is that science is actually quite social.**
+
+<div>
+
+Your peers and other scientists will represent a key source of ideas, references, feedback, and skills. By joining our lab group, you have become a member of the team. We have a regularly scheduled lab meeting most weeks to encourage interaction, as well as to present ideas to each other and plan our schedules and equipment needs. You’re expected to attend and participate actively in these or let me know when you can’t. The culture of our field of work is unique in that it is very professional and goal driven but can also be a collaborative and fun team environment. Our lab is a great place to work hard among highly motivated people, in friendly and accepting environment.
+
+</div>
+
+<div>
+
+But don’t limit yourself to just people in our lab group! As a new graduate student, you have license to pester senior grad students, postdocs, and faculty – use it! By traveling to meetings or other labs, you’ll have the opportunity to meet and talk with scientists from elsewhere, gaining the benefit of distinct perspectives, a chance to try out your ideas on a fresh audience, and perhaps pave the way for a collaborative research opportunity or future job.
+
+</div>
+
+<div>
+
+Within our lab, we share equipment and supplies, and often assist each other when faced with time-sensitive or labor-intensive tasks. Please help out when you can (and ask when you need help). Also, share in routine lab neatness and cleaning. Be considerate of others. From time to time, I will also ask you to assist with other tasks (ie. reviewing a paper). As you gain confidence and experience, expect to share your time and ideas with junior graduate students and undergraduates who will need your help or supervision. Recall that most of us are receptive to reciprocity and are more inclined to help, share ideas with, and trust those that we see as generous with their own time and ideas.
+
+</div>
+<br>
+
+### Research
+
+My role as your advisor is to encourage you, coach you, provide constructive feedback on your ideas, analyses, and writing, and to collaborate on research. This is the main reason we are both here. Below are ways that I will try to assist you as I can in helping you develop your ideas, choose a research project, and refine your approach. Specifically, I will:
+
+<div>
+
+ - help you formulate a research question and approach
+ - assist you in locating relevant reference material for your project
+ - help you design your experiments and/or field work
+ - consult regularly with you, and possibly visit and assist you in the lab, to ensure that
+your research work goes well and that you achieve your objectives
+ - ask you to report regularly on your research, in both our regularly scheduled lab
+meetings and in private consultations, or written reports, each semester
+ - collaborate with you in analyzing and interpreting results
+ - collaborate with you in writing up papers and research results in a timely and
+professional manner
+ - direct you to regional/national awards and support your applications
+ - provide feedback on areas of your work that may need improvement
+ - assist you in making professional connections at UNL and at professional meetings
+
+</div>
+<div> 
+
+In exchange, I expect you to:
+
+ - apply yourself seriously and effectively to your research
+ - be careful, accurate and honest in measuring and recording data
+ - be honest and candid in reporting your results
+ - make steady progress
+ - cooperate helpfully and openly with others
+ - complete and write up your work in a timely way
+ - communicate regularly about what you’re up to (ie. lab meeting presentation)
+ - conduct yourself in a professional, ethical, and pleasant manor
+ - find aspects of your work that you truly enjoy and have fun doing it
+
+</div>
+
+<div>
+
+If time and energy permit, you might also consider doing a “side” project. These sometimes become as (or more) important than main projects you’re working on. Please keep me informed of these as well.
+</div>
+<br>
+
+### Progress & meetings
+I am pleased to advise you on your academic program. Expect your Ph.D. to take about 5-6 years from the BA/BS, and MS to take no more than 2.5 years. You should try to assemble your graduate committee as soon as possible and regularly update them on your progress and plans. It will be your job (and not always easy) to schedule committee meetings, distribute background materials, pre-lim proposals or theses, and to assemble the relevant materials at these meetings. Remember, these are the folks who will be giving you your pre-lim exam and eventually writing letters of recommendation for you so that you have a better chance of getting the job you’re hoping for.
+
+<br>
+
+### Publications
+Scientists are judged via the currency of published research results. A high quality record of first-author publications can be a ticket to a good job. This gives publication its pre-eminent importance in the scientific enterprise. In addition, it helps explain why some of us are touchy on the subject of originality and priority.
+
+<div>
+
+From the start, think about your own research in terms of the publications that will result from it. Research that goes unpublished might as well never have been done from the point of view of the rest of the scientific community. Try to see your experiments and results in terms of what papers they will lead to, and write the protocols with a view toward the Methods sections that they will become.
+</div>
+<br>
+
+### Writing
+Clear and effective writing is important in science. I take it seriously and I expect you to, too. There are books about writing scientific papers, but imitating what you are reading in terms of excellent papers is perhaps even more useful. Be familiar with the topics and styles of different journals and attempt to match your writing, in length, style, and format, to the particular journal you are aiming for. This isn’t always easy. Exactly what is written form your work will also depend on the context, so ask me and your peers if you are uncertain.
+
+<div>
+
+In addition, I suggest that you ask for editorial comments from me early, so I can give constructive suggestions and guide you to areas of your writing that may need more attention. I will always try to give you detailed suggestions on your writing, particularly on jointly authored proposals and papers. Please go through these carefully and try to learn from them. If I’ve taken more than 2 weeks with something, bug me about it.
+</div>
+<br>
+
+### Authorship
+As I implied above, academia generally runs on the currency of publications, sometimes making this a tricky area. Above all, I urge you to be open and up-front in discussing these issues early and often in any collaboration you are involved in. We all have expectations so be sure you state yours and know those of your colleagues and collaborators.
+
+<div>
+
+As a general rule, I assume that you will be first author on papers where you designed the study, collected the data, did most of the analyses and took the lead on writing the paper. Depending on who else you worked with and how, you may have 1 to several co-authors as well. Please see the guidelines that many journals publish regarding what is, and what is not, considered an adequate basis and justification for co-authorship. Generally, it is not a zero- sum game, meaning that adding another author to a paper to reward their substantial involvement can bring rewards in terms of more expertise, additional work effort, and the reciprocal altruism that may ensue when you are asked to be a co-author on one of their papers.
+</div>
+<div>
+
+In general, I expect to be a co-author on papers derived from research projects that I designed or helped to conceive and that were conducted in my lab, particularly if I have overseen the work, obtained the funding, supervised the student, and/or assisted substantially in the writing and paper submission. These activities represent a substantial fraction of my effort and a substantial investment in our shared work. I will usually ask to be last author, as this has become a convention for PI’s in our field.
+</div>
+<div>
+
+On some occasions, students have walked away from their MS or even PhD work without completing the steps necessary to get their research published. This represents a missed opportunity. It can also be a serious blow to your career and potentially cripple my ability to demonstrate research productivity and score new grants. Thus, it is important to persevere. I will work with you to ensure that that our papers reach a level of quality to make them acceptable and to find a suitable outlet. If I must assume responsibility for revisions and submission of our jointly published work (that is, if you do not produce a publishable manuscript from your work or fail to revise it appropriately for submission), I may ask you to forfeit your right to first authorship on that paper.
+</div>
+
+<br>
+
+### Finding a job
+While you are focused initially on the immediate demands of graduate school, let me know early where you want to be headed – academia? small or large school? industry or extension? This will help us both make strategic decisions that might affect job or career prospects later. I also pledge to assist you in finding a suitable position following graduation - telling you of suitable positions, providing letters of reference, etc. If I feel that I cannot write you a positive letter, I will say so.
+
+<br>
+
+### Communication
+Please share with me your reactions to these expectations. In addition, please come to me first if you are dissatisfied with my interactions with you, or anyone in the lab. I will do what I can to resolve these issues, or suggest a course of action. I would also appreciate hearing whether you found this letter useful. Communication is crucial, so stay in touch on a regular basis. I look forward to working with you.
+
+<br>
+<br>
+
+Sincerely,
+<br>
+
+##### Sydney Everhart
+
+Advisor & Mentor
+
