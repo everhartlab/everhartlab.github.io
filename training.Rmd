@@ -16,7 +16,7 @@ Welcome to the lab!  Your health and safety is a priority, as is the health and 
 <br>
 
 ### **Step 1** 
-Read the Everhart Lab Biosafety Manual, as it has the most important information
+Read the <a href="documents/BiosafetyManual.pdf">Everhart Lab Biosafety Manual</a> (pdf), as it has the most important information.
 
 <br>
 
@@ -49,14 +49,14 @@ Review categories below and take the required online training here: http://ehs.u
 ### **Step 3**
 Review the online virtual lab manual: https://scsapps.unl.edu/VirtualManual/AccessYourProfile.aspx
 
-Note: Use my e-mail address to locate the lab manual everhart@unl.edu
+- Note: Use my e-mail address to locate the lab manual everhart@unl.edu
 
 <br>
 
 ### **Step 4**
 When in doubt, ask a lab manager what you should do.
 
-For your reference, our Institutional Biosafety Committee Protocol is linked here.
+For your reference, here is the <a href="documents/IBC_July2015.pdf"> Institutional Biosafety Committee Protocol </a>(pdf) for our lab.
 
-PowerPoint presentation from the annual Lab Safety Training Refresher is linked here (PDF download).
+You can also review <a href="documents/SafetyRefersher-BestPractices_Everhart_9-9-2016.pdf"> this PowerPoint presentation</a> (pdf) is from our Lab's Safety Training Refresher.
 

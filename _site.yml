@@ -23,10 +23,11 @@ navbar:
           href: training.html
 #       - text: "Resources"
 #          href: resources.html
-    - text: "About Me"
-      href: sydney-everhart.html
     - text: "Join Our Lab"
       href: join.html
+    - text: "About Me"
+      href: sydney-everhart.html
+
 output_dir: "."
 output:
   html_document:
@@ -34,5 +35,5 @@ output:
     theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
                             ## united, yeti, spacelab, sandstone
     highlight: default
-#    include:
-#      after_body: _footer.html
+    include:
+      after_body: _footer.html

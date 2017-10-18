@@ -9,7 +9,7 @@ output:
 <img style="float: right;" src="images/SydneyEverhart_2016.jpg" width="130px">
 
 ## Assistant Professor and Quantitative Ecologist
-#### 80% Research / 20% Teaching
+#### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
 
 <br>
 

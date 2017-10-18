@@ -9,7 +9,8 @@ output:
 <br>
 
 ### PI and Lab manager
-- Sydney Everhart, Ph.D.
+- <a href="sydney-everhart.html"> Sydney Everhart</a>, Ph.D.
+
 
 <br>
 
@@ -20,8 +21,8 @@ output:
 <br>
 
 ### Graduate Research Assistants
-- Nikita Gambhir, Ph.D. student, fall 2015 to present
-- Edgar H. Nieto-Lopez, Ph.D. student, fall 2016 to present
+- Nikita Gambhir, Doctoral student, fall 2015 to present
+- Edgar H. Nieto-Lopez, Doctoral student, fall 2016 to present
 
 <br>
 
@@ -30,14 +31,19 @@ output:
 
 <br>
 
-### Past Lab Members:
-- Anthony Pannullo, Graduate of Biological Sciences -- Anthony is now a graduate student in the microbiology program at the University of Iowa.
-- Thomas Miorini, Ph.D. - Thomas is now a postdoctoral associate in the Giesler Lab at the University of Nebraska.
-- Morgan Thompsen, Sophomore in Biological Sciences
-- Josh Hanson, Junior in Biological Systems Engineering
-- B. Sajeewa Amaradasa, Ph.D. Virginia Tech - Sajeewa is now a postdoctoral associate at the University of Florida.
-- Sarah Campbell, Graduate of Biological Sciences -- Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
-- Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
+### Past Lab Members (in chronological order):
+- Anthony Pannullo, undergraduate in Biological Sciences, 
+    - Anthony is now a graduate student in the microbiology program at the University of Iowa.
+- Thomas Miorini, postdoctoral scholar 2016-2017
+    - Thomas is now a postdoctoral associate in the Giesler Lab at the University of Nebraska.
+- Morgan Thompsen, undergraduate in Biological Sciences
+- Josh Hanson, undergraduate in Biological Systems Engineering
+- B. Sajeewa Amaradasa, postdoctoral scholar 2014-2016
+    - Sajeewa is now a postdoc with Nick DuFault at the University of Florida
+- Sarah Campbell, Graduate of Biological Sciences
+    - Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+- Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. 
+    - Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
 
 <br>
 
