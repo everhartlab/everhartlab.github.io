@@ -26,12 +26,12 @@ output:
 
 <br>
 
-### Research Assistants
+### Research Assistant
 - Alex N. Johnson
 
 <br>
 
-### Past Lab Members (in chronological order):
+### Past Lab Members (in reverse chronological order):
 - Anthony Pannullo, undergraduate in Biological Sciences, 
     - Anthony is now a graduate student in the microbiology program at the University of Iowa.
 - Thomas Miorini, postdoctoral scholar 2016-2017
