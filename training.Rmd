@@ -56,7 +56,7 @@ Review the online virtual lab manual: https://scsapps.unl.edu/VirtualManual/Acce
 ### **Step 4**
 When in doubt, ask a lab manager what you should do.
 
-For your reference, here is the <a href="documents/IBC_July2015.pdf"> Institutional Biosafety Committee Protocol </a>(pdf) for our lab.
+For your reference, here is the <a href="documents/IBC_July2015.pdf">Institutional Biosafety Committee Protocol</a>(pdf) for our lab.
 
 You can also review <a href="documents/SafetyRefersher-BestPractices_Everhart_9-9-2016.pdf"> this PowerPoint presentation</a> (pdf) is from our Lab's Safety Training Refresher.
 
