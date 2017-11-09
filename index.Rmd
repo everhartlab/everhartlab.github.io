@@ -5,7 +5,7 @@ output:
     toc: true
     toc_float: true
 ---
-We characterize population dynamics and spread of fungal plant pathogens using quantitative spatiotemporal epidemiology, population genetics, and whole-genome approaches. We also study how pathogens evolve under stress and how this is related emergence of fungicide resistance.
+We characterize population dynamics and spread of fungal plant pathogens using quantitative spatiotemporal epidemiology, population genetics, and whole-genome approaches. We also study how pathogens evolve under stress and how this is related to emergence of fungicide resistance.
 
 <br>
 
@@ -15,7 +15,7 @@ We characterize population dynamics and spread of fungal plant pathogens using q
 
 
 #### October 2017
-
+- Invited by Dr. Anne Dorrance, Sydney gives our workshop on Intro to R for Plant Pathologists to a crowd of about 20 in Wooster and video-linked to Columbus.  Sydney also gave a seminar at the regular departmental seminar.
 - Our manuscript on the largest population genetic study of Sclerotinia sclerotiorum that were collected over a 10-year period is now out as a PeerJ Preprint and under review at PeerJ.
 
 #### September 2017
