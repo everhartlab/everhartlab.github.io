@@ -58,5 +58,5 @@ When in doubt, ask a lab manager what you should do.
 
 For your reference, here is the <a href="documents/IBC_July2015.pdf">Institutional Biosafety Committee Protocol</a>(pdf) for our lab.
 
-You can also review <a href="documents/SafteyRefersher-BestPractices_Everhart_9-9-2016.pdf"> this PowerPoint presentation</a> (pdf) is from our Lab's Safety Training Refresher.
+You can also review <a href="documents/SafteyRefresher-BestPractices_Everhart_9-9-2016.pdf"> this PowerPoint presentation</a> (pdf) is from our Lab's Safety Training Refresher.
 
