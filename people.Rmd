@@ -11,43 +11,54 @@ output:
 ### PI and Lab manager
 - <a href="sydney-everhart.html"> Sydney Everhart</a>, Ph.D.
 
-
 <br>
 
 ### Postdoctoral Scholars
-- <a href="https://zkamvar.github.io/"> Zhian Kamvar</a>, Ph.D.
-- Margarita Marroquin-Guzman, Ph.D.
+- <a href="https://zkamvar.github.io/"> Zhian Kamvar</a>, Ph.D., Jan. 2017 to **present**
+- Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**
+- Thomas J.J. Miorini, Ph.D., April 2016 to April 2017; re-joining our group in 2018 
 
 <br>
 
-### Graduate Research Assistants
-- <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, fall 2015 to present
-- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, fall 2016 to present
+### Graduate Assistants
+- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**
+- <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**
 
 <br>
 
-### Research Assistant
-- Alex N. Johnson
+### Lab Assistant
+- Alex N. Johnson, summer 2017 to **present**
 
 <br>
 
-### Past Lab Members (in reverse chronological order):
-- Anthony Pannullo, undergraduate in Biological Sciences, 
-    - Anthony is now a graduate student in the microbiology program at the University of Iowa.
-- Thomas Miorini, postdoctoral scholar 2016-2017
-    - Thomas is now a postdoctoral associate in the Giesler Lab at the University of Nebraska.
+### Undergrad Assistants
+- Audrey Vega, Biological Systems Engineering Major, November 2017 to **present**
+- Isabel Chavez, Biological Systems Engineering Major, November 2017 to **present**
+
+<br>
+
+---
+
+#### Past Members 
+*Listed in reverse chronological order*
+
+- Anthony Pannullo, undergraduate in Biological Sciences
+    - Anthony is now a graduate student in the microbiology program at the University of Iowa
+
 - Morgan Thompsen, undergraduate in Biological Sciences
 - Josh Hanson, undergraduate in Biological Systems Engineering
 - B. Sajeewa Amaradasa, postdoctoral scholar 2014-2016
     - Sajeewa is now a postdoc with Nick DuFault at the University of Florida
+
 - Sarah Campbell, Graduate of Biological Sciences
     - Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+
 - Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. 
     - Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
 
 <br>
 
-### Collaborators
+#### Collaborators
 - Guido Schnable, Clemson University
 - Jim Steadman, University of Nebraska
 - Anthony Adesemoye, University of Nebraska WCREC
