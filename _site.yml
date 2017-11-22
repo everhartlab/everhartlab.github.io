@@ -23,6 +23,8 @@ navbar:
           href: welcome.html
         - text: "Safety Training"
           href: training.html
+        - text: "Expectations for GRAs"
+          href: expectations.html
     - text: "Join Our Lab"
       href: join.html
     - text: "About Me"
