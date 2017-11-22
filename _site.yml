@@ -33,7 +33,7 @@ output:
   html_document:
 #prettydoc::html_pretty:
     theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
-                            ## united, yeti, spacelab, sandstone
-    highlight: espresso
+                            ## united, yeti, spacelab, sandstone, simplex, yeti
+    highlight: 
     include:
       after_body: _footer.html
