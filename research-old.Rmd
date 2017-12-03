@@ -1,0 +1,22 @@
+---
+title: "Research in the Everhart Lab"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+In the Everhart lab, our goal is to understand how and why disease outbreaks occur.  Using genotyping and quantitative data analysis approaches, our goal is to determine factors that may be predictive of disease outbreaks.  Such factors may involve aspects of the host (cultivar or species affected), management technique (crop rotation, tilling, or pesticide applications), environment (local temperatures, rainfall/irrigation, soil type), pathogen phenotype (aggressiveness, fungicide sensitivity, growth rate), or biology of the pathogen (mechanisms of spread, sexual recombination).
+
+Current research in the Everhart lab is focused on two important fungal plant pathogens, Sclerotinia sclerotiorum and Rhizoctonia solani, which affect several economically important crops in Nebraska.  Results of our work are important for management recommendations.
+
+----
+
+## Current Research Areas
+
+### Fungicide resistance emergence
+Fungicide resistance is costly for manufactures, growers, and the environment; nevertheless mechanisms driving the emergence of resistance remain unknown.  Interestingly, stress has been shown to increase mutation rates in E. coli, leading to emergence of antibiotic resistance. Although this is a recognized risk for fungicides, little is known about fungal evolution in the context of various stressors.  Thus, the goal of our research is to unravel the mechanisms of fungicide resistance emergence by first examining and characterizing factors that affect mutation rates in fungi.  Presently, we work with Sclerotinia sclerotiorum as a model system to characterize the effects of stressors on genomic mutation rates and determine if these lead to heritable fungicide resistance. S. sclerotiorum is an economically important fungal pathogen that causes disease on over 400 plant species and up to $252M in losses per year in the U.S. on sunflower, soybeans, dry edible beans, canola, and pulse crops. It was selected as a model system for this study because of its noted long-term stability in genetic variation and also due to the availability of a fully annotated and optically mapped, published genome.
+
+<br>
+
+### Rhizoctonia solani in Nebraska
+Long-term sustainability of soybean production in Nebraska requires minimizing disease losses and maintaining effective chemical control strategies.  For farmers, high soybean yields are critical to profit margins, where yields are reduced each year due to diseases.  Among all types of diseases in Nebraska, yield loss due to seedling diseases ranked third in 2011, causing an estimated loss of 1.35 million bushels (Bradley & Koenning, 2012).  Rhizoctonia solani is one of three pathogens most commonly associated with seedling disease, where fungicidal seed treatments are the recommended line of defense.  However, fungicide resistance in R. solani is a new threat to soybean production.  In 2012, fungicide resistance in R. solani to Azoxystrobin was reported in Louisiana, where a survey of 23 fields near the outbreak showed resistance had already spread to >65% (Olaya et al. 2012).  A major problem is that by the time that fungicide resistance is detected by growers, it may be too late to prevent spread of fungicide resistance.  This problem is compounded by a lack of knowledge of the structure of pathogen populations within fields, which directly limits our ability to design targeted and effective disease management strategies.  Beginning in 2015, our research (in collaboration with Anthony Adesemoye at the UNL WCREC) will use robust and comprehensive sampling of R. solani from soybean fields in Nebraska to determine sensitivity of isolates to commercial fungicides with different modes of action and to characterize the structure of pathogen populations within and between fields.
