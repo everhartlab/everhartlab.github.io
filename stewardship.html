@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Lab Stewardship</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">NEWS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="people.html">People</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Current Projects</a>
+    </li>
+    <li>
+      <a href="publications.html">Publications</a>
+    </li>
+    <li>
+      <a href="funding.html">Funding</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courses.html">Courses</a>
+    </li>
+    <li>
+      <a href="workshops.html">Workshops</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lab Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="welcome.html">Welcome Letter</a>
+    </li>
+    <li>
+      <a href="training.html">Safety Training</a>
+    </li>
+    <li>
+      <a href="expectations.html">Expectations for GRAs</a>
+    </li>
+    <li>
+      <a href="stewardship.html">Lab Stewardship</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="join.html">Join Our Lab</a>
+</li>
+<li>
+  <a href="sydney-everhart.html">About Me</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Lab Stewardship</h1>
+
+</div>
+
+
+<p>
+/ˈstü-ərd-ˌSHip/
+</p>
+<p>
+<strong>Definition</strong>: the job of supervising or taking care of something, such as an organization or property.
+</p>
+<hr />
+<div id="what-is-lab-stewardship" class="section level3">
+<h3>What is lab stewardship?</h3>
+<p>Lab stewardship is the practice of taking care of the lab and work space. Good lab stewardship ensures that all members of the lab are able to work effectively in the same space to accomplish their objectives on a daily basis. This requires cooperation and respect for one another. Below are a set of good lab stwardship practices that I recommend in order to ensure our space is always able to be used effectively.</p>
+<p>On a few rare occasions, poor lab stewardship has been observed in our lab. These cases are documented below as reminders of what <em>not</em> to do.</p>
+<p><br></p>
+</div>
+<div id="on-dishes" class="section level3">
+<h3>On Dishes</h3>
+<p><img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 300px;" src="images/DirtyDishes.JPG" hspace="8"> Always make sure to clean your dishes after a project. Leaving dirty dishes in the sink prevents other people from being able to use it. Running out of time before classes or conducting large project are not an excuse for not cleaning your dishes. When you are planning an experiment, plan in time to do the dishes too.</p>
+<p><br> <br></p>
+</div>
+<div id="on-storage" class="section level3">
+<h3>On Storage</h3>
+<p><img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 160px;" src="images/ImproperPlateStorage.jpg" hspace="8"></p>
+<p><br></p>
+<div id="storing-petri-plates" class="section level4">
+<h4>Storing Petri plates</h4>
+<p>Label and store your cultures in a way that makes it easy to know who owns them and what they are. It is best to store all of your culture inside ventilated plastic boxes and to use tape on the outside of the box to clearly label the contents and indicate the owner.</p>
+<p>Poorly labeled or stored plates are problematic. These stacks can be easily knocked over. It also makes it much more difficult to deter mite contamination of cultures. Keeping your culture plates inside clean plastic boxes helps to slow the spread of mites if a contamination occurs. <img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 160px;" src="images/RiskyStorage.jpg" hspace="8"></p>
+<p><br></p>
+</div>
+<div id="how-to-store-your-items" class="section level4">
+<h4>How to store your items</h4>
+<p>Storing items precariously is also not recommended. Tubes can be easily knocked over, possibly destroying the contents, contaminating storage containers, and creating a mess. Don’t do this!</p>
+<p><br></p>
+<p><img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 160px;" src="images/UnorganizedFreezer.jpg" hspace="8"></p>
+</div>
+<div id="storage-in-the--80c-freezer" class="section level4">
+<h4>Storage in the -80C freezer</h4>
+<p>Always store items inside labeled white boxes, placed into the metal shelving that is inside the freezer. Mark the white box before you put it inside the freezer (markers cannot write on frozen boxes). We have one shelf inside the freezer that is for larger items that cannot fit inside the freezer boxes. All other items that can fit inside a box need to be stored that way and properly labeled (owner, date, contents).</p>
+<p>Any USDA-APHIS regulated cultures stored in the -80C must be labeled accordingly and added to the inventory list that is located on the exterior of the freezer door.</p>
+<p><br></p>
+</div>
+</div>
+<div id="on-biohazard-waste" class="section level3">
+<h3>On Biohazard Waste</h3>
+<p><br></p>
+<div id="empty-the-bin-when-full" class="section level4">
+<h4>Empty the bin when full</h4>
+<p><img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 260px; max-height: 200px" src="images/BiohazardBinFull.jpg" hspace="8"></p>
+<p>Once a biohazard bag is full, you are responsible for taking care of the trash. If you find the biohazard waste bin is full, remove the bag and contents from the bucket, close the bag, and place the bag onto a tray in preparation to be autoclaved. Place a new liner into the bin. Do not leave the biohazard bins full for the next person to clean up after you. This is an annoyance and also makes a place where spore-bearing cultures can proliferate and serve to contaminate the rest of the cultures in our lab.</p>
+<p><img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 260px; max-height: 220px" src="images/AutoclaveYourTrash.jpg" hspace="8"></p>
+<p><br></p>
+</div>
+<div id="autoclave-the-waste-too" class="section level4">
+<h4>Autoclave the waste too</h4>
+<p>Since our autoclave can fit more than one bag, it may be necessary to stow the tray with closed bag and wait until another bag is full. However, these bags should not accumulate unnecessarily.</p>
+<p><br></p>
+</div>
+<div id="disposing-of-autoclaved-waste" class="section level4">
+<h4>Disposing of autoclaved waste</h4>
+<p>Once bags have been autoclaved and cooled (solidified), the bags can be placed into the regular trash bin that has a black bag liner. There is one large trash container in our lab like this by the main entrance. Only autoclaved biohazard waste can be placed in this container. Once it is full, close the black plastic bag so that the custodial staff know for certain that contents are intended for the dumpster. If this container is full and you have more trash to add, do your custodial staff person a favor and take the trash to the dumpster. This kindness to our staff is the kind of respect they deserve.</p>
+</div>
+</div>
+
+<footer role="contentinfo" id="site-footer" align="center">
+
+<!-- /.bottom-menu -->
+
+<br>
+<br>
+<br>
+
+	This website was created and <class="copyright">&#169; 2017 by Sydney Everhart.
+	<br>
+		Powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com"> RMarkdown</a> + <a href="http://github.com">Github</a>.
+
+</footer>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
