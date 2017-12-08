@@ -6,7 +6,7 @@ output:
     toc_float: true
 
 ---
-Funding to support research conducted by my lab group comes from a dvierstiy of sources, which reflects the diversity of our research. Our mission is to improve basic understanding of the disease outbreaks.  To that end, our work successfully integrates basic and applied research. Below is a list of funding sources and periods over which they are active. The total amount of funding procured by myself and collaborators since I joined UNL is $2.18 Million.[^1]
+Funding to support research conducted by my lab group comes from a dvierstiy of sources, which reflects the diversity of our research. Our mission is to improve basic understanding of disease outbreaks.  To that end, our work successfully integrates basic and applied research. Below is a list of funding sources and periods over which they are active. The total amount of funding procured by myself and collaborators since I joined UNL is $2.18 Million.[^1]
 
 <br>
 
