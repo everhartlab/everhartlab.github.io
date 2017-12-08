@@ -1,0 +1,40 @@
+---
+title: "Funding"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+
+---
+Funding to support research conducted by my lab group comes from a dvierstiy of sources, which reflects the diversity of our research. Our mission is to improve basic understanding of the disease outbreaks.  To that end, our work successfully integrates basic and applied research. Below is a list of funding sources and periods over which they are active. The total amount of funding procured by myself and collaborators since I joined UNL is $2.18 Million.[^1]
+
+<br>
+
+### Research Awards & Contracts
+
+Proctor, C., S.E. Everhart, (and 9 others at 3 other institutions), “Optimizing cropping systems for resilience to stress: The role of maturity group selection and cover crops on yield, weeds, insects, and microbes”, USDA-NIFA Foundational Program for Pests and Beneficial Species, $461,187, (2017 to 2020).
+
+Bond, J., S.E. Everhart, (and 13 others at 10 institutions), “Seedling diseases: Identification, management and education”, N. Central Soybean Research Program, $878,940, (2015 to 2018).
+
+Kabbage, M., S.E. Everhart, (and 4 others at 3 institutions), “Biology and Control of Sclerotinia Stem Rot of Soybean”, N. Central Soybean Res. Program, $240,000, (2015 to 2018).
+
+Everhart, S.E., and A. Adesemoye, “Fungicide resistance in Rhizoctonia solani and implications for soybean fields in Nebraska”, NE Soybean Board, $121,961, (2015 to 2018).
+
+Steadman, J., and S.E. Everhart, “Improved white mold resistance in dry and snap beans through multi-site screening and pathogen characterization throughout major production areas”, USDA-ARS National Sclerotinia Initiative, $117,096, (2016 to 2018).
+
+Adams, G., and S.E. Everhart, “Population genetic analysis of the fungal pathogen Gemmamyces piceae to determine native (sexual), introduced (clonal), or invasive (mixed) reproduction on spruce in Alaska”, USDA Forest Service, $10,000, (2017 to 2018).
+
+Everhart, S.E., “Impact of sub-lethal fungicides on genome evolution: A potential new mechanism of resistance emergence in fungi”, UNL Layman Award, $10,000, (2015 to 2016).
+
+Everhart, S.E., “In vitro fungicide testing of SDS pathogen, Fusarium virguliforme (current name Neocosmopora virguliforme)”, Gowan Company, $5,625, (2016 to 2017).
+
+<br>
+
+### Teaching & Fellowship Grants
+
+Keshwani, J., S.E. Everhart, (and 3 others), “Cultivating ACCESS: Agriculture Career Communities to Empower Students in STEM”, USDA-NIFA Women and Minorities in STEM, $94,387, (2017 to 2020).
+
+Hein, G., Everhart, S.E., (and 6 others), “Bridging the Gap: Educating multidisciplinary professionals to steward pest management technologies for sustainable agriculture”, USDA-NIFA National Needs Fellowship Program, $238,500, (2016 to 2019).
+
+
+[^1]: To cultivate transparency in science, I have made this information public. I am also publishing this information to the benefit of others who may be considering a career in academia or have ever wondered where PI's obtain funding. Keep in mind, the values listed above do not represent the actual amount of dollars that I am able to use to support personnel, travel, or supplies.  Indeed, for most federal grants listed above, a large portion (approx. 45%) of the funds go directly to overhead and for commodity groups, this amount is restricted to a muich lower amount (10%), and for internal awards there is no overhead. Contact me if you have questions or are interested in learning more.

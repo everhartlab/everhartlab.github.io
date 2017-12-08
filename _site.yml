@@ -10,7 +10,9 @@ navbar:
           href: research.html
         - text: "Publications"
           href: publications.html
-      href: research.html
+        - text: "Funding"
+          href: funding.html
+#      href: research.html
     - text: "Teaching"
       menu:
         - text: "Courses"

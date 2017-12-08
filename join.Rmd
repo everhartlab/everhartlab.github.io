@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-Despite the popularized image of a lone scientist, the reality is that science is actually quite social.  Beyond the literature, your peers and other scientists will represent a key source of ideas, references, feedback, and skills.  By joining our lab group, you have become a member of the team.
+Despite the popularized image of a lone scientist, the reality is that science is actually quite social.  Beyond the literature, your peers and other scientists will represent a key source of ideas, references, feedback, and skills.  By joining our lab group, you have become a member of the team. 
 
 <br>
 

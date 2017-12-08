@@ -10,6 +10,9 @@ output:
 ---
 In the Everhart lab, our overarching goal is to understand how and why disease outbreaks occur.  Using molecular and quantitative data analysis approaches, we seek to determine factors that may be predictive of disease outbreaks.  Such factors may involve aspects of the host (cultivar or species affected), management technique (crop rotation, tilling, or pesticide applications), environment (local temperatures, rainfall/irrigation, soil type), pathogen phenotype (aggressiveness, fungicide sensitivity, growth rate), or biology of the pathogen (mechanisms of spread, sexual recombination). Basic knowledge of these factors enable efficient disease management decisions.
 
+<center>
+<img style="float: center;" src="images/ResearchTopics.png" width="600px">
+</center>
 <br>
 
 #### *Pathogens we study*
@@ -29,7 +32,7 @@ An unexpected pattern in our data was that Mexican populations had greater genet
 
 ### Emergence of genetic variation
 #### *Abiotic stress as mechanism for diversity - *
-Another hypothesis for increased diversity is that non-lethal fungicide exposure causes oxidative stress that increases mutation rates and genetic diversity within pathogen populations [@schnabel2014studies; @chen2015fungicide; @dowling2016effect]. To test this hypothesis in *S. sclerotiorum*, we performed a lab study that showed *in vitro* fungicide exposure increased mutation rates at microsatellite loci and in AFLP profiles [@amaradasa2016effects]. Currently, we are performing genome sequencing to fully characterize the fungicide-exposed isolates (analysis underway by graduate student, Nikita Gambhir, in collaboration with postdoc, Dr. Zhian Kamvar). We have also obtained populations of *S. sclerotiorum* from field plots treated with different fungicides to evaluate if genetic diversity is related to fungicide application or range of fungicide sensitivity within treated plots. This project is being conducted by graduate student, Edgar Nieto-Lopez and is funded by the North Central Soybean Research Program. Collectively, these studies are important for understanding the landscape-scale population genetic structure of *S. sclerotiorum* across the United States and elucidate mechanisms that may drive diversification and spread of this economically important plant pathogen. 
+Another hypothesis for increased diversity is that non-lethal fungicide exposure causes oxidative stress that increases mutation rates and genetic diversity within pathogen populations [@schnabel2014studies; @chen2015fungicide; @dowling2016effect]. To test this hypothesis in *S. sclerotiorum*, we performed a lab study that showed *in vitro* fungicide exposure increased mutation rates at microsatellite loci and in AFLP profiles [@amaradasa2016effects]. Currently, we are performing genome sequencing to fully characterize the fungicide-exposed isolates (analysis underway by graduate student, Nikita Gambhir, in collaboration with postdoc, Dr. Zhian Kamvar). We have also obtained populations of *S. sclerotiorum* from field plots treated with different fungicides to evaluate if genetic diversity is related to fungicide application or range of fungicide sensitivity within treated plots. This project is being conducted by graduate student, Edgar Nieto-Lopez and is funded by the North Central Soybean Research Program. Collectively, these studies are important for understanding the landscape-scale population genetic structure   of *S. sclerotiorum* across the United States and elucidate mechanisms that may drive diversification and spread of this economically important plant pathogen. 
 
 <br>
 
