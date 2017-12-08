@@ -8,8 +8,10 @@ output:
 
 <br>
 
-### Ecology & Management of Plant Pathogens
-This is a graduate level course offered every spring on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health. Course format is a mixture of lectures, discussions, and student presentations. Below are pictures from a class exercise, where students turned epidemiology manuscripts into infographics!
+### Ecology & Management of Plant Pathogens <img align="right"; style="border: 3px solid black; width: auto; height: auto; max-width: 280px;" alt="Infographic of Botrytis Decision Support Tool" src="images/Botrytis.JPG" hspace="8">
+
+This is a graduate level course offered every spring on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health. Course format is a mixture of lectures, discussions, and student presentations. At right is a picture from one of our class exercises, where students turned epidemiology manuscripts into infographics!
+
 
 <br>
 
@@ -18,10 +20,27 @@ This course was designed to cover core concepts of disease ecology and pathogen 
 
 <br>
 
-### Intro. to Population Genetics and Epidemiology in R
+### Intro. to R for Population Genetics and Epidemiology
 This course introduces students to the R programming language, with applications in population genetics and epidemiology. This course was offered in the summer of 2016 as a blended workshop / short-course. Students were taught basic skills in R syntax, data types (logical, character, numeric, etc.), data structures, sub-scripting, plotting, and packages. The goal of this course was to give students, faculty, staff, and postdocs, enough skills in R that they can access packages and resources of interest to each of them for their own research. 
 
 <br> 
 
-### Population Genetis and Epidemiology
+### Population Genetics and Epidemiology
 This course is being developed and will be offered in the Fall of 2018. More information coming soon!
+
+<br>
+
+### Disease Tour Across Nebraska
+This course is taught by Dr. Tamra Jackson-Ziems and I was a co-instructor in 2016 and 2017. Below are our group photos from the 2016 trip across Nebraska.
+
+<center>
+
+<br>
+
+<img style="border: 3px solid black; width: auto; height: auto; max-width: 700px;" src="images/DiseaseTour1.jpg">
+
+<br>
+
+<img style="border: 3px solid black; width: auto; height: auto; max-width: 700px;" src="images/DiseaseTour2.jpg">
+
+</center>

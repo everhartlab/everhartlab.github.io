@@ -16,11 +16,11 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### December 2017
 
-<img style="float: right;" src="images/ThomasMiorini_InoculatingFlowers.JPG" width="180px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px" hspace="8" src="images/ThomasMiorini_InoculatingFlowers.JPG">
 
 - Paper in *PeerJ* now published! Check it out. https://peerj.com/articles/4152/  
 - We submitted a total of five abstracts for the APS-ICPP 2018 meeting, including recent work by Thomas to compare ability of different fungicides to protect flowers from infection by *Sclerotinia sclerotiorum* ascospores (pictured right). 
-- I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. Great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor, Dr. Mike Boehm (right)
+- I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. Great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor, Dr. Mike Boehm (photo coming soon!).
 
 #### November 2017
 - Our population study of *Sclerotinia sclerotiorum* populations is now accepted for publication in *PeerJ*!  Congratulations to Zhian *et al.* on this publication!
@@ -42,12 +42,13 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### August 2017
 
-<img style="float: right;" src="images/Everhart_CoffeeRust.JPG" width="140px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/Everhart_CoffeeRust.JPG">
 
 - Invited by Drs. Eduardo Mizubuti and David Jaccoud Filho, I gave two presentations at the 16th International Sclerotinia Workshop in Uberlandia, Brazil. This also included a post-meeting field trip to see agricultural production in the region and my first visit to a coffee plantation (with rust!!).
 - Edgar, Zhian, Thomas, Nikita, and I are headed to the national APS meeting in San Antonio, TX.  Check out our posters if you're there.
 - Nikita received the Donald E. Munnecke Student Travel Award from APS to attend the national meeting.  Well done!
-<img style="float: right;" src="images/NikitaGambhir_2017.jpg" width="180px">
+
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/NikitaGambhir_2017.jpg">
 
 
 #### July 2017
@@ -56,13 +57,14 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 - Welcome to Alex Johnson!  Starting in July, Alex will be working in our lab half time as a research assistant.
 
 #### June 2017
-<img style="float: right;" src="images/IntroRWorkshop2017.png" width="140px">
+
+<img style="float: right; width: auto; height: auto; max-width: 220px" hspace="8" src="images/IntroRWorkshop2017.png">
 
 - Edgar, Anthony, and Nikita each received a travel award to attend the North Central APS meeting in Champaigne, IL.  Congratulations on your excellent poster presentations!
 - Our Intro to R Workshop, co-taught with Dr. Alex Lipka of Univ. of Illinois at Urbana-Champaigne, was a big success at the 2017 North Central APS Meeting.  We had more than 20 people coding in R.
 - Welcome to Dr. Margarita Marroquin-Guzman!  Starting June 6th, Margarita will be working in our lab as a postdoctoral scholar on a project to characterize the soybean / covercrop microbiomes with different covercrop rotations.  Welcome!
 
-<img style="float: right;" src="images/RWorkshopUNL-May2017.jpg" width="140px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 150px" hspace="8" src="images/RWorkshopUNL-May2017.jpg">
 
 #### May 2017
 
@@ -70,7 +72,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### April 2017
 
-<img style="float: right;" src="images/large_EdgarNietoApril2017UNLSpringResFair.jpeg" width="120px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px" hspace="8" src="images/large_EdgarNietoApril2017UNLSpringResFair.jpeg">
 
 - Nikita wins award for her poster presented at the UNL Spring Research Fair -- congratulations, Nikita!
 - Edgar, Nikita, and Anthony presented posters at the UNL Spring 2017 Research Fair (Edgar, right)
@@ -85,7 +87,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### January 2017
 
-<img style="float: right;" src="images/NSI-meeting2017Everhart.jpg" width="160px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/NSI-meeting2017Everhart.jpg">
 
 - Dr. Zhian Kamvar joins the Everhart Lab as postdoc to work with genomes and genetic data.  Welcome!
 - Thomas' manuscript on the effect of irrigation level for optimal chemigation control of *Sclerotinia sclerotiorum* is now available  online and will appear in April 2017 issue of Crop Protection. Sydney Everhart at National Sclerotinia Initiative
@@ -107,7 +109,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### September 2016
 
-<img style="float: right;" src="images/EverhartLab_Fall2016.jpg" width="270px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 280px" hspace="8" src="images/EverhartLab_Fall2016.jpg">
 
 - Submitted Thomas Miroini's manuscript on chemigation and white mold control to Crop Protection -- cross your fingers!
 - Group photo taken (L to R): Everhart Lab in the Fall 2016: Anthony Pannullo, Thomas Miorini, Nikita Gambhir, Josh Hanson, Morgan Thompsen, Edgar Nieto, and Sydney Everhart
@@ -119,7 +121,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### June 2016
 
-<img style="float: right;" src="images/NCAPS Awardees_2016.jpg" width="220px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/NCAPS Awardees_2016.jpg">
 
 - Nikita Gambhir (second from left below) wins third place for her poster presented at the North Central Division APS meeting in Minneapolis and awarded a travel award to go there.  Double-win!
 
@@ -152,18 +154,17 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 ### News from 2014
 
-#### October 2014
+#### October 2014 
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/DSCN1491.JPG">
 
 - I gave a presentation on work in my lab as part of an NSF-funded meeting to discuss development of the Center for Emergence, Evolution, and Management of Pesticide Resistance (CEEMPR), which would establish a university-industry partnership
 
-<img style="float: right;" src="images/DSCN1491.JPG" width="200px">
-
 #### September 2014
-- Welcome to Sarah Campbell and Josh Hanson, joining the lab as undergraduate lab assistants to work on the sub-lethal fungicide sensitivity project
+- Welcome to Sarah Campbell (pictured right) and Josh Hanson, joining the lab as undergraduate lab assistants to work on the sub-lethal fungicide sensitivity project
 
 #### August 2014
 - B. Sajeewa Amaradasa joins my lab as the first postdoc hired. 
-<img style="float: right;" src="images/BSajeewaAmaradasa_2014.JPG" width="180px">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px" hspace="8" src="images/BSajeewaAmaradasa_2014.JPG">
 
 <br>
 
