@@ -27,7 +27,7 @@ navbar:
           href: training.html
         - text: "Expectations for GRAs"
           href: expectations.html
-        - text: "Lab Stewardship"
+        - text: "Good Lab Stewardship"
           href: stewardship.html
     - text: "Join Our Lab"
       href: join.html
