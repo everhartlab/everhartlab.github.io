@@ -44,7 +44,7 @@ output:
 
 ---
 
-#### Past Members 
+### Past Members 
 *Listed in reverse chronological order*
 
 - Anthony Pannullo, undergraduate in Biological Sciences
@@ -60,7 +60,7 @@ output:
 
 <br>
 
-#### Collaborators
+### Collaborators
 - Guido Schnable, Clemson University
 - Jim Steadman, University of Nebraska
 - Anthony Adesemoye, University of Nebraska WCREC
