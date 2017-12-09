@@ -12,7 +12,7 @@ output:
 ---
 
 ## What is good lab stewardship?
-Good lab stewardship is the practice of taking care of the lab and work space. Good lab stewardship ensures that all members of the lab are able to work effectively in the same space to accomplish their objectives on a daily basis. This requires cooperation and respect for one another. Below are a set of good lab stwardship practices that I recommend in order to ensure our space is always able to be used effectively. 
+Good lab stewardship is the practice of taking care of the lab and work space. This ensures that all members of the lab are able to work effectively in the same space to accomplish their objectives on a daily basis. Good lab stewardship facilitates cooperation and respect for one another. Below are a set of good lab stwardship practices that I recommend in order to ensure our space is always able to be used effectively. 
 
 On a few rare occasions, poor lab stewardship has been observed in our lab.  These cases are documented below as reminders of what *not* to do, with explanations as to why you shouldn't do this.
 
@@ -20,7 +20,8 @@ On a few rare occasions, poor lab stewardship has been observed in our lab.  The
 
 ### On Dishes
 <img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 300px;" src="images/DirtyDishes.JPG" hspace="8">
-Always make sure to clean your dishes after a project. Leaving dirty dishes in the sink prevents other people from being able to use it. Running out of time before classes or having conducted a time-consumiming project are not an excuse for not cleaning your dishes. When you are planning an experiment, good lab stweardship means you've planned time to do the dishes too.
+
+Always make sure to clean your dishes after a project. When you are planning an experiment, good lab stweardship means you've planned time to do the dishes too. Running out of time before classes or having conducted a time-consumiming project are not an excuse for not cleaning your dishes. Leaving dirty dishes in the sink prevents other people from being able to use it. 
 
 <br>
 <br>
@@ -34,9 +35,9 @@ Always make sure to clean your dishes after a project. Leaving dirty dishes in t
 
 Label and store your cultures in a way that makes it easy to know who owns them and what they are. It is best to store all of your culture inside ventilated plastic boxes and to use tape on the outside of the box to clearly label the contents and indicate the owner. Poorly labeled or stored plates are problematic. Stacks of plates that are not inside boxes are likely going to be knocked over.
 
-Mites can easily spread from plate-to-plate when they're not inside boxes or parafilmed. However, parafilm alone is not enough. Parafilm wrapped around plates will slow mites down, but not stop them from getting into your plates and spreading bacteria. It also makes it much more difficult to deter mite contamination of cultures. 
+Keep your culture plates inside clean plastic boxes to prevent a spill, let us know who the owner is, and to reduce the spread of mites if a contamination occurs. Mites can easily spread from plate-to-plate when they're not inside boxes or parafilmed. However, parafilm alone is not enough. Parafilm wrapped around plates will slow mites down, but not stop them from getting into your plates and spreading bacteria. It also makes it much more difficult to deter mite contamination of cultures. 
 
-Keep your culture plates inside clean plastic boxes to prevent a spill, let us know who the owner is, and to reduce the spread of mites if a contamination occurs. 
+Macroscopic symptoms of mite contamination include: tracks or trails through condensation that has formed on the lid of the Petri plate, aerial mycelium eaten away to the surface of the agar, and bacterial contamination appearing in the plate. Microscopic investigation of plates with the dissecting microscope will allow you to see the tiny, transluscent, 8-legged pests on the mycelium. If you find or suspect mites, notify me and your lab mates immediately so we can begin the triage process and limit further spread.
 
 <br>
 
