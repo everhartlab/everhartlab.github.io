@@ -41,5 +41,6 @@ output:
     theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
                             ## united, yeti, spacelab, sandstone, simplex, yeti
     highlight: 
+    css: custom.css
     include:
       after_body: _footer.html

@@ -16,22 +16,24 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### December 2017
 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px" hspace="8" src="images/ThomasMiorini_InoculatingFlowers.JPG">
+<img style="float: right; border: 3px solid black; border-radius: 10px 20px 10px 0px; width: auto; height: auto; max-width: 180px" hspace="8" src="images/ThomasMiorini_InoculatingFlowers.JPG">
 
 - Paper in *PeerJ* now published! Check it out. https://peerj.com/articles/4152/  
 - We submitted a total of five abstracts for the APS-ICPP 2018 meeting, including recent work by Thomas to compare ability of different fungicides to protect flowers from infection by *Sclerotinia sclerotiorum* ascospores (pictured right). 
 - I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. Great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor and plant pathologist, Dr. Mike Boehm.
-<img style="display: inline-block; border: 3px solid black; width: auto; height: auto; max-width: 180px; max-height:180px;" hspace="8" src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg">
+<img style="float: right; border-radius: 0px 10px 20px 10px; border: 3px solid black; width: auto; height: auto; max-width: 180px; max-height:180px;" hspace="8" src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg">
 
 #### November 2017
-- Our population study of *Sclerotinia sclerotiorum* populations is now accepted for publication in *PeerJ*!  Congratulations to Zhian *et al.* on this publication!
-- New undergraduate students, Audrey Vega and Isabel Chavez, are selected to join the Everhart Lab as new lab helpers.  Welcome, Audrey and Isabel!
-- The USDA Women and Minorities in Agricultural STEM program will be funding a project that I co-developed with collaborators Jenny Keshwani, Leah Sandall, Julie Obermyer, and Deepak Keshwani, to create a mentoring program for youth to connect with career professionals who look like them.  Our program is called *Cultivate ACCESS* and will be launched in the spring of 2018!
+
+ - Our population study of *Sclerotinia sclerotiorum* populations is now accepted for publication in *PeerJ*!  Congratulations to Zhian *et al.* on this publication!
+ - New undergraduate students, Audrey Vega and Isabel Chavez, are selected to join the Everhart Lab as new lab helpers.  Welcome, Audrey and Isabel!
+ - The USDA Women and Minorities in Agricultural STEM program will be funding a project that I co-developed with collaborators Jenny Keshwani, Leah Sandall, Julie Obermyer, and Deepak Keshwani, to create a mentoring program for youth to connect with career professionals who look like them.  Our program is called *Cultivate ACCESS* and will be launched in the spring of 2018!
 - We hosted two visiting speakers this month:
     + At the beginning of the month, Dr. Jerry Weiland of the USDA-ARS Horticultural Crops Research Unit visited our department and gave a comprehensive talk on characterization of soilborne pathogens that affect tree production in the Pacific Northwest. This talk was highly praised by many in our department!
     + For the Biotechnology and Life Science Seminar Series, we were fortunate to be able to get Dr. Stacy Krueger-Hadvield from the University of Alabama at Birmingham to visit and give us an exciting talk on the mysterious lives of algae. Belive it or not, plant pathogens and algae have a lot in common when it comes to population genetics! Complex mating systems == complex data. Great talk, Stacy!
 
 #### October 2017
+
 - Invited by Dr. Anne Dorrance, I taught our Intro to R for Plant Pathologists workshop to ~20 grad students and postdocs located in Wooster and video-linked to Columbus.  The following day, I gave a seminar for the department and had a great time meeting students, faculty, and staff.
 - Our manuscript on the largest population genetic study of *Sclerotinia sclerotiorum* that were collected over a 10-year period is now out as a *PeerJ Preprints* and under review at *PeerJ*.
 - Jimin Kamvar has joined the Department of Plant Pathology to serve as a *Digital Communications Liaison*. Her work will me keep the department website much more timely and updated.  Welcome, Jimin!
@@ -43,13 +45,13 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### August 2017
 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/Everhart_CoffeeRust.JPG">
+<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px;" hspace="8" src="images/Everhart_CoffeeRust.JPG">
 
 - Invited by Drs. Eduardo Mizubuti and David Jaccoud Filho, I gave two presentations at the 16th International Sclerotinia Workshop in Uberlandia, Brazil. This also included a post-meeting field trip to see agricultural production in the region and my first visit to a coffee plantation (with rust!!).
 - Edgar, Zhian, Thomas, Nikita, and I are headed to the national APS meeting in San Antonio, TX.  Check out our posters if you're there.
 - Nikita received the Donald E. Munnecke Student Travel Award from APS to attend the national meeting.  Well done!
 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/NikitaGambhir_2017.jpg">
+<img style="float: right; border: 3px solid black; border-radius: 10px; width: auto; height: auto; max-width: 200px" hspace="8" src="images/NikitaGambhir_2017.jpg">
 
 
 #### July 2017
@@ -131,6 +133,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 - Anthony Pannullo awarded IANR ARD Undergraduate Student Research Award for his proposal entitled "Population genetic diversity of *Sclerotinia sclerotiorum*, causal agent of white mold disease of dry bean, and implications for fungicide resistance / disease management."
 
 #### January 2016
+
 - Submitted two new proposals to the NSB to study soil microbial communities and a collaborative proposal with the Giesler lab to study *Sclerotinia sclerotiorum*
 - Submitted a proposal with the Jackson-Ziems lab to gain new knowledge of fungal foliar pathogens of corn
 
@@ -140,15 +143,19 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 
 #### November 2015
+
 - I traveled to St. Louis to meet and give a presentation for the NCSPR seedling disease project
 
 #### October 2015
+
 - Funding was awarded for one of our proposals submitted to the NSB and both of our proposals submitted to the NCSRP!
 
 #### May 2015 
+
 - Submitted two proposals to the North Central Soybean Research Program for funding to support our work studying the emergence and evolution of fungicide resistance in *Sclerotinia sclerotiorum* and to study *Rhizoctonia solani* as an important seedling pathogen in Nebraska
 
 #### January 2015
+
 - Submitted two proposals to the Nebraska Soybean Board requesting funding to support graduate student research on *Rhizoctonia solani* and *Sclerotinia sclerotiorum*
 
 <br>
@@ -156,14 +163,15 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 ### News from 2014
 
 #### October 2014 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 200px" hspace="8" src="images/DSCN1491.JPG">
+
+![](images/DSCN1491.JPG){.custom_image hspace="8"}
 
 - I gave a presentation on work in my lab as part of an NSF-funded meeting to discuss development of the Center for Emergence, Evolution, and Management of Pesticide Resistance (CEEMPR), which would establish a university-industry partnership
 
 #### September 2014
 - Welcome to Sarah Campbell (pictured right) and Josh Hanson, joining the lab as undergraduate lab assistants to work on the sub-lethal fungicide sensitivity project
 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px" hspace="8" src="images/BSajeewaAmaradasa_2014.JPG">
+![](images/BSajeewaAmaradasa_2014.JPG){.custom_image hspace="8"}
 
 #### August 2014 
 - B. Sajeewa Amaradasa joins my lab as the first postdoc hired. 
@@ -179,6 +187,6 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 <br>
 
 <center>
-<img style="border: 1px solid black; width: auto; height: auto; max-width: 140px" hspace="10" src="images/Door-to-Lab.jpg"><p>
+<img style="border: 3px solid black; width: auto; height: auto; max-width: 140px" hspace="10" src="images/Door-to-Lab.jpg"><p>
 *Let the fun begin!* </p>
 </center>

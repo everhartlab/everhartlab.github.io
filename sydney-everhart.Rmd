@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-<img style="float: right;" src="images/SydneyEverhart_2016.jpg" width="130px">
+<img style="float: right; border-radius: 50%;" src="images/SydneyEverhart_2016.jpg" width="130px">
 
 #### Assistant Professor and Quantitative Ecologist
 #### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
@@ -14,7 +14,7 @@ output:
 <br>
 
 ### Research Interests
-My research interests are to improve our understanding of how and why disease outbreaks occur.  This is a question I strive to answer using epidemiology, population genetics/genomics, and experimental approaches.  For example, quantifying symptoms and patterns of disease is a first step towards identifying mechanisms of disease spread.  Subsequently, the use of molecular genetic markers for the pathogen can enable deeper inference of sources of the pathogen within the cropping system.  Finally, experimental approaches are useful, and in my opinion, underutilized, to better characterize modes of spread and mechanisms of evolution.
+My research interests are to improve our understanding of how and why disease outbreaks occur.  This is a question I strive to answer using epidemiology, population genetics/genomics, and experimental approaches.    For example, quantifying symptoms and patterns of disease is a first step towards identifying mechanisms of disease spread.  Subsequently, the use of molecular genetic markers for the pathogen can enable deeper inference of sources of the pathogen within the cropping system.  Finally, experimental approaches are useful, and in my opinion, underutilized, to better characterize modes of spread and mechanisms of evolution.    
 
 <br>
 
@@ -33,5 +33,5 @@ When not doing science, I can either be found gardening or mountain biking the p
 
 <br>
 <center>
-<img src="images/SydneyCompostPile.jpg" width="160px">
+<img src="images/SydneyCompostPile.jpg" style="border-radius:50%;" width="220px">
 </center>
