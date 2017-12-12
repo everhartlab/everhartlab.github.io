@@ -7,8 +7,9 @@ output:
 ---
 
 <br>
+![](images/Botrytis.JPG){.custom_wide .shadow}
 
-### Ecology & Management of Plant Pathogens <img align="right"; style="border: 3px solid black; width: auto; height: auto; max-width: 280px;" alt="Infographic of Botrytis Decision Support Tool" src="images/Botrytis.JPG" hspace="8">
+### Ecology & Management of Plant Pathogens 
 
 This is a graduate level course offered every spring on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health. Course format is a mixture of lectures, discussions, and student presentations. At right is a picture from one of our class exercises, where students turned epidemiology manuscripts into infographics!
 
