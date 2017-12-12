@@ -21,7 +21,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 - Paper in *PeerJ* now published! Check it out. https://peerj.com/articles/4152/  
 - We submitted a total of five abstracts for the APS-ICPP 2018 meeting, including recent work by Thomas to compare ability of different fungicides to protect flowers from infection by *Sclerotinia sclerotiorum* ascospores (pictured right). 
 - I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. Great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor and plant pathologist, Dr. Mike Boehm.
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 180px; max-height:180px" hspace="8" src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg">
+<img style="display: inline-block; border: 3px solid black; width: auto; height: auto; max-width: 180px; max-height:180px;" hspace="8" src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg">
 
 #### November 2017
 - Our population study of *Sclerotinia sclerotiorum* populations is now accepted for publication in *PeerJ*!  Congratulations to Zhian *et al.* on this publication!
