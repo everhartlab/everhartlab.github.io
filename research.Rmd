@@ -14,6 +14,7 @@ output:
 In the Everhart lab, our overarching goal is to understand how and why disease outbreaks occur.  Using molecular and quantitative data analysis approaches, we seek to determine factors that may be predictive of disease outbreaks.  Such factors may involve aspects of the host (cultivar or species affected), management technique (crop rotation, tilling, or pesticide applications), environment (local temperatures, rainfall/irrigation, soil type), pathogen phenotype (aggressiveness, fungicide sensitivity, growth rate), or biology of the pathogen (mechanisms of spread, sexual recombination). Basic knowledge of these factors enable efficient disease management decisions.
 
 <br>
+<br>
 <center>
 ![](images/ResearchTopics.png){.custom_span}
 </center>
