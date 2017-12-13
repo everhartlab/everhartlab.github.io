@@ -9,7 +9,8 @@ output:
 Despite the popularized image of a lone scientist, the reality is that science is actually quite social.  Beyond the literature, your peers and other scientists will represent a key source of ideas, references, feedback, and skills.  By joining our lab group, you have become a member of the team. 
 
 <br>
-![](images/ThomasMiorini-IsabelChavez_PetriPlates2017.JPG){.custom_wide .shadow}
+
+![](images/JoshHanson2015.JPG "Josh Hanson, Undergraduate 2015"){.custom_image .shadow .grow}
 
 ### Undergraduate Students
 
@@ -24,6 +25,8 @@ Deciding to attend graduate school and selecting an advisor for your studies is 
 <br>
 
 ### Postdoctoral Scholars
+
+![](images/ThomasMiorini-IsabelChavez_PetriPlates2017.JPG){.custom_wide .shadow}
 
 Funding for postdoctoral scholars is limited and I will advertise on my website as I have funding available.  Please also consider seeking funding from federal, private, and governmental agencies.  If you are interested in applying for a fellowship, please contact me at least 1-year before your intended start date so that we can work together to develop your proposal.  My email address is everhart@unl.edu
 
