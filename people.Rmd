@@ -19,7 +19,7 @@ output:
 ### Postdoctoral Scholars
 
 
-![Zhian Kamvar](images/ZhianKamvar2017.jpg "Zhian Kamvar"){.custom_circle .grow fig.cap="Zhian"}
+![](images/ZhianKamvar2017.jpg "Zhian Kamvar"){.custom_circle .grow fig.cap="Zhian"}
 
 - <a href="https://zkamvar.github.io/"> Zhian Kamvar</a>, Ph.D., Jan. 2017 to **present**
 
@@ -50,12 +50,15 @@ output:
 <br>
 
 ### Undergrad Assistants
+
 - Audrey Vega, Biological Systems Engineering Major, November 2017 to **present**
+
 - Isabel Chavez, Biological Systems Engineering Major, November 2017 to **present**
 
 <br>
 
 ### Departmental Assistant
+
 - Jimin Kamvar, *Digitial Communications Liaison* and website content manager for UNL Department of Plant Pathology, September 2017 to **present**
 
 <br>
@@ -63,23 +66,33 @@ output:
 ---
 
 ### Past Members 
+
 *Listed in reverse chronological order*
 
 - Anthony Pannullo, undergraduate in Biological Sciences
     - Anthony is now a graduate student in the microbiology program at the University of Iowa
+
 - Morgan Thompsen, undergraduate in Biological Sciences
+
 - Josh Hanson, undergraduate in Biological Systems Engineering
+
 - B. Sajeewa Amaradasa, postdoctoral scholar 2014-2016
     - Sajeewa is now a postdoc with Nick DuFault at the University of Florida
+
 - Sarah Campbell, Graduate of Biological Sciences
     - Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+
 - Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. 
     - Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
 
 <br>
 
 ### Collaborators
+
 - Guido Schnable, Clemson University
+
 - Jim Steadman, University of Nebraska
+
 - Anthony Adesemoye, University of Nebraska WCREC
+
 - Amauri Bogo, Universidade do Estado de Santa Catarina, Brazil
