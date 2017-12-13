@@ -13,12 +13,15 @@ This workshop was developed in the summer of 2017 as a way to introduce scientis
 
 <br>
 
-<img style="float: right;" src="images/IntroRWorkshop2017.png" width="240px">
+![](images/IntroRWorkshop2017.png){.custom_wide .grow .shadow}
 
 #### This workshop has been or will be offered:
+
 - October 16th, 2017 at Ohio State University, Wooster, OH (~20 participants)
 https://everhartlab.github.io/IntroR-at-OSU/
+
 - June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)
+
 - May 24th, 2017 at the University of Nebraska, Lincoln, NE (50+ participants)
  https://everhartlab.github.io/IntroR/
 
@@ -26,7 +29,7 @@ https://everhartlab.github.io/IntroR-at-OSU/
 <br>
 
 ### Population Genetics in R
-Analyzing population genetic data can be challenging because it often requires the use of different softwares to perform all your analyses.  However, R is a great way to analyze your data all in one place.  A milestone in population genetic analyses in R was the development of the R package poppr by Kamvar et al. (2014).  The poppr package places these analyses all under one roof in an easy-to-use format.  I was fortunate to work with Zhian on poppr while in the Grunwald Lab at Oregon State University.  To make analyzing your population genetic data using poppr even easier, we wrote the following step-by-step tutorial: Population Genetic Analysis in R
+Analyzing population genetic data can be challenging because it often requires the use of different softwares to perform all your analyses.  However, R is a great way to analyze your data all in one place.  A milestone in population genetic analyses in R was the development of the R package poppr by Kamvar et al. (2014).  The poppr package places these analyses all under one roof in an easy-to-use format.  I was fortunate to work with Zhian on poppr while in the Grunwald Lab at Oregon State University.  To make analyzing your population genetic data using poppr even easier, we wrote the following step-by-step tutorial: [Population Genetic Analysis in R](https://grunwaldlab.github.io/Population_Genetics_in_R/)
 
 <br>
 
