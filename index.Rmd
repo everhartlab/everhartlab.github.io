@@ -114,9 +114,9 @@ We hosted two visiting speakers this month:
 
 #### January 2017
 
-![](images/NSI-meeting2017Everhart.jpg "Sydney at NSI Meeting"){.custom_image .shadow .grow}
-
 - Dr. Zhian Kamvar joins the Everhart Lab as postdoc to work with genomes and genetic data.  Welcome!
+
+![](images/NSI-meeting2017Everhart.jpg "Sydney at NSI Meeting"){.custom_image .shadow .grow}
 
 - Thomas' manuscript on the effect of irrigation level for optimal chemigation control of *Sclerotinia sclerotiorum* is now available  online and will appear in April 2017 issue of Crop Protection. Sydney Everhart at National Sclerotinia Initiative
 
@@ -140,7 +140,7 @@ We hosted two visiting speakers this month:
 
 #### September 2016
 
-![](images/EverhartLab_Fall2016.jpg){.custom_wide .shadow .grow}
+![](images/EverhartLab_Fall2016.jpg "Everhart Lab Fall 2016"){.custom_wide .shadow .grow}
 
 - Submitted Thomas Miroini's manuscript on chemigation and white mold control to Crop Protection -- cross your fingers!
 
@@ -149,6 +149,8 @@ We hosted two visiting speakers this month:
 #### August 2016
 
 - Edgar Nieto-Lopez receives a fellowship from CONACyT Mexico to support his research on *Sclerotinia sclerotiorum* from the U.S. and Mexico.  He arrived at UNL this fall to begin doctoral studies. Welcome, Edgar!
+
+![](images/APS_2016_LuckyBrijeshSydney.jpg "Lucky Mehra, Brijesh Karakat, Sydney Everhart"){.grow .custom_image .shadow}
 
 - Thank you, APS, for the Schroth Faces of the Future Award!  This award provided funds for travel to the national meeting to give a in the Schroth Symposium at the APS national meeting.
 

@@ -8,12 +8,16 @@ output:
 
 <br>
 
+![](images/GrapeMildewDecisionSupport2.jpg){.custom_image .grow .shadow}
+
 ## Courses at UNL
 
 ### Ecology & Management of Plant Pathogens
-This is a graduate level course on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health.  Course format is a mixture of lectures, discussions, and student presentations.  Below are pictures from a class exercise, where students turned epidemiology manuscripts into infographics!
+This is a graduate level course on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health.  Course format is a mixture of lectures, discussions, and student presentations.  At right is a picture from a class exercise, where students turned epidemiology manuscripts into infographics!
 
 <br>
+
+![](images/DiseaseDynamicsEvolution.png){.custom_image .grow .shadow}
 
 ### Disease Dynamics & Evolution
 This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med.  
@@ -35,16 +39,24 @@ This workshop was developed in the summer of 2017 as a way to introduce scientis
 
 <br>
 
+
+![](images/IntroRWorkshop2017.png){.custom_wide .grow .shadow}
+
 #### This workshop has been or will be offered:
+
 - May 24th, 2017 at the University of Nebraska, Lincoln, NE (50+ participants)
  https://everhartlab.github.io/IntroR/
+ 
 - June 14th, 2017 at the APS North Central Division Meeting in Champaigne, IL (20+)
+
 - October 16th, 2017 at Ohio State University, Columbus, OH
 https://everhartlab.github.io/IntroR-at-OSU/
+
+
 
 <br>
 
 ### Population Genetics in R
-Analyzing population genetic data can be challenging because it often requires the use of different softwares to perform all your analyses.  However, R is a great way to analyze your data all in one place.  A milestone in population genetic analyses in R was the development of the R package poppr by Zhian Kamvar et al. (2014).  The poppr package places these analyses all under one roof in an easy-to-use format.  I was fortunate to work with Zhian on poppr while in the Grunwald Lab at Oregon State University.  To make analyzing your population genetic data using poppr even easier, we wrote the following step-by-step tutorial: Population Genetic Analysis in R
+Analyzing population genetic data can be challenging because it often requires the use of different softwares to perform all your analyses.  However, R is a great way to analyze your data all in one place.  A milestone in population genetic analyses in R was the development of the R package poppr by Zhian Kamvar et al. (2014).  The poppr package places these analyses all under one roof in an easy-to-use format.  I was fortunate to work with Zhian on poppr while in the Grunwald Lab at Oregon State University.  To make analyzing your population genetic data using poppr even easier, we wrote the following step-by-step tutorial: [Population Genetic Analysis in R](https://grunwaldlab.github.io/Population_Genetics_in_R/)
 
 ----
