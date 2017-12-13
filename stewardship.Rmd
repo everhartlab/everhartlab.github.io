@@ -19,7 +19,8 @@ On a few rare occasions, poor lab stewardship has been observed in our lab.  The
 <br>
 
 ### On Dishes
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 300px;" src="images/DirtyDishes.JPG" hspace="8">
+
+![](images/DirtyDishes.JPG){.custom_wide .grow .shadow}
 
 Always make sure to clean your dishes after a project. When you are planning an experiment, good lab stweardship means you've planned time to do the dishes too. Running out of time before classes or having conducted a time-consumiming project are not an excuse for not cleaning your dishes. Leaving dirty dishes in the sink prevents other people from being able to use it. 
 
@@ -31,7 +32,8 @@ Always make sure to clean your dishes after a project. When you are planning an 
 <br>
 
 #### Storing Petri plates
-<img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 230px;" src="images/ImproperPlateStorage.jpg" hspace="8">
+
+![](images/ImproperPlateStorage.jpg){.custom_image .grow .shadow}
 
 Label and store your cultures in a way that makes it easy to know who owns them and what they are. It is best to store all of your culture inside ventilated plastic boxes and to use tape on the outside of the box to clearly label the contents and indicate the owner. Poorly labeled or stored plates are problematic. Stacks of plates that are not inside boxes are likely going to be knocked over.
 
@@ -43,7 +45,8 @@ Macroscopic symptoms of mite contamination include: tracks or trails through con
 
 
 #### How to store your items
-<img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 180px;" src="images/RiskyStorage.jpg" hspace="8">
+
+![](images/RiskyStorage.jpg){.custom_image .grow .shadow}
 
 
 Always store your items in a safe way that keeps things organized and prevents accidents. Storing items precariously means they can be easily knocked over, possibly destroying the contents, contaminating storage containers, and creating a mess.  For example, in the photo at the right, there were no labels on these tubes, so for all I know they contain some toxic or hazardous substance. Although this may be the "quick and easy" way to store some items, it does not follow the lab safety protocols and could be dangerious to your lab mates. Always plan in time to keep your items organize, labeled, and stowed properly. 
@@ -53,7 +56,8 @@ Always store your items in a safe way that keeps things organized and prevents a
 
 
 #### Storage in the -80C freezer
-<img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 160px;" src="images/UnorganizedFreezer.jpg" hspace="8">
+
+![](images/UnorganizedFreezer.jpg){.custom_image .shadow .grow}
 
 Store all of your items inside labeled white boxes, placed into the metal shelving that is inside the freezer. Mark the white box before you put it inside the freezer (markers cannot write on frozen boxes). If you know you'll be filling several boxes, take time to label one of the metal racks as yours so that all of your boxes are neatly organized in one place. 
 
@@ -69,7 +73,7 @@ Any USDA-APHIS regulated cultures stored in the -80C must be labeled accordingly
 
 #### Empty the bin when full
 
-<img style="float: right; border: 3px solid black; width: auto; height: auto; max-width: 260px; max-height: 200px" src="images/BiohazardBinFull.JPG" hspace="8">
+![](images/BiohazardBinFull.JPG){.custom_image .shadow .grow}
 
 Once a biohazard bag is full, you are responsible for taking care of the trash. Remove the bag and contents from the bucket, close the bag with a twist tie (make sure to leave air gap), and place the bag onto a tray in preparation to be autoclaved. Place a new liner into the trash bin. Do not leave the biohazard bins full for the next person to clean up after you. This is an annoyance and also makes a place where spore-bearing cultures can proliferate and serve to contaminate the rest of the cultures in our lab. 
 
@@ -78,7 +82,7 @@ Once a biohazard bag is full, you are responsible for taking care of the trash. 
 
 #### Autoclave the waste too
 
-<img style="float:right; border: 3px solid black; width: auto; height: auto; max-width: 260px; max-height: 220px" src="images/AutoclaveYourTrash.jpg" hspace="8">
+![](images/AutoclaveYourTrash.jpg){.custom_image .shadow .grow}
 
 If you are the person who emptied the waste bin, you are also responsible for autoclaving and disposing the waste. However, it's not always practical or possible to autoclave a single bag of waste, since the autoclaves are sometimes in full use. Also, our autoclave can fit more than one bag, so to make best use of resources, it may be necessary to stow the tray with closed bag and wait until another bag is full before loading them into the autoclave. 
 
