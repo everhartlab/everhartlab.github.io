@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-![Sydney Everhart](images/SydneyEverhart_2016.jpg){.custom_circle .grow}
+![](images/SydneyEverhart_2016.jpg "Sydney Everhart"){.custom_circle .grow}
 
 #### Assistant Professor and Quantitative Ecologist
 #### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
