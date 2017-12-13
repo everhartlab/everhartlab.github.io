@@ -45,6 +45,17 @@
 }
 
 
+.custom_circle {
+  float: right; 
+  border: 2px solid black; 
+  max-width: 18%;
+  height: auto; 
+  clear: both;
+  border-radius: 50%;
+  margin: 8px;
+  background: #000000;
+}
+
 
 .grow { transition: all .5s ease-in-out; }
 .grow:hover { transform: scale(2); }

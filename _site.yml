@@ -44,3 +44,4 @@ output:
     css: custom.css
     include:
       after_body: _footer.html
+    

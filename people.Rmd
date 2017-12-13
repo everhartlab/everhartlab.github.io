@@ -7,22 +7,40 @@ output:
 ---
 
 <br>
+![](images/SydneyEverhart.JPG "Sydney Everhart"){.custom_circle .grow}
 
 ### PI and Lab manager
+
 - <a href="sydney-everhart.html"> Sydney Everhart</a>, Ph.D.
 
 <br>
 
+
 ### Postdoctoral Scholars
+
+
+![Zhian Kamvar](images/ZhianKamvar2017.jpg "Zhian Kamvar"){.custom_circle .grow fig.cap="Zhian"}
+
 - <a href="https://zkamvar.github.io/"> Zhian Kamvar</a>, Ph.D., Jan. 2017 to **present**
+
+![](images/MargaritaMarroquin-Guzman_2017.jpeg "Margarita Marroquin-Guzman"){.custom_circle .grow}
+
 - Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**
+
+![](images/ThomasMiorini_InoculatingFlowers.JPG "Thomas Miorini"){.custom_circle .grow}
+
 - Thomas J.J. Miorini, Ph.D., April 2016 to April 2017; re-joining our group in 2018 
 
 <br>
 
 ### Graduate Assistants
 - <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**
+
+![](images/EdgarNieto2017.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
+
 - <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**
+
+![](images/NikitaGambhir2016.JPG "Nikita Gambhir"){.custom_circle .grow}
 
 <br>
 

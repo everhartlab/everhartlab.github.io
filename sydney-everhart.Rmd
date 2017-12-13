@@ -6,7 +6,7 @@ output:
     toc_float: true
 ---
 
-<img style="float: right; border-radius: 50%;" src="images/SydneyEverhart_2016.jpg" width="130px">
+![Sydney Everhart](images/SydneyEverhart_2016.jpg){.custom_circle .grow}
 
 #### Assistant Professor and Quantitative Ecologist
 #### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
