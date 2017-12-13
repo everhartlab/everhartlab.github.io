@@ -16,13 +16,13 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### December 2017
 
-![](images/ThomasMiorini_InoculatingFlowers.JPG){.custom_image .shadow}
+![](images/ThomasMiorini_InoculatingFlowers.JPG){.custom_image .shadow .grow}
 
 - Paper in *PeerJ* now published! Check it out. https://peerj.com/articles/4152/  
 - We submitted a total of five abstracts for the APS-ICPP 2018 meeting, including recent work by Thomas to compare ability of different fungicides to protect flowers from infection by *Sclerotinia sclerotiorum* ascospores (pictured right). 
 - I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. Great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor and plant pathologist, Dr. Mike Boehm.
 
-![](images/DinsdaleFamilyFacultyNomination_Everhart.jpg){.custom_image .shadow}
+![](images/DinsdaleFamilyFacultyNomination_Everhart.jpg){.custom_image .shadow .grow}
 
 
 #### November 2017
@@ -31,11 +31,15 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
  - New undergraduate students, Audrey Vega and Isabel Chavez, are selected to join the Everhart Lab as new lab helpers.  Welcome, Audrey and Isabel!
  - The USDA Women and Minorities in Agricultural STEM program will be funding a project that I co-developed with collaborators Jenny Keshwani, Leah Sandall, Julie Obermyer, and Deepak Keshwani, to create a mentoring program for youth to connect with career professionals who look like them.  Our program is called *Cultivate ACCESS* and will be launched in the spring of 2018!
 - We hosted two visiting speakers this month:
+![](images/JerryWeiland_ForestPathogens_2017Seminar.JPG){.custom_image .shadow .grow}
     + At the beginning of the month, Dr. Jerry Weiland of the USDA-ARS Horticultural      Crops Research Unit visited our department and gave a comprehensive talk on   characterization of soilborne pathogens that affect tree production in the Pacific Northwest. This talk was highly praised by many in our department!
+![](images/StacyKrueger-Hadfield_2017Seminar.JPG){.custom_image .shadow .grow}
+
     + For the Biotechnology and Life Science Seminar Series, we were fortunate to be able to get Dr. Stacy Krueger-Hadvield from the University of Alabama at Birmingham to visit and give us an exciting talk on the mysterious lives of algae. Belive it or not, plant pathogens and algae have a lot in common when it comes to population genetics! Complex mating systems == complex data. Great talk, Stacy!
 
 #### October 2017
 
+![](images/IntroR-at-OSU-flight.png){.custom_image .shadow .grow}
 - Invited by Dr. Anne Dorrance, I taught our Intro to R for Plant Pathologists workshop to ~20 grad students and postdocs located in Wooster and video-linked to Columbus.  The following day, I gave a seminar for the department and had a great time meeting students, faculty, and staff.
 - Our manuscript on the largest population genetic study of *Sclerotinia sclerotiorum* that were collected over a 10-year period is now out as a *PeerJ Preprints* and under review at *PeerJ*.
 - Jimin Kamvar has joined the Department of Plant Pathology to serve as a *Digital Communications Liaison*. Her work will me keep the department website much more timely and updated.  Welcome, Jimin!
@@ -47,13 +51,13 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### August 2017
 
-![](images/Everhart_CoffeeRust.JPG){.custom_image .shadow}
+![](images/Everhart_CoffeeRust.JPG){.custom_image .shadow .grow}
 
 - Invited by Drs. Eduardo Mizubuti and David Jaccoud Filho, I gave two presentations at the 16th International Sclerotinia Workshop in Uberlandia, Brazil. This also included a post-meeting field trip to see agricultural production in the region and my first visit to a coffee plantation (with rust!!).
 - Edgar, Zhian, Thomas, Nikita, and I are headed to the national APS meeting in San Antonio, TX.  Check out our posters if you're there.
 - Nikita received the Donald E. Munnecke Student Travel Award from APS to attend the national meeting.  Well done!
 
-![](images/NikitaGambhir_2017.jpg){.custom_image .shadow}
+![](images/NikitaGambhir_2017.jpg){.custom_image .shadow .grow}
 
 #### July 2017
 
@@ -62,13 +66,13 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### June 2017
 
-![](images/IntroRWorkshop2017.png){.custom_wide .shadow}
+![](images/IntroRWorkshop2017.png){.custom_wide .shadow .grow}
 
 - Edgar, Anthony, and Nikita each received a travel award to attend the North Central APS meeting in Champaigne, IL.  Congratulations on your excellent poster presentations!
 - Our Intro to R Workshop, co-taught with Dr. Alex Lipka of Univ. of Illinois at Urbana-Champaigne, was a big success at the 2017 North Central APS Meeting.  We had more than 20 people coding in R.
 - Welcome to Dr. Margarita Marroquin-Guzman!  Starting June 6th, Margarita will be working in our lab as a postdoctoral scholar on a project to characterize the soybean / covercrop microbiomes with different covercrop rotations.  Welcome!
 
-![](images/RWorkshopUNL-May2017.jpg){.custom_wide .shadow}
+![](images/RWorkshopUNL-May2017.jpg){.custom_wide .shadow .grow}
 
 
 #### May 2017
@@ -77,7 +81,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### April 2017
 
-![](images/large_EdgarNietoApril2017UNLSpringResFair.jpeg){.custom_image .shadow}
+![](images/large_EdgarNietoApril2017UNLSpringResFair.jpeg){.custom_image .shadow .grow}
 
 - Nikita wins award for her poster presented at the UNL Spring Research Fair -- congratulations, Nikita!
 - Edgar, Nikita, and Anthony presented posters at the UNL Spring 2017 Research Fair (Edgar, right)
@@ -92,7 +96,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### January 2017
 
-![](images/NSI-meeting2017Everhart.jpg){.custom_image .shadow}
+![](images/NSI-meeting2017Everhart.jpg){.custom_image .shadow .grow}
 
 - Dr. Zhian Kamvar joins the Everhart Lab as postdoc to work with genomes and genetic data.  Welcome!
 - Thomas' manuscript on the effect of irrigation level for optimal chemigation control of *Sclerotinia sclerotiorum* is now available  online and will appear in April 2017 issue of Crop Protection. Sydney Everhart at National Sclerotinia Initiative
@@ -114,7 +118,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### September 2016
 
-![](images/EverhartLab_Fall2016.jpg){.custom_wide .shadow}
+![](images/EverhartLab_Fall2016.jpg){.custom_wide .shadow .grow}
 
 - Submitted Thomas Miroini's manuscript on chemigation and white mold control to Crop Protection -- cross your fingers!
 - Group photo taken (L to R): Everhart Lab in the Fall 2016: Anthony Pannullo, Thomas Miorini, Nikita Gambhir, Josh Hanson, Morgan Thompsen, Edgar Nieto, and Sydney Everhart
@@ -126,7 +130,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### June 2016
 
-![](images/NCAPSAwardees_2016.jpg){.custom_wide .shadow}
+![](images/NCAPSAwardees_2016.jpg){.custom_wide .shadow .grow}
 
 - Nikita Gambhir (second from left below) wins third place for her poster presented at the North Central Division APS meeting in Minneapolis and awarded a travel award to go there.  Double-win!
 
@@ -166,7 +170,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 #### October 2014 
 
-![](images/DSCN1491.JPG){.custom_image .shadow}
+![](images/DSCN1491.JPG){.custom_image .shadow .grow}
 
 - I gave a presentation on work in my lab as part of an NSF-funded meeting to discuss development of the Center for Emergence, Evolution, and Management of Pesticide Resistance (CEEMPR), which would establish a university-industry partnership
 
@@ -174,7 +178,7 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 - Welcome to Sarah Campbell (pictured right) and Josh Hanson, joining the lab as undergraduate lab assistants to work on the sub-lethal fungicide sensitivity project
 
-![](images/BSajeewaAmaradasa_2014.JPG){.custom_image .shadow}
+![](images/BSajeewaAmaradasa_2014.JPG){.custom_image .shadow .grow}
 
 #### August 2014 
 

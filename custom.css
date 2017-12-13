@@ -17,7 +17,7 @@
 
 .custom_center {
   border: 2px solid black; 
-  max-width: 30%;
+  max-width: 40%;
   height: auto; 
   clear: both;
   border-radius: 5px;
@@ -43,3 +43,8 @@
   border-radius: 5px;
   margin: 8px;
 }
+
+
+
+.grow { transition: all .5s ease-in-out; }
+.grow:hover { transform: scale(2); }
