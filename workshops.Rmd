@@ -17,6 +17,8 @@ This workshop was developed in the summer of 2017 as a way to introduce scientis
 
 #### This workshop has been or will be offered:
 
+- July 2018, our workshop will be offered at the ICPP/APS National meeting in Boston, MA
+
 - October 16th, 2017 at Ohio State University, Wooster, OH (~20 participants)
 https://everhartlab.github.io/IntroR-at-OSU/
 
@@ -34,7 +36,9 @@ Analyzing population genetic data can be challenging because it often requires t
 <br>
 
 #### I was a co-instructor at the following workshops:
+
 - 2014 at Oregon State University, Corvallis, OR (~40 participants)
+
 - 2014 at the APS National Meeting in Austin, TX (~75 participants)
 
 ----
