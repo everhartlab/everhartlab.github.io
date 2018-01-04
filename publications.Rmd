@@ -1,14 +1,10 @@
 ---
-title: "Research in the Everhart Lab"
+title: "Publications"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
-<br>
-
-## Publications
-
 <br>
 
 ### **Peer-Reviewed Publications:**
