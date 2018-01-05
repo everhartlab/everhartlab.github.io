@@ -19,47 +19,44 @@ output:
 ### Postdoctoral Scholars
 
 
-![](images/ZhianKamvar2017.jpg "Zhian Kamvar"){.custom_circle .grow fig.cap="Zhian"}
+![](images/ThomasMiorini_InoculatingFlowers.JPG "Thomas J.J. Miorini"){.custom_circle .grow}
 
-- <a href="https://zkamvar.github.io/"> Zhian Kamvar</a>, Ph.D., Jan. 2017 to **present**
+- <a haref="https://plantpathology.unl.edu/thomas-justo-miorini">Thomas J.J. Miorini</a>, Ph.D., April 2016 to April 2017; January 2018 to **present**
+
+![](images/ZhianKamvar2017.jpg "Zhian N. Kamvar"){.custom_circle .grow fig.cap="Zhian"}
+
+- <a href="https://zkamvar.github.io/"> Zhian N. Kamvar</a>, Ph.D., Jan. 2017 to **present**
 
 ![](images/MargaritaMarroquin-Guzman_2017.jpeg "Margarita Marroquin-Guzman"){.custom_circle .grow}
 
 - Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**
 
-![](images/ThomasMiorini_InoculatingFlowers.JPG "Thomas Miorini"){.custom_circle .grow}
-
-- Thomas J.J. Miorini, Ph.D., April 2016 to April 2017; re-joining our group in 2018 
 
 <br>
 
 ### Graduate Assistants
-- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**
-
-![](images/EdgarNieto2017.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
 
 - <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**
 
 ![](images/NikitaGambhir2016.JPG "Nikita Gambhir"){.custom_circle .grow}
 
+- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**
+
+![](images/EdgarNieto2017.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
+
+
 <br>
 
 ### Lab Assistant
-- Alex N. Johnson, summer 2017 to **present**
+- Alex N. Johnson, July 2017 to **present**
 
 <br>
 
 ### Undergrad Assistants
 
-- Audrey Vega, Biological Systems Engineering Major, November 2017 to **present**
+- Audrey Vega, Biological Systems Engineering Major, Nov. 2017 to **present**
 
-- Isabel Chavez, Biological Systems Engineering Major, November 2017 to **present**
-
-<br>
-
-### Departmental Assistant
-
-- Jimin Kamvar, *Digitial Communications Liaison* and website content manager for UNL Department of Plant Pathology, September 2017 to **present**
+- Isabel Chavez, Biological Systems Engineering Major, Nov. 2017 to **present**
 
 <br>
 
@@ -67,27 +64,27 @@ output:
 
 ### Past Members 
 
-*Listed in reverse chronological order*
+*Listed in reverse chronological order:*
 
-- Anthony Pannullo, undergraduate in Biological Sciences
-    - Anthony is now a graduate student in the microbiology program at the University of Iowa
+- **Jimin Kamvar**, *Digital Communications Liaison* and content manager for UNL Department of Plant Pathology website, September to December, 2017.
 
-- Morgan Thompsen, undergraduate in Biological Sciences
+- **Anthony Pannullo**, undergraduate in Biological Sciences and former lab assistant / honors thesis student from March 2016 to July 2017.  Anthony is now a graduate student in the microbiology program at the University of Iowa.
 
-- Josh Hanson, undergraduate in Biological Systems Engineering
+- **Morgan Thompsen**, undergraduate in Biological Sciences and former lab assistant from March 2016 to December 2016.
 
-- B. Sajeewa Amaradasa, postdoctoral scholar 2014-2016
-    - Sajeewa is now a postdoc with Nick DuFault at the University of Florida
+- **Josh Hanson**, undergraduate in Biological Systems Engineering and former lab assistant from September 2014 to December 2016.
 
-- Sarah Campbell, Graduate of Biological Sciences
-    - Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+- **B. Sajeewa Amaradasa**, postdoctoral scholar from August 2014 to July 2016 and now a postdoc with Nick DuFault at the University of Florida
 
-- Flavio Nunes Da Silva, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil. 
-    - Visiting summer 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
+- **Sarah Campbell**, undergraduate in Biological Sciences and former lab assistant from September 2014 to May 2016. Sarah is now a graduate student in the Department of Plant Pathology at the University of Georgia, co-supervised by Drs. Phil Brannen and Harald Scherm.
+
+- **Flavio Nunes Da Silva**, Agronomic Engineering major at Federal University of Sao Carlos, Araras, Brazil and lab intern during the summer of 2015 as part of the Brazil Scientific Mobility "Science without Borders" Program.
 
 <br>
 
 ### Collaborators
+
+*Active research collaborators*
 
 - Guido Schnable, Clemson University
 
@@ -96,3 +93,7 @@ output:
 - Anthony Adesemoye, University of Nebraska WCREC
 
 - Amauri Bogo, Universidade do Estado de Santa Catarina, Brazil
+
+- Gerard Adams, University of Nebraska
+
+- Denita Hadziabdic-Guerry, University of Tennessee
