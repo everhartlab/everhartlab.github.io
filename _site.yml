@@ -38,7 +38,7 @@ output_dir: "."
 output:
   html_document:
 #prettydoc::html_pretty:
-    theme: journal         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
+    theme: readable         ## journal, readable, paper, lumen, cosmo, cerulean, flatly,
                             ## united, yeti, spacelab, sandstone, simplex, yeti
     highlight: 
     css: custom.css
