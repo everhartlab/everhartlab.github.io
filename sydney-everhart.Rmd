@@ -19,7 +19,7 @@ My research interests are to improve our understanding of how and why disease ou
 <br>
 
 ### Background
-My background is in quantitative epidemiology and population genetics / genomics. My Ph.D. work utilized a 3-dimensional approach to characterize the spatial pattern of brown rot disease epidemics within peach tree canopies and developed molecular tools to examine the corresponding pathogen population. As a USDA-AFRI-NIFA postdoctoral fellow at Oregon State University, I utilized whole-genome sequencing and Genotyping-by-Sequencing to examine population variation in Phytophthora ramorum, causal agent of Sudden Oak Death. 
+My background is in quantitative epidemiology and population genetics / genomics. My Ph.D. work utilized a 3-dimensional approach to characterize the spatial pattern of brown rot disease epidemics within peach tree canopies and developed molecular tools to examine the corresponding pathogen population. As a USDA-AFRI-NIFA postdoctoral fellow at Oregon State University, I utilized whole-genome sequencing and Genotyping-by-Sequencing to examine population variation in *Phytophthora ramorum*, causal agent of Sudden Oak Death. 
 
 <br>
 
@@ -34,9 +34,7 @@ Aside from research and teaching, I am passionate about being an advocate for wo
 <br>
 
 ### Personal
-When not doing science, I can either be found gardening or mountain biking the paths and trails of Lincoln (we have more than 120 miles!).
 
-<br>
-<center>
-<img src="images/SydneyCompostPile.jpg" style="border-radius:50%;" width="220px">
-</center>
+![](images/HawkeyeGame2017.jpg "Hawkeye Game 2017"){.custom_image .shadow .grow}
+
+When not doing science, I prefer to be outdoors. My hobbies include gardening and collecting unusual plants. I also enjoy mountain biking the paths and trails of Lincoln and try to ride to work on a daily basis, even through ice and snow (studded tires are a must through winters in the midwest!). As an alumnus and former member of the University of Iowa Hawkeye Marching Band, I also enjoy going to one or two Hawkeye football games per year with my dad and sister, who still reside in Iowa.
