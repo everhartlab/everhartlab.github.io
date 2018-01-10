@@ -21,11 +21,7 @@ This is a graduate level course offered every spring on the biology, development
 ![](images/DiseaseDynamicsEvolution.png){.custom_image .grow .shadow}
 
 ### Disease Dynamics & Evolution 
-This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med.  
-
-During the 2015-2016 academic year, I comprehensively reviewed this course while participating in the UNL Peer Review of Teaching program and used that information to develop a Benchmark Teaching Portfolio. This portfolio is published on the UNL Digital Commons.  
-
-- Everhart, Sydney E., <a href="http://digitalcommons.unl.edu/prtunl/20"> "PLPT 496/892: Disease Dynamics & Evolution—A Peer Review of Teaching Project Benchmark Portfolio"</a> (2016). UNL Faculty Course Portfolios. 20.
+This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med.  During the 2015-2016 academic year, I comprehensively reviewed this course while participating in the UNL Peer Review of Teaching program and used that information to develop a Benchmark Teaching Portfolio[^1]. This portfolio is <a href="http://digitalcommons.unl.edu/prtunl/20"> published online</a> on the UNL Digital Commons.  
 
 <br>
 
@@ -53,3 +49,5 @@ This course is taught by Dr. Tamra Jackson-Ziems and I was a co-instructor in 20
 <img style="border: 3px solid black; width: auto; height: auto; max-width: 700px;" src="images/DiseaseTour2.jpg">
 
 </center>
+
+[^1]: Everhart, Sydney E., <a href="http://digitalcommons.unl.edu/prtunl/20"> "PLPT 496/892: Disease Dynamics & Evolution—A Peer Review of Teaching Project Benchmark Portfolio"</a> (2016). UNL Faculty Course Portfolios. 20.
