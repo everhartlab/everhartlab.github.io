@@ -10,6 +10,17 @@
 }
 
 
+.custom_imagesm {
+  float: right; 
+  border: 1px solid black; 
+  max-width: 23%;
+  height: auto; 
+  clear: both;
+  border-radius: 5px;
+  margin: 8px;
+  background: #000000;
+}
+
 .custom_sbs {
   border: 2px solid black; 
   max-width: 30%;
