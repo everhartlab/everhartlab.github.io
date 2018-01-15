@@ -21,10 +21,8 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 - Becky Higgins of Jim Steadman's lab and Zhian (pictured right) have their poster ready for the National Sclerotinia Initiative meeting this Wednesday, January 17th in Minneapolis, MN. 
 
 - The Everhart Lab has created a new *Computing Cafe* in our department that is open daily on Tuesday to Friday from 3:30 to 5:00pm in the Department of Plant Pathology Conference room located in 406B Plant Sciences Hall. Examples of computing tools that will be used in the cafe include:
-![](images/ComputingCafeNowOpen.jpg "Computing Cafe"){.custom_imagesm .shadow .grow}
-![](images/ComputingCafe-Members1.jpg "Cafe Visitors"){.custom_imagesm .shadow .grow}
-    - Canvas
-    - Drupal 7 and 8 (UNL web framework)
+    - Canvas  ![](images/ComputingCafeNowOpen.jpg "Computing Cafe"){.custom_imagesm .shadow .grow}
+    - Drupal 7 and 8 (UNL web framework) ![](images/ComputingCafe-Members1.jpg "Cafe Visitors"){.custom_imagesm .shadow .grow}
     - GitHub
     - R, RStudio, and various R packages
     - HCC-related command-line work
