@@ -47,10 +47,6 @@ output:
 
 <br>
 
-### Lab Assistant
-- Alex N. Johnson, July 2017 to **present**
-
-<br>
 
 ### Undergrad Assistants
 
@@ -59,12 +55,15 @@ output:
 - Isabel Chavez, Biological Systems Engineering Major, Nov. 2017 to **present**
 
 <br>
+<br>
 
 ---
 
 ### Past Members 
 
 *Listed in reverse chronological order:*
+
+- **Alex N. Johnson**, *Lab Assistant* July 2017 to January 2018. Alex will be attending medical school this fall.
 
 - **Jimin Kamvar**, *Digital Communications Liaison* and content manager for UNL Department of Plant Pathology website, September to December, 2017.
 
