@@ -29,6 +29,8 @@ navbar:
           href: expectations.html
         - text: "Good Lab Stewardship"
           href: stewardship.html
+        - text: "Time Management"
+          href: time-management.html
     - text: "Join Our Lab"
       href: join.html
     - text: "About Me"

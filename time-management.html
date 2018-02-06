@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Time Management</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+
+.section h2 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h3 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h4 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h5 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h6 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">NEWS</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="people.html">People</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Current Projects</a>
+    </li>
+    <li>
+      <a href="publications.html">Publications</a>
+    </li>
+    <li>
+      <a href="funding.html">Funding</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="courses.html">Courses</a>
+    </li>
+    <li>
+      <a href="workshops.html">Workshops</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lab Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="welcome.html">Welcome Letter</a>
+    </li>
+    <li>
+      <a href="training.html">Safety Training</a>
+    </li>
+    <li>
+      <a href="expectations.html">Expectations for GRAs</a>
+    </li>
+    <li>
+      <a href="stewardship.html">Good Lab Stewardship</a>
+    </li>
+    <li>
+      <a href="time-management.html">Time Management</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="join.html">Join Our Lab</a>
+</li>
+<li>
+  <a href="sydney-everhart.html">About Me</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Time Management</h1>
+
+</div>
+
+
+<p><br></p>
+<div id="productivity" class="section level3">
+<h3>Productivity</h3>
+<p>We all want to be highly productive and recognized for our efforts. You can probably think of people that you would call highly productive. How do they publish so much? How do they get so much done?</p>
+<p><br></p>
+</div>
+<div id="whats-the-secret" class="section level3">
+<h3>What’s the secret?</h3>
+<p>Effective time management and prioritization is the secret. If you are already working 40-50 hours per week, your should not beat yourself up to work more hours (quantity), you should re-evaluate how you are spending your time (quality). Focus on improving the quality of the hours you already work.</p>
+<p>Using the steps below, I explain on this page how you can create a priority list for your daily and long-term tasks using the following steps: 1. Value of your work 2. Identify time commitment of that work 3. Create a priority list using both value &amp; time 4. Eliminate potential pitfalls to finalize your priority list</p>
+</div>
+<div id="value-of-your-work" class="section level3">
+<h3>Value of Your Work</h3>
+<p>I like to use a value system to identify “high pay-off” and “low pay-off” tasks. An example of a high pay-off task is anything that can be added to my CV. For example, presenting a poster or giving a presentation should receive higher priority than being asked to review a paper for a journal. Among those items that can be added to a CV, highest priority should be given to peer-reviewed, original research articles and review papers. And among those, highest priority should be given to manuscripts where you will be listed as the first or corresponding author. <strong>These publications are the most valuable and are the first piece of your CV that will be used to evaluate your productivity.</strong> Low priority should be given to non-peer reviewed items, which includes some symposia proceedings, reviewing manuscripts, and book reviews.</p>
+<div id="priority-for-your-cv-hpo-high-pay-off-lpo-low-pay-off" class="section level4">
+<h4>Priority for Your CV (HPO = high pay-off; LPO = low pay-off)</h4>
+<ol style="list-style-type: decimal">
+<li>peer-reviewed, first or corresponding author manuscripts and reviews (HPO)</li>
+<li>peer-reviewed, middle author manuscripts and reviews (HPO)</li>
+<li>teaching experience as TA or instructor (HPO)</li>
+<li>creating own professional website (HPO)</li>
+<li>first author disease notes and research notes (HPO)</li>
+<li>first author presentations (HPO)</li>
+<li>first author posters (HPO)</li>
+<li>middle author for presentations and posters (LPO)</li>
+<li>non-peer reviewed articles, such as magazine articles in popular press (LPO)</li>
+<li>book reviews (LPO)</li>
+<li>active participation in your scientific society (LPO)</li>
+<li>reviewing manuscripts (LPO)</li>
+<li>active participation in your local club (LPO)</li>
+</ol>
+</div>
+</div>
+<div id="identify-time-commitment" class="section level3">
+<h3>Identify Time Commitment</h3>
+<p>Some tasks don’t take very long, maybe a few hours of your day. Other tasks take several years, such as completing a chapter of your dissertation. It’s important to consider how much effort is required for each of the tasks you’ve just prioritized. For this, you can categorize them into “high effort” and “low effort”. For example, being asked to be a middle author for a presentation or poster will likely require low effort, whereas being the first author would be high effort.</p>
+<div id="effort-of-items-on-your-cv-le-low-effort-he-high-effort" class="section level4">
+<h4>Effort of Items on Your CV (LE = low effort; HE = high effort)</h4>
+<ol style="list-style-type: decimal">
+<li>middle author for presentations and posters (LE)</li>
+<li>peer-reviewed, middle author manuscripts and reviews (LE)</li>
+<li>active participation in your scientific society (LE)</li>
+<li>creating own professional website (LE)</li>
+<li>non-peer reviewed articles, such as magazine articles in popular press (HE)</li>
+<li>book reviews (HE)</li>
+<li>first author posters (HE)</li>
+<li>first author presentations (HE)</li>
+<li>first author disease notes and research notes (HE)</li>
+<li>teaching experience as TA or instructor (HE)</li>
+<li>reviewing manuscripts (HE)</li>
+<li>peer-reviewed, first or corresponding author manuscripts and reviews (HE)</li>
+<li>active participation in your local club (HE)</li>
+</ol>
+</div>
+</div>
+<div id="maximize-pay-off-effort" class="section level3">
+<h3>Maximize Pay-off &amp; Effort</h3>
+<p>The maximum return on your investment will come from high pay-off tasks that require low effort. Unfortunately, there are few items that will fit this category. Although something like a chapter of your dissertation is high pay-off, the effort to complete that task decreases over time. Here is our example list above, ordered according to both categories, where items with the maximum pay-off are at the top.</p>
+<div id="combined-list" class="section level4">
+<h4>Combined List</h4>
+<ol style="list-style-type: decimal">
+<li>peer-reviewed, middle author manuscripts and reviews (HPO + LE)</li>
+<li>creating own professional website (HPO + LE)</li>
+<li><strong>middle author for presentations and posters (LPO + LE)</strong></li>
+<li>peer-reviewed, first or corresponding author manuscripts and reviews (HPO + HE)</li>
+<li>teaching experience as TA or instructor (HPO + HE)</li>
+<li>first author disease notes and research notes (HPO + HE)</li>
+<li>first author presentations (HPO + HE)</li>
+<li>first author posters (HPO + HE)</li>
+<li>non-peer reviewed articles, such as magazine articles in popular press (LPO + HE)</li>
+<li><strong>active participation in your scientific society (LPO + LE)</strong></li>
+<li>book reviews (LPO + HE)</li>
+<li>reviewing manuscripts (LPO + HE)</li>
+<li>active participation in your local club (LPO + HE)</li>
+</ol>
+</div>
+</div>
+<div id="pitfalls" class="section level3">
+<h3>Pitfalls</h3>
+<p>Some of the items listed above were both low pay-off and low effort. These represent pitfalls that should be avoided. Because these tasks do not take much effort, it is easy to spend time here. However, due to the low pay-off from these activities, you should be careful to minimize the amount of time spent on these activities. Likewise, items listed as low pay-off and high effort are definitely not worth much of your time on a daily basis. Items on our list in that category are items numbered 9 to 13. So, if we eliminate those items, this is how we should be spending our time on a daily basis:</p>
+<div id="priority-list" class="section level4">
+<h4>Priority List</h4>
+<ol style="list-style-type: decimal">
+<li>peer-reviewed, middle author manuscripts and reviews (HPO + LE)</li>
+<li>creating own professional website (HPO + LE)</li>
+<li>peer-reviewed, first or corresponding author manuscripts and reviews (HPO + HE)</li>
+<li>teaching experience as TA or instructor (HPO + HE)</li>
+<li>first author disease notes and research notes (HPO + HE)</li>
+<li>first author presentations (HPO + HE)</li>
+<li>first author posters (HPO + HE)</li>
+</ol>
+<p>Now that our priority list has been reduced and is ranked according to how much it will benefit us and use our time, we can plan our our day and even start planning the semester. In my next article, I will describe how to create a plan for your work using a Gannt Chart. Combining this priority listing system with a Gannt Chart is an excellent way to help maximize your efforts without spending more time. Focus on quality, not quantity.</p>
+<!-- ```{r echo=FALSE} -->
+<!-- library(gridExtra) -->
+<!-- library(grid) -->
+<!-- d <- matrix(data = c(1,2,3,4), dimnames = list(c("High pay-off", "Low pay-off"), c("High effort", "Low Effort")), nrow = 2, ncol = 2, byrow = TRUE) -->
+<!-- grid.table(d) -->
+<!-- ``` -->
+</div>
+</div>
+
+<footer role="contentinfo" id="site-footer" align="center">
+
+<!-- /.bottom-menu -->
+
+<br>
+<br>
+<br>
+
+	This site was created and is maintained by Sydney Everhart	<class="Copyright">&#169; 2017-2018
+	<br>
+		Powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com"> RMarkdown</a> + <a href="http://github.com">Github</a>.
+
+</footer>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
