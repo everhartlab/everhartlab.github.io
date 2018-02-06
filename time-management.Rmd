@@ -25,7 +25,7 @@ In the steps below, I explain how you can create a priority list for your daily 
 
 <br>
 
-### Value of Your Work
+### The Value of Your Work
 I like to use a value system to identify "high pay-off" and "low pay-off" tasks. A great example for this exercise is to evaluate all of the possible items that might be added to an academic CV. For example, presenting a poster or giving a presentation should receive higher priority than being asked to review a paper for a journal.  Among those items that can be added to a CV, highest priority should be given to peer-reviewed, original research articles and review papers.  And among those, highest priority should be given to manuscripts where you will be listed as the first or corresponding author.  **These publications are the most valuable** and are the first piece of your CV that will be used to evaluate your productivity.  Low priority should be given to non-peer reviewed items, which includes some symposia proceedings, reviewing manuscripts, and book reviews.  
 
 <br>
@@ -49,7 +49,7 @@ I like to use a value system to identify "high pay-off" and "low pay-off" tasks.
 
 <br>
 
-### Value of Your Time
+### The Value of Your Time
 Some tasks don't take very long, maybe a few hours of your day.  Other tasks take several years, such as completing a chapter of your dissertation.  It's important to consider how much effort is required for each of the tasks you've just prioritized.  For this, you can categorize them into "high effort" and "low effort".  For example, being asked to be a middle author for a presentation or poster will likely require low effort, whereas being the first author would be high effort.
 
 <br>
@@ -96,7 +96,7 @@ The maximum return on your investment will come from high pay-off tasks that req
 <br>
 
 ### Pitfalls
-Some of the items listed above were both low pay-off and low effort (bold).  Other items are low-pay off and high effort (numbers 9 to 13).  Both of these categories represent time sinks and pitfalls that should be avoided. This is because low effort tasks do not take much effort, so it is easy to spend too much time here.  However, due to the low pay-off from these activities, you don't get much in return.  You should minimize the amount of time spent on these activities.  Likewise, items listed as low pay-off and high effort are definitely not worth much of your time on a daily basis.  These will take you a lot of time to complete with very little reward.  Make sure to eliminate these items from your priority list and focus only on the most important tasks.  
+Some of the items listed above were both low pay-off and low effort (bold).  Other items are low pay-off and high effort (numbers 9 to 13).  Both of these categories represent time sinks and pitfalls that should be avoided. This is because low effort tasks do not take much effort, so it is easy to spend too much time here.  However, due to the low pay-off from these activities, you don't get much in return.  You should minimize the amount of time spent on these activities.  Likewise, items listed as low pay-off and high effort are definitely not worth much of your time on a daily basis.  These will take you a lot of time to complete with very little reward.  Make sure to eliminate these items from your priority list and focus only on the most important tasks.  
 
 <br>
 
@@ -112,7 +112,7 @@ Some of the items listed above were both low pay-off and low effort (bold).  Oth
 <br>
 
 ### Get Started Right
-Now that our priority list has been reduced and is ranked according to how much it will benefit us and use our time, we can plan our our day and even start planning the semester.  A great way to get started on this list is to **begin with items that are high pay-off and low effort**.  This way you can feel success quickly and it will pay-off for you quickly.  In our example, that would include contributing as a co-author for someone else's manuscript and creating a professional website to highligh our interests and work.  The third item on the list is a big one, working on a first author peer-reviewed manuscript or review article.  **To accomplish projects that are both high pay-off and require high effort, the key is to spend time on this on a daily basis.**  Remember, spending just 10 minutes per day will turn into an entire 40-hour work week of time by the end of a year.  So, spend time on those activities daily to reduce the burden.
+Now that our priority list has been reduced and is ranked according to how much it will benefit us and use our time, we can plan our our day and even start planning the semester.  A great way to get started on this list is to **begin with items that are high pay-off and low effort**.  This way you can feel success and it will pay-off for you quickly.  In our example, that would include contributing as a co-author for someone else's manuscript and creating a professional website to highligh our interests and work.  The third item on the list is a big one, working on a first author peer-reviewed manuscript or review article.  **To accomplish projects that are both high pay-off and require high effort, the key is to spend time on this on a daily basis.**  Remember, spending just 10 minutes per day will turn into an entire 40-hour work week of time by the end of a year.  So, spend time on those activities daily to reduce the burden.
 
 In my next article, I will describe how to create a plan for your work using a Gannt Chart.  Combining this priority listing system with a Gannt Chart is an excellent way to help maximize your efforts without spending more time.  Focus on quality, not quantity.
 
