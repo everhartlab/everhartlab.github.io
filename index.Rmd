@@ -12,9 +12,19 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 ## News from the Lab
 
 <br>
-![](images/NSI-poster2018.jpg "Rebecca Higgins & Zhian Kamvar"){.custom_image .shadow .grow}
 
 ### News from 2018
+
+#### March 2018
+
+- Wow!  What a month! We submitted three manuscripts in two weeks to *Tropical Plant Pathology* for the special issue on *Sclerotinia* research. All of our submitted manuscripts are open and available for comment at *PeerJ Preprints*:
+    - Pannullo, AP, ZN Kamvar, TJJ Miorini, JR Steadman, and SE Everhart. 2018. <a href="https://peerj.com/manuscripts/26294/">Genetic variation and structure of *Sclerotinia sclerotiorum* populations from soybean in Brazil.</a> *PeerJ Preprints*
+    - Miorini, TJJ, ZN Kamvar, R Higgins, CG Raetano, JR Steadman, and SE Everhart. 2018. <a href="https://peerj.com/manuscripts/26382/">Variation in pathogen aggression and cultivar performance against *Sclerotinia sclerotiorum* in soybean and dry bean from Brazil and the U.S.</a> *PeerJ Preprints*
+    - Kamvar, ZN, and SE Everhart. 2018. <a href="https://peerj.com/manuscripts/26556/">Something in the agar does not compute: On the discriminatory power of mycelial compatibility in *Sclerotinia sclerotiorum*.</a> *PeerJ Preprints*
+
+<br>
+![](images/NSI-poster2018.jpg "Rebecca Higgins & Zhian Kamvar"){.custom_image .shadow .grow}
+
 
 #### January 2018
 
