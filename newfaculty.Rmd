@@ -1,0 +1,16 @@
+---
+title: "Advice to New Faculty"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## 
+
+<br>
+
+### Productivity
+We all want to be highly productive and recognized for our efforts.  You can probably think of people that you would call highly productive. How do they get so much done?  How do they publish so much?
+
+

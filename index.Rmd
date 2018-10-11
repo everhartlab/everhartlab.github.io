@@ -15,6 +15,34 @@ In my lab, we characterize population dynamics and spread of fungal plant pathog
 
 ### News from 2018
 
+
+#### July 2018
+
+  - Several of us took a trip to Boston for the combined meeting of the International Congress of Plant Pathology (ICPP) and the American Phytopathological Society, where one workshop, one talk, and several posters will be presented by members of our group.
+  - Workshop: Intro to R for Plant Pathologists was co-taught with Nikita to >60 attendees 
+  - Talk: Nikita gave a presentation in a special session on fungicide resistance to a large audience
+  - The 8-week summer semester teaching *Success in the Sciences* has finally come to an end and, after a week of recovery, Ashley, Kimberly, and I have decided that our work to develop this coures will be documented as a Benchmark Portfolio to be published on UNL Digital Commons, shared in Canvas to enable others to import the course, and we will analyze artifacts of our course in order to summarize the work for publication in a journal like *North American College Teachers in Agriculture*. 
+
+
+#### June 2018
+
+- The Everhart Lab is headed to Fargo, ND this June to attend the APS North Central Division Meeting. Among abstracts submitted, Edgar's was selected for a prestigious oral presentation. He will be presenting a talk entitled, "Fungicide sensitivity of 42 Sclerotinia sclerotiorum isolates in the North Central U.S. and determination of discriminatory concentrations."
+
+- Joining the Everhart Lab is Karen Ferreira Da Silva. Karen comes to us with research experience working in the labs of Drs. Gary Yuen and Josh Herr, and having received her M.S. in Entomology working with Dr. Blair Sigfreid. Projects that Karen will complete in my lab include a meta-analysis of gene expression data, a greenhouse study to evaluate interactions in the corn root worm x Goss's wild pathogen on disease development, and a survey of leadership training provided to and needed for students in Plant Pathology and the broader agricultural STEM careers. Welcome Karen!
+
+#### May 2018
+
+  - We are welcoming two new people to our lab this summer!  Callie Braley and Rahcel Persson. 
+  - Callie is a student in the Doctor of Plant Health program and will be spending time learning about how research on fungicide sensitivity is conducted in the lab. She will also begin a small survey of Nebraska to see if she finds any QoI-resistant isolates of the frogeye leaf spot pathogen *Corynespora casiicola*. 
+  - Rachel is an undergraduate student in biochemistry and received funding from the UNL UCARE program to conduct a small study where she will be comparing genotyping results from the Steadman Lab *Sclerotinia sclerotiorum* database to genotyping results in our lab in order to determine if genotyping results of the two can be compared and combined.
+  - This summer I'll be teaching a new course in professional development, entitled *Success in the Sciences*. The fun part is that this is a coures that I am co-developing wtih two graduate students in the Complex Biosystems program, Kimberley Stanke and Ashley Stengel, with additional guidance on curriculum development and active learning techniques from Dr. Sydney Brown.
+
+#### April 2018
+
+- Both sad and exciting news that both Zhian and Thomas will be moving on to new postdoctoral positions this month
+- Zhian will be taking a new postdoctoral researh position in London with Theobart Jombart, the author of the adegenet R package. Although I am sad to see Zhian go, I am excited for him to gain this new experience!
+- Thomas is moving north to Carrington, ND to gain tons of field experience working with Michael Wunsch.  They will be working together to evaluate fungicide applications for the control of *Sclerotinia sclerotiorum* diseases in multiple row crops. 
+
 #### March 2018
 
 - Wow!  What a month! We submitted three manuscripts in two weeks to *Tropical Plant Pathology* for the special issue on *Sclerotinia* research. All of our submitted manuscripts are open and available for comment at *PeerJ Preprints*:
