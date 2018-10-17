@@ -25,7 +25,7 @@ output:
 
 ### Postdoctoral Scholars
 
-- Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**. Margarita is currently working on the meta-community analysis of the microbial communities associated with different cover crops in Nebraska.
+- Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**. Margarita is currently working on the meta-community analysis of the microbial communities associated with different cover crops in Nebraska. This research aims to improve our understanding of whether cover crops are serving as a green bridge for detrimental/beneficial microbes in the soil.
 
 <br>
 
@@ -33,15 +33,15 @@ output:
 
 ![](images/NikitaGambhir2016.JPG "Nikita Gambhir"){.custom_circle .grow}
 
-- <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**. Nikita's doctoral research is in genome analysis of *S. sclerotiorum* mutational lines. She is also characterizing the population structure and fungicide sensitivity *Rhizoctonia zeae* that she has collected from Nebraska.
+- <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**. Nikita's doctoral research is in genome analysis of *S. sclerotiorum* mutational lines to improve our understanding of the microscale evolution of this pathogen. She is also characterizing the population structure and fungicide sensitivity *Rhizoctonia zeae* that she has collected from Nebraska.
 
 ![](images/EdgarNieto2017.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
 
-- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**. Edgar is conducting a project to assess fungicide sensitivity and population structure of *S. sclerotiorum* from soybean, potato, and dry bean in the North Central States and Mexico. This is much needed work to improve our understanding of the basic epidemiology of this pathogen.
+- <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**. Edgar is conducting a project to assess fungicide sensitivity and population structure of *S. sclerotiorum* from soybean, potato, and dry bean in the North Central States and Mexico. This is much needed work to improve our understanding of the "hidden epidemiology" of this pathogen.
 
 ![](images/Karen Ferreira Da Silva.jpg "Karen Ferreira Da Silva"){.custom_circle .grow}
 
-- Karen F. Da Silva, Doctoral student, June 2018 to **present**. Karen joined the lab with an ongoing project to improve out understanding of the *Clavibacter michiganensis* pv. *nebraskensis* interaction with the fall armyworm on corn. Within my lab, she has developed a project to survey of leadership needs and training of graduate students in the agSTEM sciences and will be conducting a meta-analysis of previous *S. sclerotiorum* population genetic studies. 
+- Karen F. Da Silva, Doctoral student, June 2018 to **present**. Karen's research is focused on improving our understanding of the *Clavibacter michigainensis* pv. *nebraskensis* interaction with the fall armyworm on corn. She will also conduct a meta-analysis of previous *S. sclerotiorum* population genetic studies. Complementary to her scientific inquiries, she also aims to assess leadership needs and training of graduate students in the agSTEM sciences across the United States, to increase professional skill development in our students.
 
 
 <br>
@@ -50,7 +50,7 @@ output:
 
 ### Undergraduate Lab Assistants
 
-- Rachel Persson, undergraduate in Biochemistry, May 2018 to **present**. Rachel received competitive research funding from the UNL UCARE program. She is 
+- Rachel Persson, undergraduate in Biochemistry, May 2018 to **present**. Rachel received competitive research funding from the UNL UCARE program. Her research is focused on development of a set of DNA standards for *S. sclerotiorum* genotyping studies to enable data from previous published studies to be combined.
 
 <br>
 
