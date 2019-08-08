@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -350,8 +414,76 @@ div.tocify {
 <div id="news-from-the-lab" class="section level2">
 <h2>News from the Lab</h2>
 <p><br></p>
+<div id="news-from-2019" class="section level3">
+<h3>News from 2019</h3>
+<div id="august-2019" class="section level4">
+<h4>August 2019</h4>
+<ul>
+<li>After 5 years at the University of Nebraska, I will be starting this fall semester as an associate professor in the Department of Plant Pathology. To the best of my knowledge, I am the third woman to be hired and promoted in the department in the 100 year history, following the footsteps of Drs. Anne Vidaver and Tamra Jackson-Ziems. For those who may be on the tenure track and wondering what a tenure package looks like, you are welcome to <a href="documents/Everhart_PnT_Dossier_12-21-2018.pdf">view mine here.</a></li>
+<li>Several of the Everhart Lab members traveled to the APS Meeting in Cleveland, OH to present our research. Karen presented two talks, including one in the Melhus Symposium. Margarita presented two posters (although I had to present one on her behalf because of the time conflict). Nikita presented two posters and co-taught our Intro R workshop. Srikanth presented a poster of his research. Thomas presented a poster of previous work in my lab and even Edgar had a poster at the meeting, which I presented on his behalf. In general, we made our visit to Ohio very productive, forming new relationships, extending our networks, and identifying future potential collaborations.</li>
+<li>Congratulations to Karen! She received the third place oral presentation from the North Central Division and was the only student from our department selected for the NC-APS travel award. Way to go!</li>
+<li>A big welcome to new Everhart Lab member, Mr. Sergio Gabriel-Peralta! Sergio received his bachelor’s in Mexico and his master’s at UNL studying viruses. He joins the lab after having been awarded a prestigious CONNACYT fellowship from the Mexican government. Welcome, Sergio!</li>
+</ul>
+</div>
+<div id="july-2019" class="section level4">
+<h4>July 2019</h4>
+<ul>
+<li>Congratulations, Julianne, for successfully defending your dissertation! I heard lots of great comments about the quality of your presentation.</li>
+<li>Julianne was awarded the Corteva Award to attend the Society of Nematology (SON) Meeting in Raleigh, NC this month. She gave an oral presentation of her research on nematodes in the Great Smoky Mountains National Park and presented a poster of her work on deciphering ecological features within cryptic species, <em>Mesocriconema xenoplax</em>.</li>
+<li>The beginning of this month was the conclusion of a summer course that I taught on professional development called <em>Success in the Sciences</em>. This has become a highly rated course and so I will be teaching it again this fall.</li>
+<li>In other news, Ms. Asha Mane is joiing the Everhart Lab this month. Asha received her bachelor’s and master’s in India and is interested in cutting-edge research in plant pathology. She also comes to us after having several years of lab experience. We will be working together this fall to develop her project plans. Welcome, Asha!</li>
+</ul>
+</div>
+<div id="june-2019" class="section level4">
+<h4>June 2019</h4>
+<ul>
+<li>I traveled with Complex Biosystems students, Kimberly Stanke and Ashley Stengel, to Idaho to present a poster and for them to give talks at the North American Colleges and Teachers of Agriculture meeting in Twin Falls, ID. Congratulations on two very excellent presentations on pedagogy!</li>
+</ul>
+</div>
+<div id="april-2019" class="section level4">
+<h4>April 2019</h4>
+<ul>
+<li>We have two new people joining the Everhart Lab this month, Mr. Srikanth Kodati and Ms. Gulcin Ercan. Both students previously worked with Dr. Tony Adesemoye who left UNL for an industry position this month. Srikanth will move to Lincoln later this spring and Gulcin will finish her master’s in North Platte, under direct supervision of her co-advisor, Dr. Julie Peterson. Welcome, Sri and Gulcin!</li>
+</ul>
+</div>
+<div id="march-2019" class="section level4">
+<h4>March 2019</h4>
+<ul>
+<li>The Everhart Lab hosted Dr. Lucky Mehra, epidemiologist and instructor from Kansas State University to give a seminar and co-teach the Intro to R workshop during the spring break to more than 60 students, staff, and faculty.<br />
+</li>
+<li>Nikita and I traveled to Knoxville, TN to the University of Tennessee for a joint collaborative visit with Drs. Denita Hadziabdic and Meg Staton. We kicked off a week-long visit by teaching our Intro R workshop and then later, Nikita worked with the Staton lab to learn de novo genome assembly and I worked one-on-one in a data analysis project with Denita.</li>
+<li>Good news! I returned from Tennessee to find out that my application for tenure and promotion were officially approved at all of the levels from the department to the Vice Chancellor.</li>
+</ul>
+</div>
+<div id="february-2019" class="section level4">
+<h4>February 2019</h4>
+<ul>
+<li>The UNL Teaching and Learning Symposium was held this month at Innovation Campus. As part of the event, I co-taught a workshop on active learning techniques that were used in my professional development course. The great thing was that I got to co-teach this with two graduate students who co-developed the course, Kimberly Stanke and Ashley Stengel. I think we did a great job and had fun!</li>
+</ul>
+</div>
+<div id="january-2019" class="section level4">
+<h4>January 2019</h4>
+<ul>
+<li>Biochemistry undergraduate, Cristian Wolkup-Gil, has joined our lab to gain research experience. He’s writing proposals for a UCARE project and an IANR Undergraduate Research Award to conduct a project on fungicide sensitivity of <em>Sclerotinia sclerotiorum</em> from dry bean fields in the U.S. = The project that I started as part of my USDA-NIFA Postdoctoral fellowship on <em>Phytophthora ramorum</em> was published in <em>mBio</em> this month.</li>
+<li>As part of my application for tenure, I delivered a seminar in the Department of Plant Pathology this month that highlighted my research and its impact.</li>
+</ul>
+</div>
+</div>
 <div id="news-from-2018" class="section level3">
 <h3>News from 2018</h3>
+<div id="december-2018" class="section level4">
+<h4>December 2018</h4>
+<ul>
+<li>Starting in the spring, Ms. Julianne Matcynszyn will join the Everhart Lab to complete her Ph.D., which is on the ecological differnatiation within <em>Mesocriconema xenoplax</em> cryptic species. She comes to our lab after four years in Tom Powers’ lab. Julianne is targeting August for completion of her dissertation. Welcome, Julianne!</li>
+<li>This month, I finalized and submitted my application for early tenure consideraton in the Department of Plant Pathology. Since there is no third year review in our department and no penalty for going up a year early for tenure consideration, I considered this a “no brainer”. In the worst case scenario, this will allow me to gain feedback on what I need to do this year to make a winning application next year.</li>
+</ul>
+</div>
+<div id="fall-2018" class="section level4">
+<h4>Fall 2018</h4>
+<ul>
+<li>This was a particularly difficult fall semester with the unexpected loss of graduate student, Eddie Hillman. Eddie was a student in my course this past spring and during the summer. There really are no words that can express what a loss this is to our department and our science.</li>
+</ul>
+</div>
 <div id="july-2018" class="section level4">
 <h4>July 2018</h4>
 <ul>
@@ -422,19 +554,13 @@ div.tocify {
 <h3>News from 2017</h3>
 <div id="december-2017" class="section level4">
 <h4>December 2017</h4>
-<div class="figure">
-<img src="images/ThomasMiorini_InoculatingFlowers.JPG" title="Thomas Miorini" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/ThomasMiorini_InoculatingFlowers.JPG" title="Thomas Miorini" class="custom_image shadow grow" /></p>
 <ul>
 <li><p>Paper in <em>PeerJ</em> now published! Check it out. <a href="https://peerj.com/articles/4152/" class="uri">https://peerj.com/articles/4152/</a></p></li>
 <li><p>We submitted a total of five abstracts for the APS-ICPP 2018 meeting, including recent work by Thomas to compare ability of different fungicides to protect flowers from infection by <em>Sclerotinia sclerotiorum</em> ascospores (pictured right).</p></li>
 <li><p>I was nominated by Dr. Loren Giesler for the UNL Dinsdale Family Faculty Award for pre-tenure faculty with excellence in research, teaching, and/or extension. It was a great opportunity to get my photo taken with both Loren and our IANR Vice Chancellor and plant pathologist, Dr. Mike Boehm.</p></li>
 </ul>
-<div class="figure">
-<img src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg" title="Mike Boehm, Sydney Everhart, &amp; Loren Giesler" class="custom_imagesm shadow grow" />
-
-</div>
+<p><img src="images/DinsdaleFamilyFacultyNomination_Everhart.jpg" title="Mike Boehm, Sydney Everhart, &amp; Loren Giesler" class="custom_imagesm shadow grow" /></p>
 </div>
 <div id="november-2017" class="section level4">
 <h4>November 2017</h4>
@@ -444,27 +570,18 @@ div.tocify {
 <li><p>The USDA Women and Minorities in Agricultural STEM program will be funding a project that I co-developed with collaborators Jenny Keshwani, Leah Sandall, Julie Obermyer, and Deepak Keshwani, to create a mentoring program for youth to connect with career professionals who look like them. Our program is called <em>Cultivate ACCESS</em> and will be launched in the spring of 2018!</p></li>
 </ul>
 <p>We hosted two visiting speakers this month:</p>
-<div class="figure">
-<img src="images/JerryWeiland_ForestPathogens_2017Seminar.JPG" title="Dr. Jerry Weiland" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/JerryWeiland_ForestPathogens_2017Seminar.JPG" title="Dr. Jerry Weiland" class="custom_image shadow grow" /></p>
 <ul>
 <li>Dr. Jerry Weiland of the USDA-ARS Horticultural Crops Research Unit visited our department and gave a comprehensive talk on characterization of soilborne pathogens that affect tree production in the Pacific Northwest. This talk was highly praised by many in our department!</li>
 </ul>
-<div class="figure">
-<img src="images/StacyKrueger-Hadfield_2017Seminar.JPG" title="Dr. Stacy Krueger-Hadfield" class="custom_imagesm shadow grow" />
-
-</div>
+<p><img src="images/StacyKrueger-Hadfield_2017Seminar.JPG" title="Dr. Stacy Krueger-Hadfield" class="custom_imagesm shadow grow" /></p>
 <ul>
 <li>Dr. Stacy Krueger-Hadfield from the University of Alabama at Birmingham visited and give us an exciting talk on the mysterious lives of marine algae. Belive it or not, plant pathogens and algae have a lot in common when it comes to population genetics! Complex mating systems == complex data. Great talk!</li>
 </ul>
 </div>
 <div id="october-2017" class="section level4">
 <h4>October 2017</h4>
-<div class="figure">
-<img src="images/IntroR-at-OSU-flight.png" title="On my way to OSU!" class="custom_imagesm shadow grow" />
-
-</div>
+<p><img src="images/IntroR-at-OSU-flight.png" title="On my way to OSU!" class="custom_imagesm shadow grow" /></p>
 <ul>
 <li><p>Invited by Dr. Anne Dorrance, I taught our Intro to R for Plant Pathologists workshop to ~20 grad students and postdocs located in Wooster and video-linked to Columbus. The following day, I gave a seminar for the department and had a great time meeting students, faculty, and staff.</p></li>
 <li><p>Our manuscript on the largest population genetic study of <em>Sclerotinia sclerotiorum</em> that were collected over a 10-year period is now out as a <em>PeerJ Preprints</em> and under review at <em>PeerJ</em>.</p></li>
@@ -480,19 +597,13 @@ div.tocify {
 </div>
 <div id="august-2017" class="section level4">
 <h4>August 2017</h4>
-<div class="figure">
-<img src="images/Everhart_CoffeeRust.JPG" title="Sydney in Brazil" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/Everhart_CoffeeRust.JPG" title="Sydney in Brazil" class="custom_image shadow grow" /></p>
 <ul>
 <li><p>Invited by Drs. Eduardo Mizubuti and David Jaccoud Filho, I gave two presentations at the 16th International Sclerotinia Workshop in Uberlandia, Brazil. This also included a post-meeting field trip to see agricultural production in the region and my first visit to a coffee plantation (with rust!!).</p></li>
 <li><p>Edgar, Zhian, Thomas, Nikita, and I are headed to the national APS meeting in San Antonio, TX. Check out our posters if you’re there.</p></li>
 <li><p>Nikita received the Donald E. Munnecke Student Travel Award from APS to attend the national meeting. Well done!</p></li>
 </ul>
-<div class="figure">
-<img src="images/NikitaGambhir_2017.jpg" title="Nikita at 2017 APS Meeting" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/NikitaGambhir_2017.jpg" title="Nikita at 2017 APS Meeting" class="custom_image shadow grow" /></p>
 </div>
 <div id="july-2017" class="section level4">
 <h4>July 2017</h4>
@@ -503,19 +614,13 @@ div.tocify {
 </div>
 <div id="june-2017" class="section level4">
 <h4>June 2017</h4>
-<div class="figure">
-<img src="images/IntroRWorkshop2017.png" title="Teaching R at North Central APS" class="custom_wide shadow grow" />
-
-</div>
+<p><img src="images/IntroRWorkshop2017.png" title="Teaching R at North Central APS" class="custom_wide shadow grow" /></p>
 <ul>
 <li><p>Edgar, Anthony, and Nikita each received a travel award to attend the North Central APS meeting in Champaigne, IL. Congratulations on your excellent poster presentations!</p></li>
 <li><p>Our Intro to R Workshop, co-taught with Dr. Alex Lipka of Univ. of Illinois at Urbana-Champaigne, was a big success at the 2017 North Central APS Meeting. We had more than 20 people coding in R.</p></li>
 <li><p>Welcome to Dr. Margarita Marroquin-Guzman! Starting June 6th, Margarita will be working in our lab as a postdoctoral scholar on a project to characterize the soybean / covercrop microbiomes with different covercrop rotations. Welcome!</p></li>
 </ul>
-<div class="figure">
-<img src="images/RWorkshopUNL-May2017.jpg" title="Teaching R at UNL" class="custom_wide shadow grow" />
-
-</div>
+<p><img src="images/RWorkshopUNL-May2017.jpg" title="Teaching R at UNL" class="custom_wide shadow grow" /></p>
 </div>
 <div id="may-2017" class="section level4">
 <h4>May 2017</h4>
@@ -525,10 +630,7 @@ div.tocify {
 </div>
 <div id="april-2017" class="section level4">
 <h4>April 2017</h4>
-<div class="figure">
-<img src="images/large_EdgarNietoApril2017UNLSpringResFair.jpeg" title="Edgar at UNL Spring Research Fair" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/large_EdgarNietoApril2017UNLSpringResFair.jpeg" title="Edgar at UNL Spring Research Fair" class="custom_image shadow grow" /></p>
 <ul>
 <li><p>Nikita wins award for her poster presented at the UNL Spring Research Fair – congratulations, Nikita!</p></li>
 <li><p>Edgar, Nikita, and Anthony presented posters at the UNL Spring 2017 Research Fair (Edgar, right)</p></li>
@@ -551,10 +653,7 @@ div.tocify {
 <ul>
 <li>Dr. Zhian Kamvar joins the Everhart Lab as postdoc to work with genomes and genetic data. Welcome!</li>
 </ul>
-<div class="figure">
-<img src="images/NSI-meeting2017Everhart.jpg" title="Sydney at NSI Meeting" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/NSI-meeting2017Everhart.jpg" title="Sydney at NSI Meeting" class="custom_image shadow grow" /></p>
 <ul>
 <li><p>Thomas’ manuscript on the effect of irrigation level for optimal chemigation control of <em>Sclerotinia sclerotiorum</em> is now available online and will appear in April 2017 issue of Crop Protection. Sydney Everhart at National Sclerotinia Initiative</p></li>
 <li><p>I gave a presentation of our research at the National Sclerotinia Initiative meeting in Minneapolis (right).</p></li>
@@ -577,10 +676,7 @@ div.tocify {
 <li><p>Sajeewa’s manuscript accepted to PLOS ONE</p></li>
 <li><p>First departmental seminar by Nikita Gambhir entitled “Fungicide Sensitivity: Comparisons of Methods in a Model Plant Pathogen”</p></li>
 </ul>
-<div class="figure">
-<img src="images/EverhartLab_Fall2016.jpg" title="Everhart Lab Fall 2016" class="custom_wide shadow grow" />
-
-</div>
+<p><img src="images/EverhartLab_Fall2016.jpg" title="Everhart Lab Fall 2016" class="custom_wide shadow grow" /></p>
 </div>
 <div id="september-2016" class="section level4">
 <h4>September 2016</h4>
@@ -594,20 +690,14 @@ div.tocify {
 <ul>
 <li>Edgar Nieto-Lopez receives a fellowship from CONACyT Mexico to support his research on <em>Sclerotinia sclerotiorum</em> from the U.S. and Mexico. He arrived at UNL this fall to begin doctoral studies. Welcome, Edgar!</li>
 </ul>
-<div class="figure">
-<img src="images/APS_2016_LuckyBrijeshSydney.jpg" title="Lucky Mehra, Brijesh Karakkat, Sydney Everhart at APS 2016" class="grow custom_image shadow" />
-
-</div>
+<p><img src="images/APS_2016_LuckyBrijeshSydney.jpg" title="Lucky Mehra, Brijesh Karakkat, Sydney Everhart at APS 2016" class="grow custom_image shadow" /></p>
 <ul>
 <li>Thank you, APS, for the Schroth Faces of the Future Award! This award provided funds for travel to the national meeting to give a in the Schroth Symposium at the APS national meeting. This is also where I got to meet up with former graduate colleagues, Lucky Mehra (K-State) and Brijesh Karakkat (UW).</li>
 </ul>
 </div>
 <div id="june-2016" class="section level4">
 <h4>June 2016</h4>
-<div class="figure">
-<img src="images/NCAPSAwardees_2016.jpg" title="Nikita Gambhir (second from left)" class="custom_wide shadow grow" />
-
-</div>
+<p><img src="images/NCAPSAwardees_2016.jpg" title="Nikita Gambhir (second from left)" class="custom_wide shadow grow" /></p>
 <ul>
 <li>Nikita Gambhir wins third place for her poster presented at the North Central Division APS meeting in Minneapolis and awarded a travel award to go there. Double-win!</li>
 </ul>
@@ -659,10 +749,7 @@ div.tocify {
 <h3>News from 2014</h3>
 <div id="october-2014" class="section level4">
 <h4>October 2014</h4>
-<div class="figure">
-<img src="images/DSCN1491.JPG" title="Sarah Campbell, Undergraduate 2015" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/DSCN1491.JPG" title="Sarah Campbell, Undergraduate 2015" class="custom_image shadow grow" /></p>
 <ul>
 <li>I gave a presentation on work in my lab as part of an NSF-funded meeting to discuss development of the Center for Emergence, Evolution, and Management of Pesticide Resistance (CEEMPR), which would establish a university-industry partnership</li>
 </ul>
@@ -672,10 +759,7 @@ div.tocify {
 <ul>
 <li>Welcome to Sarah Campbell (pictured right) and Josh Hanson, joining the lab as undergraduate lab assistants to work on the sub-lethal fungicide sensitivity project</li>
 </ul>
-<div class="figure">
-<img src="images/BSajeewaAmaradasa_2014.JPG" title="B. Sajeewa Amaradasa" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/BSajeewaAmaradasa_2014.JPG" title="B. Sajeewa Amaradasa" class="custom_image shadow grow" /></p>
 </div>
 <div id="august-2014" class="section level4">
 <h4>August 2014</h4>
@@ -729,6 +813,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

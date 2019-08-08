@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -347,37 +411,31 @@ div.tocify {
 
 <p>Despite the popularized image of a lone scientist, the reality is that science is actually quite social. Beyond the literature, your peers and other scientists will represent a key source of ideas, references, feedback, and skills. By joining our lab group, you have become a member of the team.</p>
 <p><br></p>
-<div class="figure">
-<img src="images/JoshHanson2015.JPG" title="Josh Hanson, Undergraduate 2015" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/JoshHanson2015.JPG" title="Josh Hanson, Undergraduate 2015" class="custom_image shadow grow" /></p>
 <div id="undergraduate-students" class="section level3">
 <h3>Undergraduate Students</h3>
-<p>Working in my lab is a great place to learn some basic microbiology and molecular genetic techniques. We have a limited number of paid hourly positions. Students interested in conducting a UCARE or senior thesis project in my lab are encouraged to contact me directly at <a href="mailto:everhart@unl.edu">everhart@unl.edu</a></p>
+<p>Working in my lab is a great place to learn some basic microbiology and molecular genetic techniques. We have a limited number of paid hourly positions. Students interested in conducting a UCARE or senior thesis project in my lab are encouraged to contact me directly at <a href="mailto:everhart@unl.edu" class="email">everhart@unl.edu</a></p>
 <p><br></p>
 </div>
 <div id="graduate-students" class="section level3">
 <h3>Graduate Students</h3>
-<p>Deciding to attend graduate school and selecting an advisor for your studies is an important step. I take my role as an advisor seriously and it is my goal to give you the best opportunity for success. Please read this letter that I have written to new graduate students. Graduate studies in my lab will require funding to support your work, so I will advertise on my website when I have projects and funding available to support a student. Please also consider seeking funding from federal agencies (NSF, USDA, EPA) to partially or fully support your graduate studies. If you are interested in applying for a fellowship, please contact me at least 1-year before your intended start date so that we can work together to develop your proposal. My email address is <a href="mailto:everhart@unl.edu">everhart@unl.edu</a></p>
+<p>Deciding to attend graduate school and selecting an advisor for your studies is an important step. I take my role as an advisor seriously and it is my goal to give you the best opportunity for success. Please read this letter that I have written to new graduate students. Graduate studies in my lab will require funding to support your work, so I will advertise on my website when I have projects and funding available to support a student. Please also consider seeking funding from federal agencies (NSF, USDA, EPA) to partially or fully support your graduate studies. If you are interested in applying for a fellowship, please contact me at least 1-year before your intended start date so that we can work together to develop your proposal. My email address is <a href="mailto:everhart@unl.edu" class="email">everhart@unl.edu</a></p>
 <p><br></p>
 </div>
 <div id="postdoctoral-scholars" class="section level3">
 <h3>Postdoctoral Scholars</h3>
-<div class="figure">
-<img src="images/ThomasMiorini-IsabelChavez_PetriPlates2017.JPG" title="Thomas Miorini &amp; Isabel Chavez" class="custom_wide shadow grow" />
-
-</div>
-<p>Funding for postdoctoral scholars is limited and I will advertise on my website as I have funding available. Please also consider seeking funding from federal, private, and governmental agencies. If you are interested in applying for a fellowship, please contact me at least 1-year before your intended start date so that we can work together to develop your proposal. My email address is <a href="mailto:everhart@unl.edu">everhart@unl.edu</a></p>
+<p><img src="images/ThomasMiorini-IsabelChavez_PetriPlates2017.JPG" title="Thomas Miorini &amp; Isabel Chavez" class="custom_wide shadow grow" /></p>
+<p>Funding for postdoctoral scholars is limited and I will advertise on my website as I have funding available. Please also consider seeking funding from federal, private, and governmental agencies. If you are interested in applying for a fellowship, please contact me at least 1-year before your intended start date so that we can work together to develop your proposal. My email address is <a href="mailto:everhart@unl.edu" class="email">everhart@unl.edu</a></p>
 <p><br></p>
 </div>
 <div id="visiting-scholars" class="section level3">
 <h3>Visiting Scholars</h3>
-<p>Funding for this type of position is usually obtained from the scholar’s home country or institution, with the duration determined by the funding agency and the goal of your visit. Visiting scholars from all nations and institutions are encouraged to contact me about the opportunity to work in my lab and collaborate on projects. Email me at <a href="mailto:everhart@unl.edu">everhart@unl.edu</a></p>
+<p>Funding for this type of position is usually obtained from the scholar’s home country or institution, with the duration determined by the funding agency and the goal of your visit. Visiting scholars from all nations and institutions are encouraged to contact me about the opportunity to work in my lab and collaborate on projects. Email me at <a href="mailto:everhart@unl.edu" class="email">everhart@unl.edu</a></p>
 <p><br></p>
 </div>
 <div id="still-not-sure" class="section level3">
 <h3>Still not sure?</h3>
-<p>Contact me! Let’s talk about your research interests / goals and how we might be able to work together to achieve them. My office is located in 406G Plant Science Hall on the East Campus at the University of Nebraska - Lincoln. If you can’t make a visit, I’d be happy to meet with you via Skype. My email address is <a href="mailto:everhart@unl.edu">everhart@unl.edu</a></p>
+<p>Contact me! Let’s talk about your research interests / goals and how we might be able to work together to achieve them. My office is located in 406G Plant Science Hall on the East Campus at the University of Nebraska - Lincoln. If you can’t make a visit, I’d be happy to meet with you via Skype. My email address is <a href="mailto:everhart@unl.edu" class="email">everhart@unl.edu</a></p>
 </div>
 
 <footer role="contentinfo" id="site-footer" align="center">
@@ -411,6 +469,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

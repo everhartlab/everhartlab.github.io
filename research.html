@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -345,10 +409,7 @@ div.tocify {
 </div>
 
 
-<div class="figure">
-<img src="images/Ssclerotiorum.jpg" class="custom_circle2 shadow" />
-
-</div>
+<p><img src="images/Ssclerotiorum.jpg" class="custom_circle2 shadow" /></p>
 <p>In the Everhart lab, our overarching goal is to understand how and why disease outbreaks occur. Using molecular and quantitative data analysis approaches, we seek to determine factors that may be predictive of disease outbreaks. Such factors may involve aspects of the host (cultivar or species affected), management technique (crop rotation, tilling, or pesticide applications), environment (local temperatures, rainfall/irrigation, soil type), pathogen phenotype (aggressiveness, fungicide sensitivity, growth rate), or biology of the pathogen (mechanisms of spread, sexual recombination). Basic knowledge of these factors enable efficient disease management decisions.</p>
 <br> <br>
 <center>
@@ -378,7 +439,7 @@ div.tocify {
 <div id="abiotic-stress-as-mechanism-for-diversity--" class="section level4">
 <h4><em>Abiotic stress as mechanism for diversity - </em></h4>
 <p><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0168079"><img src="images/Sub-lethalDoseSpiralGradient.png" class="custom_image shadow grow" /></a></p>
-<p>Another hypothesis for increased diversity is that non-lethal fungicide exposure causes oxidative stress that increases mutation rates and genetic diversity within pathogen populations <span class="citation">(Schnabel et al. <a href="#ref-schnabel2014studies">2014</a>; F. Chen et al. <a href="#ref-chen2015fungicide">2015</a>; Dowling et al. <a href="#ref-dowling2016effect">2016</a>)</span>. To test this hypothesis in <em>S. sclerotiorum</em>, we performed a lab study that showed <em>in vitro</em> fungicide exposure increased mutation rates at microsatellite loci and in AFLP profiles <span class="citation">(B. S. Amaradasa and Everhart <a href="#ref-amaradasa2016effects">2016</a>)</span>. Currently, we are performing genome sequencing to fully characterize the fungicide-exposed isolates (analysis underway by graduate student, Nikita Gambhir, in collaboration with postdoc, Dr. Zhian Kamvar). We have also obtained populations of <em>S. sclerotiorum</em> from field plots treated with different fungicides to evaluate if genetic diversity is related to fungicide application or range of fungicide sensitivity within treated plots. This project is being conducted by graduate student, Edgar Nieto-Lopez and is funded by the North Central Soybean Research Program. Collectively, these studies are important for understanding the landscape-scale population genetic structure of <em>S. sclerotiorum</em> across the United States and elucidate mechanisms that may drive diversification and spread of this economically important plant pathogen.</p>
+<p>Another hypothesis for increased diversity is that non-lethal fungicide exposure causes oxidative stress that increases mutation rates and genetic diversity within pathogen populations <span class="citation">(Schnabel et al. <a href="#ref-schnabel2014studies">2014</a>; Chen et al. <a href="#ref-chen2015fungicide">2015</a>; Dowling et al. <a href="#ref-dowling2016effect">2016</a>)</span>. To test this hypothesis in <em>S. sclerotiorum</em>, we performed a lab study that showed <em>in vitro</em> fungicide exposure increased mutation rates at microsatellite loci and in AFLP profiles <span class="citation">(Amaradasa and Everhart <a href="#ref-amaradasa2016effects">2016</a>)</span>. Currently, we are performing genome sequencing to fully characterize the fungicide-exposed isolates (analysis underway by graduate student, Nikita Gambhir, in collaboration with postdoc, Dr. Zhian Kamvar). We have also obtained populations of <em>S. sclerotiorum</em> from field plots treated with different fungicides to evaluate if genetic diversity is related to fungicide application or range of fungicide sensitivity within treated plots. This project is being conducted by graduate student, Edgar Nieto-Lopez and is funded by the North Central Soybean Research Program. Collectively, these studies are important for understanding the landscape-scale population genetic structure of <em>S. sclerotiorum</em> across the United States and elucidate mechanisms that may drive diversification and spread of this economically important plant pathogen.</p>
 <p><br></p>
 </div>
 </div>
@@ -394,10 +455,7 @@ div.tocify {
 <h3>Quantifying pathogens in soil</h3>
 <div id="using-culturing-to-characterize-rhizoctonia-solani-in-nebraska-and-the-north-central-u.s.--" class="section level4">
 <h4><em>Using culturing to characterize</em> Rhizoctonia solani <em>in Nebraska and the North Central U.S. - </em></h4>
-<div class="figure">
-<img src="images/SoybeanSeedlingNikita_2017.jpg" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/SoybeanSeedlingNikita_2017.jpg" class="custom_image shadow grow" /></p>
 <p>Among all types of diseases in Nebraska, yield loss due to seedling diseases ranked third in 2011. <em>Rhizoctonia solani</em> is one of three pathogens most commonly associated with seedling disease, where fungicide seed treatments are the recommended line of defense. However, fungicide resistance in <em>R. solani</em> may be a new threat to this protection. A major problem is that by the time that fungicide resistance is detected by growers, it may be too late to prevent spread of fungicide resistance. This problem is compounded by a lack of knowledge of the structure of pathogen populations within fields, which directly limits our ability to design targeted and effective disease management strategies. Beginning in 2015, our research (in collaboration with Dr. Tony Adesemoye’s lab at the UNL WCREC) has performed a comprehensive sampling of <em>R. solani</em> from soybean fields in Nebraska to determine sensitivity of isolates to commercial fungicides with different modes of action and to characterize the structure of pathogen populations within and between fields. This work is being conducted by graduate student, Nikita Gambhir.</p>
 <p><br></p>
 </div>
@@ -455,6 +513,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

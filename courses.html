@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -346,27 +410,21 @@ div.tocify {
 
 
 <p><br></p>
-<div class="figure">
-<img src="images/GrapeMildewDecisionSupport2.jpg" class="custom_image grow shadow" />
-
-</div>
+<p><img src="images/GrapeMildewDecisionSupport2.jpg" class="custom_image grow shadow" /></p>
 <div id="ecology-management-of-plant-pathogens" class="section level3">
 <h3>Ecology &amp; Management of Plant Pathogens</h3>
 <div id="plpt802-is-offered-every-spring-semester" class="section level4">
 <h4><em>PLPT802 is offered every Spring semester</em></h4>
 <p>This is a graduate level course offered every spring on the biology, development, spread, and management of plant diseases, their causal agents and how environmental factors interact with diseases. The course is 3 credit hours and is required for students in the Plant Pathology degree specializations and the Doctor of Plant Health. Course format is a mixture of lectures, discussions, and student presentations. At right is a picture from one of our class exercises, where students turned epidemiology manuscripts into infographics!</p>
 <p><br></p>
-<div class="figure">
-<img src="images/DiseaseDynamicsEvolution.png" class="custom_image grow shadow" />
-
-</div>
+<p><img src="images/DiseaseDynamicsEvolution.png" class="custom_image grow shadow" /></p>
 </div>
 </div>
 <div id="disease-dynamics-evolution" class="section level3">
 <h3>Disease Dynamics &amp; Evolution</h3>
 <div id="taught-in-spring-2016-and-offered-on-demand" class="section level4">
 <h4><em>Taught in spring 2016 and offered on demand</em></h4>
-<p>This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med. During the 2015-2016 academic year, I comprehensively reviewed this course while participating in the UNL Peer Review of Teaching program and used that information to develop a Benchmark Teaching Portfolio<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. This portfolio is <a href="http://digitalcommons.unl.edu/prtunl/20"> published online</a> on the UNL Digital Commons.</p>
+<p>This course was designed to cover core concepts of disease ecology and pathogen emergence and evolution for undergraduates in the Microbiology program. Concepts were organism-agnostic and important for understanding infectious diseases of humans, animals, and plants. The goal of this course is to use interesting and intriguing case studies of infectious diseases to develop critical thinking as scientists. The course was designed to be appropriate for a wide variety of biology students, with interests in ecology, environmental biology, animal, plant, and human biology to microbiology, pre-vet and pre-med. During the 2015-2016 academic year, I comprehensively reviewed this course while participating in the UNL Peer Review of Teaching program and used that information to develop a Benchmark Teaching Portfolio<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. This portfolio is <a href="http://digitalcommons.unl.edu/prtunl/20"> published online</a> on the UNL Digital Commons.</p>
 <p><br></p>
 </div>
 </div>
@@ -396,7 +454,7 @@ div.tocify {
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Everhart, Sydney E., <a href="http://digitalcommons.unl.edu/prtunl/20"> “PLPT 496/892: Disease Dynamics &amp; Evolution—A Peer Review of Teaching Project Benchmark Portfolio”</a> (2016). UNL Faculty Course Portfolios. 20.<a href="#fnref1">↩</a></p></li>
+<li id="fn1"><p>Everhart, Sydney E., <a href="http://digitalcommons.unl.edu/prtunl/20"> “PLPT 496/892: Disease Dynamics &amp; Evolution—A Peer Review of Teaching Project Benchmark Portfolio”</a> (2016). UNL Faculty Course Portfolios. 20.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 
@@ -431,6 +489,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

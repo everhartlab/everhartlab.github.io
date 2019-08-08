@@ -8,7 +8,7 @@ output:
 
 ![](images/SydneyEverhart_2016.jpg "Sydney Everhart"){.custom_circle .grow}
 
-#### Assistant Professor and Quantitative Ecologist
+#### Associate Professor (starting Aug 19, 2019) and Quantitative Ecologist
 #### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
 
 <br>
@@ -24,7 +24,7 @@ My background is in quantitative epidemiology and population genetics / genomics
 <br>
 
 ### Teaching Responsibilities
-In teaching, I am responsible for one of the department's required graduate courses, offered every spring, PLPT 802: Ecology & Management of Plant Pathogens.  I also teach a course in my area of expertise every-other-year, PLPT 892: Epidemiology & Population Genetics, which will be offered in fall 2018.  Routinely, I offer workshops to introduce scientists to R.
+In teaching, I am responsible for one of the department's required graduate courses, offered every spring, PLPT 802: Ecology & Management of Plant Pathogens.  I also teach a course in my area of expertise every-other-year. In the past, I taught a special topics course called *Epidemiology & Population Genetics*, and currently teach a professional development course called *Success in the Sciences*.  Routinely, I offer workshops to introduce scientists to R at local, regional, and national meetings.
 
 <br>
 

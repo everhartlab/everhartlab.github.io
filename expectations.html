@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -348,19 +412,18 @@ div.tocify {
 <p><br></p>
 <div id="purpose" class="section level3">
 <h3>Purpose</h3>
-<p>The purpose of this document<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> is designed to help students understand general expectations for work hours, face time, sick leave, and vacation time, when supported by a Graduate Research Assistantship (GRA). Expectations can vary from country to country and from one PI to the next, so below I have outlined expectations for GRAs in my lab. This also serves as a general guideline for students working in my lab and supported on fellowships or other types of assistantship funding.</p>
+<p>The purpose of this document<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> is designed to help students understand general expectations for work hours, face time, sick leave, and vacation time, when supported by a Graduate Research Assistantship (GRA). Expectations can vary from country to country and from one PI to the next, so below I have outlined expectations for GRAs in my lab. This also serves as a general guideline for students working in my lab and supported on fellowships or other types of assistantship funding.</p>
 <p><br></p>
 </div>
 <div id="work-hours" class="section level3">
 <h3>Work hours</h3>
 <p>GRAs are part-time salaried positions that expect 19.6 hours of work per week during the academic year and for 40 hours per week during academic breaks and summer sessions. Additional time directed towards research is expected when you are enrolled in credit hours for research and/or thesis/dissertation writing. Because a GRA is a salaried position, these work hours are the expectation and not recorded on a time sheet. The actual amount of time spent on research can vary considerably from week-to-week, depending on the timing of important deadlines and requirements of the laboratory or field experiments.</p>
-<p>You are expected to manage your time effectively. Poor time management at the beginning of a graduate program can be especially damaging because even as little as 10 minutes per day spent off task adds up to more than a week of time lost by the end of the year. Now, consider what an opportunity that time offers! <strong><em><span style="color:black">If you spend just 10 minutes per day on writing your first manuscript, you’ll have spent more than an entire 40-hour work week by the end of the first year.</span></em></strong> Moreover, there is no fixed amount of time required to complete your master’s or dissertation. Thus, the sooner you complete the outlined projects, the sooner you will graduate.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p>You are expected to manage your time effectively. Poor time management at the beginning of a graduate program can be especially damaging because even as little as 10 minutes per day spent off task adds up to more than a week of time lost by the end of the year. Now, consider what an opportunity that time offers! <strong><em><span style="color:black">If you spend just 10 minutes per day on writing your first manuscript, you’ll have spent more than an entire 40-hour work week by the end of the first year.</span></em></strong> Moreover, there is no fixed amount of time required to complete your master’s or dissertation. Thus, the sooner you complete the outlined projects, the sooner you will graduate.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <p><br></p>
 </div>
 <div id="face-time" class="section level3">
 <h3>Face time</h3>
-<p>Students should develop strategies for optimal productivity. Graduate students in my lab are allowed to work from home or any other place that allows them increased productivity. However, there are benefits to being seen and present in our department on a regular basis (this is called “face time”). Your colleagues and professors will notice if you are working in the building daily and you will gain a reputation as being hard working and reliable. <strong><em><span style="color:black">This reputation will be useful once you are looking for a job and may need references from more than one professor in the department.</span></em></strong></p>
-<p>Being present in the department daily will also increase your opportunity for collaboration with other students and enable you to learn from others you interact with. Naturally, newer students will be present at the department more often than those who have only the thesis or dissertation left to complete. However, being present without being productive is not a good use of time and will not lead to benefits. For this reason, it is your responsibility to set a work schedule for yourself that will maximize both productivity and visibility.</p>
+<p>Students should develop strategies for optimal productivity. Graduate students in my lab are allowed to work from home or any other place that allows them increased productivity. However, there are benefits to being seen and present in our department on a regular basis (this is called “face time”). Your colleagues and professors will notice if you are working in the building daily and you will gain a reputation as being hard working and reliable. <strong><em><span style="color:black">This reputation will be useful once you are looking for a job and may need references from more than one professor in the department.</span></em></strong> Being present in the department daily will also increase your opportunity for collaboration with other students and enable you to learn from others you interact with. Naturally, newer students will be present at the department more often than those who have only the thesis or dissertation left to complete. However, being present without being productive is not a good use of time and will not lead to benefits. For this reason, it is your responsibility to set a work schedule for yourself that will maximize both productivity and visibility.</p>
 <p><br></p>
 </div>
 <div id="sick-leave" class="section level3">
@@ -382,8 +445,8 @@ div.tocify {
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>This document was written by Sydney Everhart and has been reviewed by the human resources expert in our business office at UNL. The purpose of this document is designed to help students understand general expectations and is not meant to be a legally binding document. Last update on Nov. 22, 2017.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Research projects do not always follow a straight-line trajectory. Lessons may be learned and modificiations may be made during the process of completing the outlined research projects that require deviation from the original plan. Despite this possibility, having a clearly defined plan for your work from the beginning of your graduate program that is updated on a regular basis will improve the likelihood you are able to graduate as soon as possible.<a href="#fnref2">↩</a></p></li>
+<li id="fn1"><p>This document was written by Sydney Everhart and has been reviewed by the human resources expert in our business office at UNL. The purpose of this document is designed to help students understand general expectations and is not meant to be a legally binding document. Last update on Nov. 22, 2017.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Research projects do not always follow a straight-line trajectory. Lessons may be learned and modificiations may be made during the process of completing the outlined research projects that require deviation from the original plan. Despite this possibility, having a clearly defined plan for your work from the beginning of your graduate program that is updated on a regular basis will improve the likelihood you are able to graduate as soon as possible.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 
@@ -418,6 +481,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

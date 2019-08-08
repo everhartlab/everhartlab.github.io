@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -352,10 +416,7 @@ div.tocify {
 <li><a href="sydney-everhart.html"> Sydney Everhart</a>, Ph.D.</li>
 </ul>
 <p><br></p>
-<div class="figure">
-<img src="images/HigginsBecky.jpg" title="Rebecca Higgins" class="custom_circle grow" />
-
-</div>
+<p><img src="images/HigginsBecky.jpg" title="Rebecca Higgins" class="custom_circle grow" /></p>
 </div>
 <div id="research-technologist" class="section level3">
 <h3>Research Technologist</h3>
@@ -364,10 +425,7 @@ div.tocify {
 <p><span style="color:gray">Becky is responsible for the <em>Sclerotinia sclerotiorum</em> bean line evaluation research and maintains the culture collection.</span></p></li>
 </ul>
 <p><br></p>
-<div class="figure">
-<img src="images/MargaritaMarroquin-Guzman_2017.jpeg" title="Margarita Marroquin-Guzman" class="custom_circle grow" />
-
-</div>
+<p><img src="images/MargaritaMarroquin-Guzman_2017.jpeg" title="Margarita Marroquin-Guzman" class="custom_circle grow" /></p>
 </div>
 <div id="postdoctoral-scholars" class="section level3">
 <h3>Postdoctoral Scholars</h3>
@@ -379,35 +437,23 @@ div.tocify {
 </div>
 <div id="graduate-students" class="section level3">
 <h3>Graduate Students</h3>
-<div class="figure">
-<img src="images/NikitaGambhir2016.JPG" title="Nikita Gambhir" class="custom_circle grow" />
-
-</div>
+<p><img src="images/NikitaGambhir2016.JPG" title="Nikita Gambhir" class="custom_circle grow" /></p>
 <ul>
 <li><p><a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to <strong>present</strong>.</p>
 <p><span style="color:gray">Nikita’s doctoral research is in genome analysis of <em>S. sclerotiorum</em> mutational lines to improve our understanding of the microscale evolution of this pathogen. She is also characterizing the population structure and fungicide sensitivity <em>Rhizoctonia zeae</em> that she has collected from Nebraska.</span></p></li>
 </ul>
-<div class="figure">
-<img src="images/EdgarNieto2017.jpg" title="Edgar Nieto Lopez" class="custom_circle grow" />
-
-</div>
+<p><img src="images/EdgarNieto2017.jpg" title="Edgar Nieto Lopez" class="custom_circle grow" /></p>
 <ul>
 <li><p><a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to <strong>present</strong>.</p>
 <p><span style="color:gray">Edgar is conducting a project to assess fungicide sensitivity and population structure of <em>S. sclerotiorum</em> from soybean, potato, and dry bean in the North Central States and Mexico. This is much needed work to improve our understanding of the “hidden epidemiology” of this pathogen.</span></p></li>
 </ul>
-<div class="figure">
-<img src="images/Karen%20Ferreira%20Da%20Silva.jpg" title="Karen Ferreira Da Silva" class="custom_circle grow" />
-
-</div>
+<p><img src="images/Karen%20Ferreira%20Da%20Silva.jpg" title="Karen Ferreira Da Silva" class="custom_circle grow" /></p>
 <ul>
 <li><p>Karen F. Da Silva, Doctoral student, June 2018 to <strong>present</strong>.</p>
 <p><span style="color:gray">Karen’s research is focused on improving our understanding of the <em>Clavibacter michigainensis</em> pv. <em>nebraskensis</em> interaction with the fall armyworm on corn. She will also conduct a meta-analysis of previous <em>S. sclerotiorum</em> population genetic studies. Complementary to her scientific inquiries, she also aims to assess leadership needs and training of graduate students in the agSTEM sciences across the United States, to increase professional skill development in our students.</span></p></li>
 </ul>
 <p><br></p>
-<div class="figure">
-<img src="images/RachelPersson.jpeg" title="Rachel Persson" class="custom_circle grow" />
-
-</div>
+<p><img src="images/RachelPersson.jpeg" title="Rachel Persson" class="custom_circle grow" /></p>
 </div>
 <div id="undergraduate-lab-assistants" class="section level3">
 <h3>Undergraduate Lab Assistants</h3>
@@ -423,19 +469,13 @@ div.tocify {
 <h3>Past Members</h3>
 <p><em>Listed in reverse chronological order:</em></p>
 <ul>
-<li><strong>Audrey Vega</strong>, lab assistant and Biological Systems Engineering Major, Nov. 2017 to May 2018</li>
+<li><strong>Audrey Vega</strong>, lab assistant and Biological Systems Engineering Major, Nov. 2017 to May 2018</li>
 </ul>
-<div class="figure">
-<img src="images/ZhianKamvar2017.jpg" title="Zhian N. Kamvar" class="custom_circlesm grow" />
-
-</div>
+<p><img src="images/ZhianKamvar2017.jpg" title="Zhian N. Kamvar" class="custom_circlesm grow" /></p>
 <ul>
 <li><strong>Isabel Chavez</strong>, lab assistant and undergraduate in Biological Systems Engineering Major, November 2017 to May 2018</li>
 </ul>
-<div class="figure">
-<img src="images/ThomasMiorini_InoculatingFlowers.JPG" title="Thomas J.J. Miorini" class="custom_circlesm grow" />
-
-</div>
+<p><img src="images/ThomasMiorini_InoculatingFlowers.JPG" title="Thomas J.J. Miorini" class="custom_circlesm grow" /></p>
 <ul>
 <li><p><strong>Zhian N. Kamvar</strong>, <em>Postdoctoral Scholar</em> January 2017 to April 2018. Zhian is now working with Thiabaut Jombart in the UK.</p></li>
 <li><p><strong>Thomas J. J. Miorini</strong>, <em>Postdoctoral Scholar</em> April 2016 to April 2017; January 2018 to April 2018. Thomas is now working with Dr. Michael Wunsch at North Dakota State University.</p></li>
@@ -494,6 +534,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

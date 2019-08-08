@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -56,9 +57,7 @@ h6 {
 
 <link rel="stylesheet" href="custom.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -83,6 +82,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -97,7 +99,6 @@ body {
   padding-top: 71px;
   margin-top: -71px;
 }
-
 .section h2 {
   padding-top: 71px;
   margin-top: -71px;
@@ -117,6 +118,43 @@ body {
 .section h6 {
   padding-top: 71px;
   margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -138,47 +176,65 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -227,8 +283,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -237,6 +291,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -345,12 +409,9 @@ div.tocify {
 </div>
 
 
-<div class="figure">
-<img src="images/SydneyEverhart_2016.jpg" title="Sydney Everhart" class="custom_circle grow" />
-
-</div>
-<div id="assistant-professor-and-quantitative-ecologist" class="section level4">
-<h4>Assistant Professor and Quantitative Ecologist</h4>
+<p><img src="images/SydneyEverhart_2016.jpg" title="Sydney Everhart" class="custom_circle grow" /></p>
+<div id="associate-professor-starting-aug-19-2019-and-quantitative-ecologist" class="section level4">
+<h4>Associate Professor (starting Aug 19, 2019) and Quantitative Ecologist</h4>
 </div>
 <div id="research-20-teaching-cv" class="section level4">
 <h4>80% Research / 20% Teaching [<a href="documents/Everhart_CV.pdf">CV</a>]</h4>
@@ -368,7 +429,7 @@ div.tocify {
 </div>
 <div id="teaching-responsibilities" class="section level3">
 <h3>Teaching Responsibilities</h3>
-<p>In teaching, I am responsible for one of the department’s required graduate courses, offered every spring, PLPT 802: Ecology &amp; Management of Plant Pathogens. I also teach a course in my area of expertise every-other-year, PLPT 892: Epidemiology &amp; Population Genetics, which will be offered in fall 2018. Routinely, I offer workshops to introduce scientists to R.</p>
+<p>In teaching, I am responsible for one of the department’s required graduate courses, offered every spring, PLPT 802: Ecology &amp; Management of Plant Pathogens. I also teach a course in my area of expertise every-other-year. In the past, I taught a special topics course called <em>Epidemiology &amp; Population Genetics</em>, and currently teach a professional development course called <em>Success in the Sciences</em>. Routinely, I offer workshops to introduce scientists to R at local, regional, and national meetings.</p>
 <p><br></p>
 </div>
 <div id="other-interests" class="section level3">
@@ -378,10 +439,7 @@ div.tocify {
 </div>
 <div id="personal" class="section level3">
 <h3>Personal</h3>
-<div class="figure">
-<img src="images/HawkeyeGame2017.jpg" title="Hawkeye Game 2017" class="custom_image shadow grow" />
-
-</div>
+<p><img src="images/HawkeyeGame2017.jpg" title="Hawkeye Game 2017" class="custom_image shadow grow" /></p>
 <p>When not doing science, I enjoy activities that take me outdoors. My hobbies include gardening and collecting unusual or visually striking plants. I also enjoy mountain biking the numerous paths and trails of Lincoln and try to ride to work on a daily basis, even through ice and snow (studded tires are a must through winters in the midwest!). As an alumnus of the University of Iowa, I also enjoy going to one or two Hawkeye football games per year with my dad and sister, who still reside in Iowa.</p>
 </div>
 
@@ -416,6 +474,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
