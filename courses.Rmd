@@ -8,6 +8,7 @@ output:
 
 <br>
 
+
 ![](images/GrapeMildewDecisionSupport2.jpg){.custom_image .grow .shadow}
 
 
