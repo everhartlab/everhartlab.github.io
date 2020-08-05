@@ -7,23 +7,40 @@ output:
 ---
 <br>
 
-### **Peer-Reviewed Publications:**
+### Peer-Reviewed Publications:
 ^†^ = Co-first author; ^‡^ = Corresponding author
+
+#### 2020
+
+1.	Srikanth K., A. Adesemoye, G. Yuen, J. Volesky, S.E. Everhart^‡^. 202X. Origin of agricultural plant pathogens: Diversity and pathogenicity of Rhizoctonia fungi associated with native prairie grasses in the Sandhills of Nebraska. *PLoS ONE.* Accepted pending revision.
+2.	Koehler‐Cole, K., S.E. Everhart, Y. Gu, C.A. Proctor, M. Marroquin‐Guzman, D.D. Redfearn, and R.W. Elmore. 2020. Is allelopathy from winter cover crops affecting row crops?. *Agricultural & Environmental Letters*, 5(1), e20015.
+3.	Olgun, T., S.E. Everhart, T. Anderson, and J. Wu-Smart. 2020. Comparative analysis of viruses in four bee species collected from agricultural, urban, and natural landscapes. *PLoS ONE*. Accepted.
+4.	Sciarresi, C., C. Proctor, E.R. Haramoto, L.E. Lindsey, G.I. Carmona, R. Elmore, S. Everhart, W. Looker, M. Marroquin-Guzman, J. McMechan, J. Wehrbein, R. Werle, and M. Salmeron. 2020. Evaluating short-season soybean management adaptations for cover crop rotations with a crop simulation model. *Field Crops Research*. Accepted.
+5.	Dundore-Arias, E.A. Eloe-Fadrosh, L.M. Schriml, G.A. Beattie, F.P. Brennan, P.E. Busby, R.B. Calderon, S.C. Castle, J.B. Emerson, S. Everhart, K. Eversole, K. Frost, J. Herr, A.J. Huerta, A.S. Iyer-Pascuzzi, A. Kalil, J.E. Leach, J. Leonard, J.E. Maul, B. Prithiviraj, M. Potrykus, N.R. Redekar, J.A. Rojas, K.A.T. Silverstein, D. Tomso, S. Tringle, B. Vinatzer, and L. Kinkel. 2020. Community-driven Metadata Standards for Agricultural Microbiome Research. *Phytobiomes*. In Press
+
+#### 2019
+
+6.	Dale, A.L., N. Feau, S.E. Everhart, G. Bilodeau, B. Dhillon, J. Tabima, C. Brasier, N. Grünwald, and R.C. Hamelin. 2019. Mitotic recombination and a two-speed genome drive evolution in asexual lineages of the sudden oak death pathogen *Phytophthora ramorum. mBio*. 
+7.	Ajayi, O.O., S.E. Everhart, P.J. Brown, A.U. Tenuta, A.E. Dorrance, and C. Bradley. 2019. Genetic structure of *Rhizoctonia solani* AG-2-2IIIB from soybean in Illinois, Ohio, and Ontario. *Phytopathology* 109:2132–2141.
+8.	Miorini, T.J.J., Z.N. Kamvar, R. Higgins, C.G. Raetano, J.R. Steadman, and S.E. Everhart^‡^. 2019. Variation in pathogen aggression and cultivar performance against *Sclerotinia sclerotiorum* in soybean and dry bean from Brazil and the U.S. *Tropical Plant Pathology*. 44:73–81.
+9.	Kamvar, Z.N., and S.E. Everhart^‡^. 2019. Something in the agar does not compute: On the discriminatory power of mycelial compatibility in *Sclerotinia sclerotiorum*. *Tropical Plant Pathology*. 44:32–40.
+10.	Pannullo, A.P., Z.N. Kamvar, T.J.J. Miorini, J.R. Steadman, and S.E. Everhart^‡^. 2019. Genetic variation and structure of *Sclerotinia sclerotiorum* populations from soybean in Brazil. *Tropical Plant Pathology* 44:53–64. 
 
 #### 2018
 
+11.	Nieto-López, E. H., S.E. Everhart, V. Ayala-Escobar, M. Camacho-Tapia, N.B. Lima, R. Nieto-Angel,  and J.M. Tovar-Pedraza. 2018. First report of Colletotrichum gloeosporioides causing anthracnose of tejocote (Crataegus gracilior) fruits in Mexico. Plant Disease. 102:1855. [W; Cited by 0; Impact Factor = 3.02; H-index = 91]
 1. Bogo, A., C.C. Comparin, R.M. Valdebenito Sanhueza, P. Ritschel, R.T. Casa, F.N. Silva, S.E. Everhart. 2018. Characterization of *Neofabraea actinidiae* and *N. brasiliensis* as causal agents of apple bull's-eye rot in southern Brazil. *Canadian Journal of Plant Pathology*  https://doi.org/10.1080/07060661.2017.1421588
 
 #### 2017
 
-2. Kamvar, Z.N., B.S. Amaradasa, R. Jhala, S. McCoy, J.R. Steadman, S.E. Everhart^‡^. 2017. Population structure and phenotypic variation of *Sclerotinia sclerotiorum* from dry bean (*Phaseolus vulgaris*) in the United States. *PeerJ* 5:e4152 https://doi.org/10.7717/peerj.4152
+13. Kamvar, Z.N., B.S. Amaradasa, R. Jhala, S. McCoy, J.R. Steadman, S.E. Everhart^‡^. 2017. Population structure and phenotypic variation of *Sclerotinia sclerotiorum* from dry bean (*Phaseolus vulgaris*) in the United States. *PeerJ* 5:e4152 https://doi.org/10.7717/peerj.4152
 1. Grunwald, N.J., S.E. Everhart, B.J. Knaus, and Z.N. Kamvar. 2017. Best practices for population genetic analyses. *Phytopathology* 107:1000-1010. https://doi.org/10.1094/PHYTO-12-16-0425-RVW
 2. Dowling, M., G. Schnabel, H. Boatwright, and S.E. Everhart^‡^. 2017. Novel gene-sequence markers for isolate tracking within *Monilinia fructicola* lesions. *Pest Management Science*. https://doi.org/10.1002/ps.4544
 3. Mirorini, T.J.J., C.G. Raetano, and S.E. Everhart^‡^. 2017. Control of white mold of dry bean and residual activity of Fungicides applied by chemigation. *Crop Protection* 94:192-202.
 
 #### 2016
 
-6. Amaradasa, B.S., and S.E. Everhart^‡^. 2016. Effects of sublethal *Fungi*cides on mutation rates and genomic variation in fungal plant pathogen, *Sclerotinia sclerotiorum*. *PLoS ONE*. 11 (12): e0168079. https://doi.org/10.1371/journal.pone.0168079.
+17. Amaradasa, B.S., and S.E. Everhart^‡^. 2016. Effects of sublethal *Fungi*cides on mutation rates and genomic variation in fungal plant pathogen, *Sclerotinia sclerotiorum*. *PLoS ONE*. 11 (12): e0168079. https://doi.org/10.1371/journal.pone.0168079.
 5. Dugan, F.M., and S.E. Everhart. 2016. Cryptic species: A leitmotif of contemporary mycology has challenges and benefits for plant pathologists. *Plant Health Progress*. https://doi.org/10.1094/PHP-RV-16-0046
 6. de Bem, B.P., A. Bogo, S.E. Everhart, R.T. Casa, M.J. Goncalves, J.L. Marcon, L.R. Rufato, F.N. Silva, R. Allebrandt, I.C. da Cunha. 2016. Effect of four training systems on the temporal dynamics of downy mildew in two grapevine cultivars in southern Brazil. *Topical Journal of Plant Pathology*. https://doi.org/10.1007/s40858-016-0110-8.
 7. Tabima J.F., S.E. Everhart, M.M. Larsen, A.J. Weisberg, Z.N. Kamvar, M.A. Tancos, C.D. Smart, J.H. Chang, and N.J. Grünwald. 2016. Microbe-ID: An open source toolbox for microbial genotyping and species identification. *PeerJ* 4:e2279 https://doi.org/10.7717/peerj.2279
@@ -31,39 +48,39 @@ output:
 
 #### 2015
 
-11. Chen, F., S.E. Everhart^†^, P.K. Bryson, C.L., X. Song, X.L., G. Schnabel. 2015. Fungicide induced transposon movement in Monilinia fructicola. Fungal Genetics and Biology 85:38-44.
+22. Chen, F., S.E. Everhart^†^, P.K. Bryson, C.L., X. Song, X.L., G. Schnabel. 2015. Fungicide induced transposon movement in Monilinia fructicola. Fungal Genetics and Biology 85:38-44.
 10. Everhart, S.E., and H. Scherm. 2015. Clonal disease foci of Monilinia fructicola during brown rot epidemics within peach tree canopies. *Phytopathology* 105:542-549.
 11. de Bem, B.P., Bogo, A., S. Everhart, R.T. Casa, M.J. Goncalves, J.L.M. Filho, and I.C. da Cunha. 2015. Effect of Y-trellis and vertical shoot positioning training systems on downy mildew and botrytis bunch rot of grape in highlands of southern Brazil. *Scientia Horticulturae* 185:162-166.
 
 #### 2014
 
-14. Schnabel, G., F. Chen, S.E. Everhart, W.C. Bridges and X.L. Liu. 2014. Studies on sensitivity reduction in solo and mixture treatments and Fungicide-induced mutagenesis in *Monilinia fructicola*. In: H.W. Dehne, H.B. Deising, U. Gisi, B. Fraaije, U. Gisi, D. Hermann, A. Mehl, E.C. Oerke, P.E. Russel, G. Stammler, K.H. Kuck, H. Lyr (Eds). “Modern Fungicides and Antifungal Compounds”, Vol. VII, pp 263-268. 2014 Deutsche Phytomedizinische Gesellschaft, Braunschweig, ISBN: 978-3-941261-13-6.
+25. Schnabel, G., F. Chen, S.E. Everhart, W.C. Bridges and X.L. Liu. 2014. Studies on sensitivity reduction in solo and mixture treatments and Fungicide-induced mutagenesis in *Monilinia fructicola*. In: H.W. Dehne, H.B. Deising, U. Gisi, B. Fraaije, U. Gisi, D. Hermann, A. Mehl, E.C. Oerke, P.E. Russel, G. Stammler, K.H. Kuck, H. Lyr (Eds). “Modern Fungicides and Antifungal Compounds”, Vol. VII, pp 263-268. 2014 Deutsche Phytomedizinische Gesellschaft, Braunschweig, ISBN: 978-3-941261-13-6.
 
 #### 2013
 
-15. Everhart, S.E., A. Askew, L. Seymour, and H. Scherm. 2013. Spatio-temporal patterns of pre-harvest brown rot epidemics within individual peach tree canopies. *European Journal of Plant Pathology* 135: 499–509.
+26. Everhart, S.E., A. Askew, L. Seymour, and H. Scherm. 2013. Spatio-temporal patterns of pre-harvest brown rot epidemics within individual peach tree canopies. *European Journal of Plant Pathology* 135: 499–509.
 
 #### 2012
 
-16. Everhart, S.E., A. Askew, L. Seymour, T.C. Glenn, and H. Scherm. 2012. Spatial patterns of brown rot epidemics and development of microsatellite markers for analyzing fine-scale genetic structure of *Monilinia fructicola* populations within peach tree canopies. Online. *Plant Health Progress* https://doi.org/10.1094/PHP-2012-0723-04-RS
+27. Everhart, S.E., A. Askew, L. Seymour, T.C. Glenn, and H. Scherm. 2012. Spatial patterns of brown rot epidemics and development of microsatellite markers for analyzing fine-scale genetic structure of *Monilinia fructicola* populations within peach tree canopies. Online. *Plant Health Progress* https://doi.org/10.1094/PHP-2012-0723-04-RS
 
 #### 2011
 
-17. Everhart, S.E., A. Askew, L. Seymour, I.J. Holb, and H. Scherm. 2011. Characterization of three-dimensional spatial aggregation and association patterns of brown rot symptoms within intensively mapped sour cherry trees. *Annals of Botany* 108: 1195–1202.
+28. Everhart, S.E., A. Askew, L. Seymour, I.J. Holb, and H. Scherm. 2011. Characterization of three-dimensional spatial aggregation and association patterns of brown rot symptoms within intensively mapped sour cherry trees. *Annals of Botany* 108: 1195–1202.
 
 #### 2010
 
-18. Everhart^‡^, S.E. 2010. Collection and identification of grapevines (*Vitis*) from the tree canopy of select forests in the southeastern United States. Castanea 75: 141–149.
+29. Everhart^‡^, S.E. 2010. Collection and identification of grapevines (*Vitis*) from the tree canopy of select forests in the southeastern United States. Castanea 75: 141–149.
 17. Keller, H.W., and S.E. Everhart 2010. Importance of Myxomycetes in biological research and teaching. *Fungi* 3(1): 13–27.
 
 #### 2009
 
-20. Everhart, S.E., J.S. Ely, and H.W. Keller. 2009. Evaluation of tree canopy epiphytes and bark characteristics associated with corticolous myxomycetes. *Botany* 87: 509–517.
+31. Everhart, S.E., J.S. Ely, and H.W. Keller. 2009. Evaluation of tree canopy epiphytes and bark characteristics associated with corticolous myxomycetes. *Botany* 87: 509–517.
 19. Keller, H.W., S.E. Everhart, M. Skrabal, and C.M. Kilgore. 2009. Tree canopy biodiversity in temperate forests: Exploring islands in the sky. *Southeastern Biology* 56: 52–74.
 
 #### 2008
 
-22. Everhart, S.E., and H.W. Keller. 2008. Influence of bark pH on the occurrence and distribution of tree canopy myxomycete species. *Mycologia* 100: 191–204.
+33. Everhart, S.E., and H.W. Keller. 2008. Influence of bark pH on the occurrence and distribution of tree canopy myxomycete species. *Mycologia* 100: 191–204.
 21. Everhart, S.E., and H.W. Keller. 2008. Life history strategies of corticolous myxomycetes: The life cycle, fruiting bodies, plasmodial types, and taxonomic orders. *Fungal Diversity* 29: 1–16.
 22. Keller, H.W., C.M. Kilgore, S.E. Everhart, G. Carmack, C. Crabtree, and A. Scarborough. 2008. Myxomycete plasmodia and fruiting bodies: Unusual occurrences and user friendly study techniques. *Fungi* 1: 24–37.
 23. Keller, H.W., and S.E. Everhart 2008. Myxomycete species concepts, monotypic genera, the fossil record, and additional examples for good taxonomic practice. *Revista Mexicana de Micologia* 27: 9–19.
@@ -71,9 +88,9 @@ output:
 
 <br>
 
-### **Books, Chapters, and R packages:**
+### Books, Chapters, and R packages:
 
-27. Keller, H.W., S.E. Everhart, and C.M. Kilgore. 2017. The Myxomycetes: Biology, life cycle, genetics and reproduction. In: Stephenson, S. and C. Lado (eds) “Myxomycetes: Biology, Systematics, Biogeography and Ecology”, Elsevier, Atlanta, GA. 
+38. Keller, H.W., S.E. Everhart, and C.M. Kilgore. 2017. The Myxomycetes: Biology, life cycle, genetics and reproduction. In: Stephenson, S. and C. Lado (eds) “Myxomycetes: Biology, Systematics, Biogeography and Ecology”, Elsevier, Atlanta, GA. 
 26. Kamvar, Z.N., Tabima, J.F., Everhart, S.E., Brooks, J.C., Krueger-Hadfield, S.A., Sotka, E. and Grunwald, N.J., 2016. Package ‘poppr’. https://cran.r-project.org/web/packages/poppr/index.html
 27. Grunwald, N.J., Z.N. Kamvar, and S.E. Everhart. 2015. Population Genetics in R. Online book: http://grunwaldlab.github.io/Population_Genetics_in_R/
 28. Everhart, S.E., T.F. Tabima, and N.J. Grünwald. 2014. *Phytophthora ramorum*. In: Dean, R.A., A. Lichens-Park, and C. Kole (eds) “Genomics of Plant Associated Fungi and Oomycetes”, Springer, New York, NY. Pp. 159-174.
