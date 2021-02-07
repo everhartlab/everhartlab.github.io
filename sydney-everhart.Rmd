@@ -8,7 +8,7 @@ output:
 
 ![](images/SydneyEverhart_2016.jpg "Sydney Everhart"){.custom_circle .grow}
 
-#### Associate Professor (starting Aug 19, 2019) and Quantitative Ecologist
+#### Associate Professor and Quantitative Ecologist
 #### 80% Research / 20% Teaching  [<a href="documents/Everhart_CV.pdf">CV</a>]
 #### Open access to [<a href="documents/Everhart_PnT_Dossier_12-21-2018.pdf">my application for promotion and tenure</a>]
 
