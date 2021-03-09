@@ -25,69 +25,43 @@ output:
 
 <br>
 
-![](images/MargaritaMarroquin-Guzman_2017.jpeg "Margarita Marroquin-Guzman"){.custom_circle .grow}
 
 ### Postdoctoral Scholars
 
-- Margarita Marroquin-Guzman, Ph.D., June 2017 to **present**. 
-
-    <span style="color:gray">Margarita is currently working on the meta-community analysis of the microbial communities associated with different cover crops in Nebraska. This research aims to improve our understanding of whether cover crops are serving as a green bridge for detrimental/beneficial microbes in the soil.</span>
+- *New person coming soon!*
 
 <br>
 
 ### Graduate Students
 
-![](images/NikitaGambhir2016.JPG "Nikita Gambhir"){.custom_circle .grow}
 
-- <a href="https://plantpathology.unl.edu/nikita-gambhir"> Nikita Gambhir</a>, Doctoral student, August 2015 to **present**. 
-
-    <span style="color:gray">Nikita's doctoral research is in genome analysis of *S. sclerotiorum* mutational lines to improve our understanding of the microscale evolution of this pathogen. She is also characterizing the population structure and fungicide sensitivity *Rhizoctonia zeae* that she has collected from Nebraska.</span>
-
-![](images/EdgarNieto2017.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
+![](images/EdgarNietoLopez_2020.jpg "Edgar Nieto Lopez"){.custom_circle .grow}
 
 - <a href="https://www.researchgate.net/profile/Edgar_Nieto_Lopez2"> Edgar H. Nieto-Lopez</a>, Doctoral student, August 2016 to **present**. 
 
     <span style="color:gray">Edgar is conducting a project to assess fungicide sensitivity and population structure of *S. sclerotiorum* from soybean, potato, and dry bean in the North Central States and Mexico. This is much needed work to improve our understanding of the "hidden epidemiology" of this pathogen.</span>
 
-![](images/Karen Ferreira Da Silva.jpg "Karen Ferreira Da Silva"){.custom_circle .grow}
-
-- Karen Ferreira Da Silva, Doctoral student, June 2018 to **present**.
-
-    <span style="color:gray">Karen's research is focused on improving our understanding of the *Clavibacter michigainensis* pv. *nebraskensis* interaction with the fall armyworm on corn. She will also conduct a meta-analysis of previous *S. sclerotiorum* population genetic studies. Complementary to her scientific inquiries, she also aims to assess leadership needs and training of graduate students in the agSTEM sciences across the United States, to increase professional skill development in our students.</span>
 
 
-- Julianne Matczyszyn, Doctoral student, December 2019 to August 2019.
-
-    <span style="color:gray">Julianne is conducting a project on the ecology and evolution of plant parasitic nematodes. She started her graduate degree in the lab of Tom Powers and, having taken on more and complex data analyses for her projects, joined the Everhart Lab for completion of her dissertation. She completed her dissertation and successfully defended in July of 2019. Congratulations, Julianne!</span>
-
-
-- Srikanth Kodati, Doctoral student, April 2019 to **present**.
- 
-    <span style="color:gray"> Srikanth is a doctoral student focused on characterizing the etiology, pathogenicity, and aggressiveness of Rhizoctonia-like fungi in Nebraska, including crop fields and the Sandhills Grassland of Nebraska. His projects were initiated while working in the lab of Dr. Tony Adesemoye, who recently left for an industry position. Srikanth is expected to graduate in December of 2019. Prior to joining UNL, Sri received his master's degree studying powdery mildew of dogwood from Tennessee State University.</span>
-  
+![](images/AshaMane_2020.jpg "Asha Mane"){.custom_circle .grow}
 
 - Asha Mane, Doctoral student, August 2019 to **present**.
   
     <span style="color:gray"> Asha came to UNL is 2018 with a master's from the University of Pune and has several years of experience in molecular laboratory techniques. She is currently working to decide on projects that she will conduct for completion of her Ph.D.</span>
   
 
+![](images/SergioGabrielPeralta2020.jpg "Sergio Gabriel Peralta"){.custom_circle .grow}
+
 - Sergio Gabriel-Peralta, Doctoral student, August 2019 to **present**.
     <span style="color:gray"> Sergio received funding to support his graduate studies from the CONNACYT Mexican government. Prior to that, he received his master's from UNL studying viruses under the direction of Dr. Hernan Garcia-Ruiz. Sergio's projects in my lab will focus on both *Sclerotinia sclerotiorum* and *Gemmamyces picea*.</span>
 
+- *New person coming soon!*
 
-![](images/RachelPersson.jpeg "Rachel Persson"){.custom_circle .grow}
 
 ### Undergraduate Lab Assistants
 
-- Rachel Persson, undergraduate in Biochemistry, May 2018 to **present**. 
 
-    <span style="color:gray">Rachel received competitive research funding from the UNL UCARE program. Her research is focused on development of a set of DNA standards for *S. sclerotiorum* genotyping studies to enable data from previous published studies to be combined.</span>
-    
-- Olivia Renelt, undergraduate in Biochemistry, November 2018 to **present**.
-
-- Cristian Wolkup-Gil, undergraduate in Biochemistry, January 2019 to **present**.
-   
-    <span style="color:gray">Cristian wrote and received both the UCARE award and the IANR undergraduate research award, which will support his project for the summer and following academic year.</span>
+- *New person coming soon!*
   
 
 <br>
@@ -101,7 +75,25 @@ output:
 
 *Listed in reverse chronological order:*
 
-- **Audrey Vega**, lab assistant and Biological Systems Engineering Major, Nov. 2017 to May 2018
+- **Nikita Gambhir**, *PhD graduate December 2020*. Nikita is now a postdoctoral scholar at Cornell University in Geneva, NY.
+
+- **Cristian Wolkup-Gil**, UCARE project and Biochemistry maor, January 2019 to August 2020. Cristian is now a PhD student at the Scripps Research Institute in California.
+
+- **Karen Ferreira Da Silva**, *PhD graduate May 2020*. Karen is now an Integrated Field Scientist / Plant Pathologist for Corteva Agriscience in Sacramento, CA.
+
+- **Margarita Marroquin-Guzman**, *Postdoctoral Scholar* June 2017 to July 2018. Margarita is now a Plant Pathologist for Bayer Crop Science in St. Louis, MO.
+
+- **Srikanth Kodati**, *PhD graduate December 2019*. Srikanth is now a postdoctoral scholar at Valley Laboratory that is part of the Connecticut Research Station in Windsor, CT.
+
+![](images/RachelPersson.jpeg "Rachel Persson"){.custom_circle .grow}
+
+- **Julianne Matczyszyn**, *PhD graduate August 2019*. Julianne is a lab manager at UNL in the Agronomy & Horticulture department.
+
+- **Rachel Persson**, UCARE project and Biochemistry major, May 2018 to August 2019. Rachel went on to attend dental school after graduation.
+
+- **Olivia Renelt**, lab assistant and Biochemistry major, January 2019 to August 2019.
+
+- **Audrey Vega**, lab assistant and Biological Systems Engineering Major, Nov. 2017 to May 2018.
 
 ![](images/ZhianKamvar2017.jpg "Zhian N. Kamvar"){.custom_circlesm .grow}
 
