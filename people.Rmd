@@ -7,7 +7,7 @@ output:
 ---
 
 <br>
-![](images/SydneyEverhart.JPG "Sydney Everhart"){.custom_circle .grow}
+![](images/SydneyEverhart.jpeg "Sydney Everhart"){.custom_circle .grow}
 
 ### PI and Lab manager
 
